@@ -1,6 +1,6 @@
 // AI Radar データ - build.py が自動生成。手で編集しない。
 window.AIRADAR_DATA = {
- "updatedAt": "2026-08-19T14:12:02.567378+09:00",
+ "updatedAt": "2026-08-19T14:34:15.784928+09:00",
  "sources": [
   {
    "id": "agilabo",
@@ -8,6 +8,46 @@ window.AIRADAR_DATA = {
    "axis": "ai",
    "kind": "main",
    "count": 48,
+   "ok": true
+  },
+  {
+   "id": "chaen",
+   "name": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "count": 25,
+   "ok": true
+  },
+  {
+   "id": "mlbear",
+   "name": "ML_Bear (Zenn)",
+   "axis": "ai",
+   "kind": "jp",
+   "count": 3,
+   "ok": true
+  },
+  {
+   "id": "mlbeartimes",
+   "name": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "count": 15,
+   "ok": true
+  },
+  {
+   "id": "itmnews",
+   "name": "ITmedia NEWS",
+   "axis": "ai",
+   "kind": "jp",
+   "count": 11,
+   "ok": true
+  },
+  {
+   "id": "nikkei",
+   "name": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "count": 40,
    "ok": true
   },
   {
@@ -71,7 +111,7 @@ window.AIRADAR_DATA = {
    "name": "GIGAZINE",
    "axis": "ai",
    "kind": "jp",
-   "count": 13,
+   "count": 14,
    "ok": true
   },
   {
@@ -96,6 +136,14 @@ window.AIRADAR_DATA = {
    "axis": "ai",
    "kind": "global",
    "count": 40,
+   "ok": true
+  },
+  {
+   "id": "9to5g",
+   "name": "9to5Google (新製品)",
+   "axis": "ai",
+   "kind": "global",
+   "count": 11,
    "ok": true
   },
   {
@@ -161,14 +209,6 @@ window.AIRADAR_DATA = {
    "kind": "media",
    "count": 18,
    "ok": true
-  },
-  {
-   "id": "9to5g",
-   "name": "9to5Google",
-   "axis": "product",
-   "kind": "media",
-   "count": 1,
-   "ok": true
   }
  ],
  "axes": [
@@ -178,6 +218,7 @@ window.AIRADAR_DATA = {
    "topics": [
     "モデル",
     "エージェント",
+    "新製品・デバイス",
     "画像・音声・動画",
     "ビジネス・資金",
     "規制・リスク",
@@ -202,6 +243,128 @@ window.AIRADAR_DATA = {
   }
  ],
  "items": [
+  {
+   "title": "AIエージェントは「記憶」が多いほど賢くなるわけではない、IBM Researchが8モデルで検証",
+   "url": "https://gigazine.net/news/20260819-ai-agent-memory/",
+   "date": "2026-08-19T14:30:00+09:00",
+   "summary": "AIエージェントに過去の経験を「記憶」として大量に与えても、必ずしも性能が高くなるわけではないことがIBM Researchの実験で示されました。AIモデルによっては、すべての記憶を渡すより必要な情報だけを選んだ方が高い性能を発揮するとのことです。 続きを読む...",
+   "thumb": "",
+   "source": "gigazine",
+   "sourceName": "GIGAZINE",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント"
+   ]
+  },
+  {
+   "title": "道徳問題の回答、生成AIの反論で3割の人判断覆す 神戸大が実験",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mdUJ1cnY5V1VWSEJpTExNcVRTLVQzVWd6N3ozNnVCVUY3UDVWa1BJMVIxLTJZZHBES2Q3VlFuM0lXVmU0N1BXSnotNzNkZEE3NWFzVjd5akRpWk1TQ3lnQVN5LWhrOFB5T2lkZw?oc=5",
+   "date": "2026-08-19T14:21:37+09:00",
+   "summary": "道徳問題の回答、生成AIの反論で3割の人判断覆す 神戸大が実験 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Google's third spam update of 2026 rolls out to every language",
+   "url": "https://ppc.land/googles-third-spam-update-of-2026-rolls-out-to-every-language/",
+   "date": "2026-08-19T14:20:05+09:00",
+   "summary": "Google's August 2026 spam update reached every language on August 18, as Apple rewrote its EU App Store fee terms and ChatGPT ad units swapped advertisers.",
+   "thumb": "https://ppc.land/content/images/2026/08/spam-update-1.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "検索・SEO",
+    "AI検索体験"
+   ]
+  },
+  {
+   "title": "弁護士ドットコム、株価ストップ高 AI法務サービスの需要増に思惑",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Yamg0eXFpa2xTU2Z4RWQta2pqUnhLMU1faFNWTUZmMVpvcTlOdkVwZHRabHFsNmN3amdKb2xiZTd4djZCTXdGNXZPaXBPR0xYZ1lwdlZVTWRHaVRjNWhxaW85cUNLTlluZXpqSw?oc=5",
+   "date": "2026-08-19T14:19:44+09:00",
+   "summary": "弁護士ドットコム、株価ストップ高 AI法務サービスの需要増に思惑 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "The ad stack between the brief and the screen it lands on",
+   "url": "https://ppc.land/ad-stack-between-brief-and-screen/",
+   "date": "2026-08-19T14:15:05+09:00",
+   "summary": "Sixteen terms, four groups of four. One group reads like plain marketing language and is not, which is where most solvers spend their first mistake.",
+   "thumb": "https://ppc.land/content/images/2026/08/game-adstack.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AIを活用した特殊詐欺対策、官民から募集 警察庁×GENIAC、懸賞金総額5000万円",
+   "url": "https://www.itmedia.co.jp/news/article/2608/19/2000000621/",
+   "date": "2026-08-19T14:13:13+09:00",
+   "summary": "金融機関、通信事業者、SNS事業者、警察、税務署などからの応募を想定して",
+   "thumb": "",
+   "source": "itmnews",
+   "sourceName": "ITmedia NEWS",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "オプティム、リーズナブル・セキュアな生成AI活用基盤「OPTiM Biz AI Agent β」を提供開始",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xaUxXZzUxako3M0gzOHNhUk9rU0tnQUFDcE9EZEdJdWRnRmNCMkY0YVNPWlJ0UTM5NGtiY1hwUkU0OEtDLUt4eV90Nmc0amVlS2NRVkJrd0JGa3VaZWV3Tkx3MnlIQlJKcXAzXw?oc=5",
+   "date": "2026-08-19T14:07:20+09:00",
+   "summary": "オプティム、リーズナブル・セキュアな生成AI活用基盤「OPTiM Biz AI Agent β」を提供開始 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "エージェント"
+   ]
+  },
+  {
+   "title": "米マウザー、産業用エッジAIの開発を支援するAI・電源管理リソースハブを公開",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JQTBjQ2w2MGNQUXN3VGFUeE8yOWstZENoWklrT2hWdWFaVXo2UzhrZmtkRGZsUlN4QWM3X2Z6WTBLRHhiNkREaWc2LUhzQVhBTHZQU0R3MDk5Y3NpVUxHbGVldGdqUHNncnRyNQ?oc=5",
+   "date": "2026-08-19T13:43:14+09:00",
+   "summary": "米マウザー、産業用エッジAIの開発を支援するAI・電源管理リソースハブを公開 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
   {
    "title": "DeepSeek V4 Flashはベンチマークスコアは高いが実際のタスクでは苦戦しているという指摘、オーケストレーションに課題",
    "url": "https://gigazine.net/news/20260819-deepseek-v4-flash-agent/",
@@ -246,6 +409,21 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "川田テクノロジーズ[3443]：川田グループ、ムーンショット型研究開発事業への参画でAIとロボットの共進化を推進 2026年8月19日(適時開示) ：日経会社情報DIGITAL",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XZWRNMzN1WHJYaUUtZVlkN2NzTy02cDdmU1g2QzBEU2hGdzcxS2FFd2NDSS00UDctVWFiSVpZYy1BUFd4MC1CVVhuRXpGQnlHZUF5TkpQcV9YZ3dWVTVYYmR1THUwVmQxZ0E?oc=5",
+   "date": "2026-08-19T13:00:00+09:00",
+   "summary": "川田テクノロジーズ[3443]：川田グループ、ムーンショット型研究開発事業への参画でAIとロボットの共進化を推進 2026年8月19日(適時開示) ：日経会社情報DIGITAL 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "新製品・デバイス"
    ]
   },
   {
@@ -296,6 +474,36 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "丸文、オランダのAI半導体メーカーAxelera AI社とVAR契約を締結",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8ydTdtb052Zk1GeXk4TFBfbmRJODhpU1ROeU90cE5nUmw5UXRIQk5nTmpKWkJEal9nb0FmLV8xaVNhTkxnZGduckdKcnBmejdxUXg2WEVnUHVtYUZqVTRSRy1xdG9iekgyQ1RoZQ?oc=5",
+   "date": "2026-08-19T12:29:19+09:00",
+   "summary": "丸文、オランダのAI半導体メーカーAxelera AI社とVAR契約を締結 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "マクニカ、AIを活用した次世代SOCプラットフォーム「Prophet AI」を提供開始",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40N0dUMlUyOGEyOUhadTZSWUY0VUdXcURUaGVzNzVHcV9oYmh3cmxnUXUyR3JqM203X180T1dxanBWZG91dmpycjkwRUNZQU8xbFFpOUd0Umd6NHpYMjVvMDJSSUFMZzVkbkp4bA?oc=5",
+   "date": "2026-08-19T12:27:15+09:00",
+   "summary": "マクニカ、AIを活用した次世代SOCプラットフォーム「Prophet AI」を提供開始 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
    "title": "SamsungがClaude Codeを導入し「1カ月かかる設計を2日に短縮した」と報告",
    "url": "https://gigazine.net/news/20260819-samsung-claude-code/",
    "date": "2026-08-19T12:14:00+09:00",
@@ -329,6 +537,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "4〜6月の機械受注、電子計算機など急拡大 AI投資に勢い",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzMmJpbllEa0Y0UTczVG9QejNENjl3aTdjSHR1YVZZS2hia1NWWDNPU1Brb0dvdUtUTzZhT25iMjh0Y1F4NzZoRmxZb2pweDdsdHQ3azJPMjg4YlQyMWxaZTZaNW9DMDZWWmpGOQ?oc=5",
+   "date": "2026-08-19T12:05:18+09:00",
+   "summary": "4〜6月の機械受注、電子計算機など急拡大 AI投資に勢い 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "ビジネス・資金"
+   ]
+  },
+  {
    "title": "AIヌード化アプリがInstagramやFacebookの広告で宣伝されていたことが判明、Appleの審査を掻い潜り公式ストアで配信されていた",
    "url": "https://gigazine.net/news/20260819-apple-pulls-ai-nudify-app-promoted-meta-ads/",
    "date": "2026-08-19T12:04:00+09:00",
@@ -359,6 +582,36 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "日経平均午前1736円安、AI・半導体株総崩れ 拭えぬ中東不安",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pdzRPeXgzOXpFOWw5ZlBtNzd6WmRfd0c2dFpNTkN4dXpVTXBXWGFTMkNMMXFvQmgxaU9CZVNDQlo2NWdWa1RpV1dZQ2pOVEZmclBhdlRSSHdEd0pDa1h2Sm1VQmxyU2NFanVqdQ?oc=5",
+   "date": "2026-08-19T11:53:11+09:00",
+   "summary": "日経平均午前1736円安、AI・半導体株総崩れ 拭えぬ中東不安 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "東証前引け 日経平均は続落、一時2100円安 AI半導体に売り",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uZXlLRkdXU1oyMTdzY0VLcVZhX0t5RE0yTG1JTkZHUmFTUG9Yb29KalhpMTlYaHA0YVNKWUozY21yd0RkX0d2VVpDZjJweXE3NFotbk9WM0VYRTU2eXdaNDVTSEdYc3B0S1dPUg?oc=5",
+   "date": "2026-08-19T11:52:18+09:00",
+   "summary": "東証前引け 日経平均は続落、一時2100円安 AI半導体に売り 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
+   ]
+  },
+  {
    "title": "「Firefox 154」正式版リリース、Windows版でアプリアイコンを変更可能に",
    "url": "https://gigazine.net/news/20260819-firefox-154/",
    "date": "2026-08-19T11:52:00+09:00",
@@ -366,6 +619,36 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "東南アジアで広がる特殊詐欺、AIで犯罪｢低コスト化｣ 米などが包囲網",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNUjR1eGJNZzFaSXZ2WlpZX243WnlJOWxfQ0VNQTJnM3FZZFY5eUdKczBpWEZPbGpQYTk2QXlZZ1JOcGlkeVMyNV9kZVp3dnhjZEpSekZ0NlRGb2EzWDJQQWhJNnVKcnozNk5mYw?oc=5",
+   "date": "2026-08-19T11:48:28+09:00",
+   "summary": "東南アジアで広がる特殊詐欺、AIで犯罪｢低コスト化｣ 米などが包囲網 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "ソフトバンクG株価一時7.7%安 米オープンAIの成長鈍化を懸念",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tY2Z5OUwta3pZSUM5M1ZqbEtOcG5iOUFRelh3N3RBOGxVX3pkV2hfMUpfRWgwVGxRbWJqWXFaS2RJU2tKc0NWbHQ4dHB3Sk5hVzFob1A0WnphaGpNMVpsSDBEWFVGZE1LaU8xOA?oc=5",
+   "date": "2026-08-19T11:43:48+09:00",
+   "summary": "ソフトバンクG株価一時7.7%安 米オープンAIの成長鈍化を懸念 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
    "axis": "ai",
    "kind": "jp",
    "weekly": false,
@@ -460,7 +743,7 @@ window.AIRADAR_DATA = {
    "kind": "jp",
    "weekly": false,
    "topics": [
-    "広告・マーケ"
+    "その他"
    ],
    "axis": "ai"
   },
@@ -513,6 +796,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "オプティム[3694]：ID数無制限※1・企業定額、シャドーAI対策でリーズナブル・セキュアな生成AI活用基盤「OPTiM Biz AI Agent β」提供開始 2026年8月19日(適時開示) ：日経会社情報DIGITAL",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nbDZOanlwQTdyWFBDdnpEZnl4Q3ZpZXBzWGYyRWJIa1dDZlBtSkRZdkJPM3lleHYyUVB0N09aR01KeEUxSXRnQ09pUE9RMGUtMmlEZEVMWHdkcy05MGp1UHJVUUd4VjRXd1E?oc=5",
+   "date": "2026-08-19T10:30:00+09:00",
+   "summary": "オプティム[3694]：ID数無制限※1・企業定額、シャドーAI対策でリーズナブル・セキュアな生成AI活用基盤「OPTiM Biz AI Agent β」提供開始 2026年8月19日(適時開示) ：日経会社情報DIGITAL 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "エージェント"
+   ]
+  },
+  {
    "title": "OpenAI、次世代モデル開発を「減速」 安全対策を最優先に",
    "url": "https://www.watch.impress.co.jp/docs/news/2133713.html",
    "date": "2026-08-19T10:15:46+09:00",
@@ -525,6 +823,53 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "モデル"
+   ]
+  },
+  {
+   "title": "コードが書けない筆者が愛車用にアプリを2本自作 「AI製アプリで起業」の夢膨らむも、見えた有料化の壁",
+   "url": "https://www.itmedia.co.jp/news/article/2608/19/2000000598/",
+   "date": "2026-08-19T10:00:00+09:00",
+   "summary": "プログラミング経験がほぼない筆者が、Claude Codeを使い、Tesla専用のiPhoneアプリを数日で2本開発。自然言語だけで進める「バイブコーディング」の手軽さと、AI時代のアプリ開発の可能性、起業まで見据えたときの限界を考える。",
+   "thumb": "",
+   "source": "itmnews",
+   "sourceName": "ITmedia NEWS",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント",
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "「AI」基礎研究アーカイブ（2025年掲載）",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkZrY0tVYnA1aDdXbWJxdGV4b29mcGNsaS05MnRDTnR6NW9TeHVTbW9oWEFudHQtbjZ6R1lsY3ljUXljZlNoOTlqNmFiRzhSaERMczMwaUlLRVVGNWJOblFOQTdFaU5mLV9ZSHhwVXMzV0tMUUVTbEg2S3pLMEpwUHM1SmdGLXk2cXFfUWgwbXh6V1pGWFNHYzFlNlpFLVBRZVBqajVHSGJtYk5y?oc=5",
+   "date": "2026-08-19T09:44:43+09:00",
+   "summary": "「AI」基礎研究アーカイブ（2025年掲載） 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "東証寄り付き 日経平均、一時6万6000円割れ AI半導体が下押し",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGZUwzQk1pV3hlMTZzOTRvX2Jkci1heGJLSmY4cTd1dl83RUhLRk81NG5ESnNnYTdFU2V2NFFKN0t0MzZ2OFl2eHc4RkRwSTFMWjhNSkpPSjRCcFBsQ0dvOVJrSEJwc3lvay1DaQ?oc=5",
+   "date": "2026-08-19T09:29:54+09:00",
+   "summary": "東証寄り付き 日経平均、一時6万6000円割れ AI半導体が下押し 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
    ]
   },
   {
@@ -601,6 +946,21 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "モデル"
+   ]
+  },
+  {
+   "title": "米半導体セレブラスが高速サーバー、AI回答「30倍速」でNVIDIA対抗",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqR3dPQzYxSjIwY25XeDRkZVl6Q18wMWo4a2lscGd6VHZyWEVPcmg0aVFjVjF5NzdQMWhBb1lkR3lQeHZaX1F0Vzc1b3U3WlM4YmRpenpRcExyRjhKVjBGQlVidWtIbnctcmRVeg?oc=5",
+   "date": "2026-08-19T09:00:00+09:00",
+   "summary": "米半導体セレブラスが高速サーバー、AI回答「30倍速」でNVIDIA対抗 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
    ]
   },
   {
@@ -756,6 +1116,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "2026年08月19日 朝のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260819_00_morning/",
+   "date": "2026-08-19T07:34:36+09:00",
+   "summary": "OpenAI&#x306B;&#x3088;&#x308B;&#x5F37;&#x5316;&#x5B66;&#x7FD2;&#x306E;&#x4E00;&#x6642;&#x505C;&#x6B62;&#x3068;Claude&#x306E;Workspace&#x9023;&#x643A;&#x5F37;&#x5316; OpenAI&#x304C;…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
    "title": "Agent Frameworkのagent-hooksは、denyでストリームが1文字も出ない",
    "url": "https://zenn.dev/kazu_aiengineer/articles/agent-framework-agent-hooks",
    "date": "2026-08-19T07:33:52+09:00",
@@ -769,6 +1144,36 @@ window.AIRADAR_DATA = {
    "topics": [
     "エージェント",
     "開発・技術"
+   ]
+  },
+  {
+   "title": "AIインフラ構築に潜む「隠れ債務」 米社債増発、金利高で悪循環のリスクも",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuZjZFaGVwemJ1UlJGcHhYLW5sTXpjUjdDSmU1dHhBY19RT0JyZ0hZMDlHalpDZmd0UDY1VmhZT1VQNVp1aVNUaFprUTdTNEthdjh0MG5QMzdkY1NmSU9vZU5EYThDU29DeUl6Tw?oc=5",
+   "date": "2026-08-19T07:30:19+09:00",
+   "summary": "AIインフラ構築に潜む「隠れ債務」 米社債増発、金利高で悪循環のリスクも 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "規制・リスク"
+   ]
+  },
+  {
+   "title": "生成AIに仕事を奪わせている｜松本健太郎",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9MXzBVbzlpVExSb19qTHNhQW5LQkktSDRVSUZwN01sNkY3NDltV0thWk9NSDdidVl4dTh3VzExaEdKMWdkdVN4QWVkQmo1N0NiRGNr?oc=5",
+   "date": "2026-08-19T07:30:00+09:00",
+   "summary": "生成AIに仕事を奪わせている｜松本健太郎 日経COMEMO",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
    ]
   },
   {
@@ -969,6 +1374,7 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "モデル",
+    "新製品・デバイス",
     "インフラ・半導体"
    ]
   },
@@ -1002,6 +1408,21 @@ window.AIRADAR_DATA = {
     "モデル",
     "画像・音声・動画",
     "開発・技術"
+   ]
+  },
+  {
+   "title": "Claude can now send emails in Gmail, even without your approval",
+   "url": "https://9to5google.com/2026/08/18/claude-can-now-send-emails-in-gmail-even-without-your-approval/",
+   "date": "2026-08-19T06:20:00+09:00",
+   "summary": "Anthropic’s Claude AI can now take a huge step in your email inbox, with the ability to not only interact with Gmail, but send emails on your behalf without asking you first.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/claude-send-gmail-1.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5g",
+   "sourceName": "9to5Google (新製品)",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "モデル"
    ]
   },
   {
@@ -1081,6 +1502,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "米10年債利回り、一時1年7カ月ぶり高水準 AI企業とマネー争奪戦に",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYbGNxV3NsNURFNldFa0s2ek9wbFdPcm5LS2lBQ1hQbUc4Mjd4OGNxQnBSNzBjbGxnSktfcHEzcGZWaHRFcWVPWTJDZE0zRE5LSWl2LTk2dW14OW8yaE5zc3NHUmVueGJhUjduVA?oc=5",
+   "date": "2026-08-19T05:42:34+09:00",
+   "summary": "米10年債利回り、一時1年7カ月ぶり高水準 AI企業とマネー争奪戦に 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
    "title": "Startpage wins built-in Firefox search slot in 5 European countries",
    "url": "https://ppc.land/startpage-wins-built-in-firefox-search-slot-in-5-european-countries/",
    "date": "2026-08-19T05:37:08+09:00",
@@ -1141,6 +1577,36 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "AI推論で進む「脱TSMC」 テスラ自社製造、インテルとサムスンに商機",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Gal82SHZ3QTcteXk2dmlwcEY1aU9heVo1MDlmeVJBQV9DUk9EdU1zMTZzaEhGdzByQ0VYeWtPV2xpYzV2RVJEdFZMWTExZ1FMVVpTSVVjME9CdU5VdkNWU3M3ZmxnTGs?oc=5",
+   "date": "2026-08-19T05:03:00+09:00",
+   "summary": "AI推論で進む「脱TSMC」 テスラ自社製造、インテルとサムスンに商機 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "足りぬAIメモリー、NANDや新型が主役に キオクシア「需要桁違い」",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SaHFoWjBxZFRzVVBRaDdfM0FxcEtoS1BibExMbTRGWmpZQTZrYkNPdE5pamNzdXR3WmJEOU1TUUN6Y1FUWnBSUzctR1hzNlpXSDU3ZFN1b3BpMjJuWDVOREpvaThCZWM?oc=5",
+   "date": "2026-08-19T05:02:00+09:00",
+   "summary": "足りぬAIメモリー、NANDや新型が主役に キオクシア「需要桁違い」 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "新製品・デバイス"
+   ]
+  },
+  {
    "title": "AIエージェントは「群れ」にすると壊れる ——各出力を検証しても、配備が壊す新しい次元",
    "url": "https://zenn.dev/ryok/articles/agent-swarm-verification",
    "date": "2026-08-19T05:01:28+09:00",
@@ -1154,6 +1620,36 @@ window.AIRADAR_DATA = {
    "topics": [
     "モデル",
     "エージェント"
+   ]
+  },
+  {
+   "title": "NVIDIA、AI半導体で全方位戦略 次世代メモリーや光電融合も",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10WVI3YzI2c1FZdFZPMmZTaUxHb29YcXR4eW1SMDNhMHhSVWJlWExxSF9WRExoSWZUUnBZdEFZQzVnbUF5MjRXZlczTElEcVV4YmxUNDBSb2RHbzdDamQwbUJtTDNXMk0?oc=5",
+   "date": "2026-08-19T05:01:00+09:00",
+   "summary": "NVIDIA、AI半導体で全方位戦略 次世代メモリーや光電融合も 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "AI半導体でパネルレベルが主戦場に、寸法標準化でTSMCやインテルなどが火花",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1EU0FNOXdDdEdKUC1rMmtpZW5xTnJNcW9mb210NEYtRzNTNFNfQ3ZRQm8zd2FDNWNBdG5NM1kwU3poY2Nfb0YwclV3Q2tRZlVRMkNUS3Z1ZkRVNWZwaEFyakxMUkVuYm8?oc=5",
+   "date": "2026-08-19T05:01:00+09:00",
+   "summary": "AI半導体でパネルレベルが主戦場に、寸法標準化でTSMCやインテルなどが火花 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
    ]
   },
   {
@@ -1213,6 +1709,7 @@ window.AIRADAR_DATA = {
    "kind": "jp",
    "weekly": false,
    "topics": [
+    "新製品・デバイス",
     "開発・技術"
    ]
   },
@@ -1247,6 +1744,217 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "秋田AIデータセンター、県訪問のUAE大使も熱視線 洋上風力が命綱",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13RHVBTHZ2dzZxdUp5MEFWV2RUVzFuYVlqV2VKbi1xb3RRSjRNWXR4dWtLdThzOFJGRWdmSjBWck03aEl5VlozcHYtWDJLOEk2Z05SRXpaZHJZUDJmMmJpd1JWLWZSc21RZXoyMg?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "秋田AIデータセンター、県訪問のUAE大使も熱視線 洋上風力が命綱 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "分散型データセンター「顧客不在」 フィジカルAIに活路 - 日経テックフォーサイト",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQUh0Ylo3c29QLVFsYmFGRHNPY085RURCMndlS1hGNUtXck5ZMGwtcEYxUjlBQzJRM3hvWlRvbDRJYjVEWUMtT3Juc0xheDRMbFJiMmdjNHVrQ0FJT2NURm56dG52bmF0RFNaQVdYNnRybmV5UFpibGxGTDZuOGxDZ0FlQWlyeUk?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "分散型データセンター「顧客不在」 フィジカルAIに活路 - 日経テックフォーサイト 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "幻覚情報、企業に賠償責任なし 中国AI裁判4案件を読む",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT2tPTW1YckVFdThueUFUSGszWEhwbjBscllqcEpvWXg0Y3Fvc2d0emVUckdRZXhTTGZrUjFqS2RGY2N6dURZb252UVJWNHpDbjdCUWZHUkg1dm5oLWNJdEhyVGRSaTAyODl1RXYteHpZaTkyNTJ6X0pnTlhhMUtEQTVlNFlRTF9vQkRBMw?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "幻覚情報、企業に賠償責任なし 中国AI裁判4案件を読む 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AIが創る時間で｢顧客対話｣ ちゅうぎんFG、金利ある世界で競争力確保",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9weUxQMXFaOHhWOG5mWHlTX05XLUxmenJ5Rm5ZaFRUbi1CQUVkZEhwcld3d1l2aTdCTkpYQmEwd3pxdXNNTjhhcGNSZ1ZBQkxQWExhbjZGcTVNTVJIbU96MVk5QnVtYUxhZDMwcw?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "AIが創る時間で｢顧客対話｣ ちゅうぎんFG、金利ある世界で競争力確保 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "東京理科大学など、磁性体構造の探索AI 設計自由度が拡大 - 日経テックフォーサイト",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdjRCWFlWblpENUp3RC05dl9DUkJrVVVKUEdiSjY5aUJMMTIwZnBlUGh3S3ZUVEs0TjVpS2lncFRQOEd5Wm5CcFFvUHRURmdiMjFTcE5CdDlXbHBFYl9TXzNpTVJ6cjYtdlhidlpiR1FpczcwNHZtMU1nZTBJaDdMV3RpWEdKMFE?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "東京理科大学など、磁性体構造の探索AI 設計自由度が拡大 - 日経テックフォーサイト 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "オリックス宮内氏×さくらインターネット田中氏 「AI時代も日本企業は戦える」",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qbDF6eWNNZldBTlFpLVpiNjZ4NWoxeldLS0NKRGtfUi15Q2hrSkVibjNyLTUtRHpmTkozS2pna0VmZ3p5OWgxZU9EY2p6MkNYYWw0RE5KMkxEbXZrVFM0d2t2eXp5Q3dxWlItX0k3WWV3RjZ2?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "オリックス宮内氏×さくらインターネット田中氏 「AI時代も日本企業は戦える」 日経ビジネス電子版",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AIエージェントが排出算定 取引先にメール、データ収集",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYmFTX3JzOEY4UkJ0S3Q2VkRzM2tXTzNxRERPS2M2alJndVU5RVZLQmNJVHBJY0hEdkYyTjBKTUZtbzAxSFlqUEJxdVowV052eG1vTnd0WkhmUmhELUs3aGsyRGplLXVVY3B3Y1BReHdDMDU3R3FIX0ZPV19ENVlTN3A4ei1ZeG5PMkJxNmVoRTN0N29qeUhEbmNTOTU?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "AIエージェントが排出算定 取引先にメール、データ収集 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "エージェント"
+   ]
+  },
+  {
+   "title": "AI技術で電源回路の設計を効率化、酸化ガリウムの積年の課題にメス",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qMU5VemxVSlFmVjgwUlhHd25iYWdLeHBnb2w5eF9McFpyd0VaZHZxUjM5QW16NWpLdVFDU3ZaaklYbDJVLS1kb0c5RlBnTWRSck5Bb01BZ3FWTmlvb3BlcWJWcUZ1ZUE?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "AI技術で電源回路の設計を効率化、酸化ガリウムの積年の課題にメス 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "米ディズニー動画配信のアジア太平洋トップ「AI投資でアプリ便利に」",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rSURGYmtEcU5fQmlPeEhzR0stT09YLUJIU1M2c0dBWTd6cU1wbEFOSGJ2aXBLcUFPYjJGVkJ4OF9sWU1CY1Zfd091SjNTQ1lQQUpJUDVteFFYaE5tV25BX1BMeWtFMEZ2Z1UtZQ?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "米ディズニー動画配信のアジア太平洋トップ「AI投資でアプリ便利に」 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "ビジネス・資金"
+   ]
+  },
+  {
+   "title": "AI半導体、推論シフトで一変 NVIDIA1強から群雄割拠へ",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xbUltcUIyektpOExWUG53ZFdrQmphLXVBT0Zqb0kxMkM4X0pDdzA4dm03SG0zOF9DekFNYTRJT2h3a2Q5VG9sc2xDeW9YdVB5R25FWjRrNm9FTDd0ckloeDB4S2E0Z2s?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "AI半導体、推論シフトで一変 NVIDIA1強から群雄割拠へ 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "ソニー新社長、勝負のカギは現場感 「フィジカルAIなら強みを出せる」",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDeHFtQ2Rrc3R3bUtqS2JkUmJBOUdyUUVKcndoTDhGTjJKSXdIZUxkLVRqY25BQktyN1cwc2JEVFJaZVZuSWJLY2V2OXUzNk5pWjZoVkl0T3hnYjNBRHR2VW9oZFRJWmc?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "ソニー新社長、勝負のカギは現場感 「フィジカルAIなら強みを出せる」 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "決済SaaSのロボペイ清久代表「間違えられない業務、AIに代替されず」",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96dWxLZGtTOFNLb2g1NzRPQ0hSbkZXX2wwcU5GMmN1RnVGVjh4b2tBYXpLak1pYnJ4U01jdDZuU0dINUNaMkZMYTlwUkZXV3lZVlFUdWg5U0l0a194QmU5djRTOHprX3FyelVEMw?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "決済SaaSのロボペイ清久代表「間違えられない業務、AIに代替されず」 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "プリファード岡野原社長「人材育成が裏テーマ」 国産AIの勝算語る",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Ma0h3X0VDUTNXQ3VEcDQxZFlvOElnbmJFd2hZTGlwZUZLNlo0ZFBQSVBkNXp6R01wRG9ZS3VUUWJla1VYZGdJZTJsZ3hvMzMyQzRDWS1yeWE2QWxFdEo0LVBxUzliTFFUOHNZYg?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "プリファード岡野原社長「人材育成が裏テーマ」 国産AIの勝算語る 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "【特許】韓国Lablup、AIデータセンターのメモリー節約",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUmJkRTdsbGFyQkxMOFZ4WXpqa1JzY0lEaUQ0LWY0T0RPQmNrWG90cWxVRWZJcVpIR2kzckQwUjlDZWRqQWtSdWplWjdyc1QtNnZtX2FLMk9fNFZRUlFjZk5PX3BhTHVnWjJGZ051UEhqbDNrU0pyMWVDVUZVcVBtWGMydmZMSzQ?oc=5",
+   "date": "2026-08-19T05:00:00+09:00",
+   "summary": "【特許】韓国Lablup、AIデータセンターのメモリー節約 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
+   ]
+  },
+  {
    "title": "Strengthening democratic oversight in national security",
    "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
    "date": "2026-08-19T04:00:00+09:00",
@@ -1259,6 +1967,21 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Gemini in Chrome and auto browse roll out on Android in the US",
+   "url": "https://9to5google.com/2026/08/18/gemini-chrome-android-us/",
+   "date": "2026-08-19T04:00:00+09:00",
+   "summary": "After previewing in May , Google has now finished rolling out Gemini in Chrome for Android users in the US.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/Gemini-in-Chrome-Android-cover.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5g",
+   "sourceName": "9to5Google (新製品)",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "モデル"
    ]
   },
   {
@@ -1747,6 +2470,37 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "2026年08月18日 夜のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260818_01_evening/",
+   "date": "2026-08-18T19:33:57+09:00",
+   "summary": "Claude Code&#x306E;&#x30A2;&#x30C3;&#x30D7;&#x30C7;&#x30FC;&#x30C8;&#x3068;GPT-5.6 Sol&#x306E;&#x4FA1;&#x683C;&#x6539;&#x5B9A; Claude Code&#x306B;UI&#x8A2D;&#x8A08;&#x6A5F;&#x80FD;…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント"
+   ]
+  },
+  {
+   "title": "生成AIで巧妙化するデマ──熊本地震で露見した「10年前にはなかった新たな手法」 識者に聞く",
+   "url": "https://www.itmedia.co.jp/news/article/2608/18/2000000600/",
+   "date": "2026-08-18T18:03:55+09:00",
+   "summary": "2016年の熊本地震から10年という節目に同じ熊本県で発生した「令和8年熊本地震」。SNSでは発災直後から多くのデマやフェイク情報が拡散し、中には10年前には考えられなかった動きや傾向もみられた。",
+   "thumb": "",
+   "source": "itmnews",
+   "sourceName": "ITmedia NEWS",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
    "title": "イスラエルでAIチャットボットを欺く目的で設立された偽のシンクタンクが出現、わずか1週間強の間にAIチャットボットに影響を与えることを目的としたと思われる記事を少なくとも100本公開",
    "url": "https://gigazine.net/news/20260818-israel-creates-fake-think-tank-dupe-ai-chatbots/",
    "date": "2026-08-18T17:28:00+09:00",
@@ -1775,6 +2529,21 @@ window.AIRADAR_DATA = {
    "topics": [
     "エージェント",
     "開発・技術"
+   ]
+  },
+  {
+   "title": "「食欲が削られる」――AIで作られた“気色の悪い飲食店メニュー”がXで物議 「実物を見たい」の声も",
+   "url": "https://www.itmedia.co.jp/news/article/2608/18/2000000580/",
+   "date": "2026-08-18T16:14:46+09:00",
+   "summary": "生成AIで作ったとみられる飲食店のメニューやポスターを巡り、Xで物議が広がっている。8月13日ごろから関連する投稿がみられ、とあるサービスエリアの飲食店メニューを写した投稿が反響を呼ぶと、同様の事例を紹介する投稿が急増した。",
+   "thumb": "",
+   "source": "itmnews",
+   "sourceName": "ITmedia NEWS",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
    ]
   },
   {
@@ -2068,6 +2837,37 @@ window.AIRADAR_DATA = {
    "axis": "ai"
   },
   {
+   "title": "2026年08月18日 朝のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260818_00_morning/",
+   "date": "2026-08-18T07:34:14+09:00",
+   "summary": "OpenAI&#x306E;&#x30A4;&#x30F3;&#x30D5;&#x30E9;&#x6295;&#x8CC7;&#x3068;ChatGPT&#x306E;&#x4ED5;&#x69D8;&#x5909;&#x66F4; OpenAI&#x304C;&#x7D04;8GW&#x306E;&#x30C7;&#x30FC;&#x30BF;&#x30…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "NVIDIA、OpenAIのオハイオAIデータセンターに最大1050億ドルの債務保証──SB Energyと提携",
+   "url": "https://www.itmedia.co.jp/news/article/2608/18/2000000572/",
+   "date": "2026-08-18T06:55:32+09:00",
+   "summary": "NVIDIAは、オハイオ州で建設中のAIデータセンター「PORTS-Pike Technology Campus」に計算基盤を独占提供すると発表した。OpenAIがテナントとなり、SB Energyが運営する。NVIDIAは最大1050億ドルの債務保証を負い、最大8GW規模のAIファクトリーを段階的に展開する。",
+   "thumb": "",
+   "source": "itmnews",
+   "sourceName": "ITmedia NEWS",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "ビジネス・資金",
+    "インフラ・半導体"
+   ]
+  },
+  {
    "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
    "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
    "date": "2026-08-18T06:27:05+09:00",
@@ -2280,6 +3080,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "Find Hub for Wear OS adds very basic ‘Find people’ app",
+   "url": "https://9to5google.com/2026/08/17/find-hub-people-wear-os/",
+   "date": "2026-08-18T02:25:56+09:00",
+   "summary": "Google is rolling out an update to Find Hub on Wear OS that adds a “Find people” app to your watch. The experience was previously just for your devices.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/google-pixel-watch-5-17.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5g",
+   "sourceName": "9to5Google (新製品)",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
    "title": "Italy fines Piaggio 460,000 euros over 112 emails taken from two staff",
    "url": "https://ppc.land/italy-fines-piaggio-460-000-euros-over-112-emails-taken-from-two-staff/",
    "date": "2026-08-18T02:25:19+09:00",
@@ -2419,6 +3234,23 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "【2026/8/10〜8/17】週刊AIニュース《SpaceXがCursorを600億ドルで買収完了、Grok 4.6、OpenAI幹部の連続退社と、ツールの持ち主と知能の値段が同時に動いた1週間。》",
+   "url": "https://note.com/chaen_channel/n/n1af15641dd7e",
+   "date": "2026-08-17T21:20:13+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 📣 お知らせ",
+   "thumb": "https://assets.st-note.com/production/uploads/images/304314215/rectangle_large_type_2_ee6b6151ee1c0e9762559ec885f5e282.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント",
+    "ビジネス・資金"
+   ]
+  },
+  {
    "title": "Google Search Using Gemini 3.7 Flash In AI Mode",
    "url": "https://www.seroundtable.com/google-search-gemini-3-7-flash-41879.html",
    "date": "2026-08-17T20:51:00+09:00",
@@ -2464,6 +3296,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "中国のCGアニメ映画「牛来」、“AI生成よりひどい”と話題で逆にヒット 興収は一気に350倍以上に",
+   "url": "https://www.itmedia.co.jp/news/article/2608/17/2000000570/",
+   "date": "2026-08-17T20:21:22+09:00",
+   "summary": "中国で、CGのクオリティの低さが逆に話題を呼んだ国産アニメ映画「牛来」が異例のヒットとなっている。公開9日間の興行収入は7169元（約17万円）だったが、SNSで拡散した後は累計250万元（約6000万円）を超えたと中国メディアが報じた。",
+   "thumb": "",
+   "source": "itmnews",
+   "sourceName": "ITmedia NEWS",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
    "title": "Bing Testing Large Images In Sponsored Results",
    "url": "https://www.seroundtable.com/large-images-bing-ads-41878.html",
    "date": "2026-08-17T20:21:00+09:00",
@@ -2494,6 +3341,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "2026年08月17日 夜のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260817_01_evening/",
+   "date": "2026-08-17T19:34:08+09:00",
+   "summary": "OpenAI&#x6B21;&#x671F;&#x30E2;&#x30C7;&#x30EB;Astra&#x306E;&#x52D5;&#x5411;&#x3068;&#x5404;&#x793E;&#x6700;&#x65B0;&#x30E2;&#x30C7;&#x30EB;&#x306E;&#x30A2;&#x30C3;&#x30D7;&#x30C7;&…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
    "title": "Get closer to the game with Gemini and Pixel",
    "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
    "date": "2026-08-17T17:00:00+09:00",
@@ -2505,7 +3367,8 @@ window.AIRADAR_DATA = {
    "kind": "official",
    "weekly": false,
    "topics": [
-    "モデル"
+    "モデル",
+    "新製品・デバイス"
    ]
   },
   {
@@ -2675,6 +3538,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "2026年08月17日 朝のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260817_00_morning/",
+   "date": "2026-08-17T07:35:24+09:00",
+   "summary": "Stripe&#x306E;OpenRouter&#x8CB7;&#x53CE;&#x5408;&#x610F;&#x3068;&#x4F01;&#x696D;&#x306E;AI&#x5229;&#x7528;&#x683C;&#x5DEE;&#x306E;&#x62E1;&#x5927; Stripe&#x304C;OpenRouter&#x3092;7…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
    "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
    "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
    "date": "2026-08-17T05:57:04+09:00",
@@ -2766,6 +3644,54 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "Grok 4.6を徹底検証したら、xAIの「本当の勝ち筋」が見えてきた｜Cursor買収・性能・価格・Grok Botまで完全解説",
+   "url": "https://note.com/chaen_channel/n/ne04e6c7b2ff5",
+   "date": "2026-08-16T18:26:57+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 2026年8月、4日間でGrokまわりに3つの発表が重なりました。",
+   "thumb": "https://assets.st-note.com/production/uploads/images/303953473/rectangle_large_type_2_5c45890f231cc9339af81dc25683779c.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント",
+    "ビジネス・資金"
+   ]
+  },
+  {
+   "title": "「Claude」の“見えない透かし”、Anthropicが仕組みを説明 「完全な書き直しなら消える」",
+   "url": "https://www.itmedia.co.jp/news/article/2608/16/2000000555/",
+   "date": "2026-08-16T07:58:11+09:00",
+   "summary": "Anthropicは、「Claude」が生成するテキストに埋め込む電子透かしの仕組みを公表した。乱数生成に秘密鍵を用いて統計的パターンを残す手法で、品質や速度、料金に影響を与えない。「EU AI Act」への準拠を目的とするが全世界で適用され、コードや短文などでは入りにくいといった限界も明示している。",
+   "thumb": "",
+   "source": "itmnews",
+   "sourceName": "ITmedia NEWS",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "2026年08月16日 朝のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260816_00_morning/",
+   "date": "2026-08-16T07:34:52+09:00",
+   "summary": "OpenAI&#x306E;&#x30DE;&#x30EB;&#x30C1;&#x30A8;&#x30FC;&#x30B8;&#x30A7;&#x30F3;&#x30C8;&#x65B0;&#x6A5F;&#x80FD;&#x3068;&#x5404;&#x793E;AI&#x30E2;&#x30C7;&#x30EB;&#x306E;&#x6700;&#x6…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
    "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
    "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
    "date": "2026-08-16T06:29:19+09:00",
@@ -2826,18 +3752,48 @@ window.AIRADAR_DATA = {
    ]
   },
   {
-   "title": "Pixel 11 ads show a mysterious screen-equipped tracker that’s not Pixel Watch 5 or Fitbit Air [Gallery]",
-   "url": "https://9to5google.com/2026/08/15/google-pixel-11-ad-unknown-fitbit-tracker/",
-   "date": "2026-08-15T22:30:00+09:00",
-   "summary": "Google might have another fitness tracker in the works, as a pair of new ads online show off a mysterious little pebble that’s neither a Fitbit Air nor a Pixel Watch 5 – but is it…",
-   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/pixel-11-ads-unknown-tracker.jpg?quality=82&#038;strip=all&#038;w=1200",
-   "source": "9to5g",
-   "sourceName": "9to5Google",
-   "axis": "product",
-   "kind": "media",
+   "title": "2026年08月15日 朝のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260815_00_morning/",
+   "date": "2026-08-15T07:35:02+09:00",
+   "summary": "SpaceX&#x306B;&#x3088;&#x308B;Cursor&#x8CB7;&#x53CE;&#x5B8C;&#x4E86;&#x3068;Anthropic&#x306E;&#x672A;&#x767A;&#x8868;&#x30E2;&#x30C7;&#x30EB; SpaceX&#x306B;&#x3088;&#x308B;Cursor&#…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
    "weekly": false,
    "topics": [
-    "広告プロダクト"
+    "エージェント"
+   ]
+  },
+  {
+   "title": "Pixel Journal update brings cloud-based Private AI Compute, UI tweaks, & more",
+   "url": "https://9to5google.com/2026/08/14/pixel-journal-ai-update/",
+   "date": "2026-08-15T01:20:05+09:00",
+   "summary": "With the launch of the Pixel 11, Google is rolling out a handful of updates to the Journal app that are already appearing on older devices.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/03/pixel-journal-1.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5g",
+   "sourceName": "9to5Google (新製品)",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "2026年08月14日 夜のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260814_01_evening/",
+   "date": "2026-08-14T19:35:02+09:00",
+   "summary": "Zhipu AI&#x306E;GLM-5.3&#x30EA;&#x30EA;&#x30FC;&#x30B9;&#x3068;ChatGPT&#x306E;Google Docs&#x9023;&#x643A; Zhipu AI&#x304B;&#x3089;&#x30B3;&#x30FC;&#x30C7;&#x30A3;&#x30F3;&#x30B0;&#…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
    ]
   },
   {
@@ -2887,6 +3843,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "2026年08月14日 朝のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260814_00_morning/",
+   "date": "2026-08-14T07:34:48+09:00",
+   "summary": "Gemini 3.7 Flash&#x306E;&#x6B63;&#x5F0F;&#x30EA;&#x30EA;&#x30FC;&#x30B9;&#x3068;AI&#x30A8;&#x30FC;&#x30B8;&#x30A7;&#x30F3;&#x30C8;&#x306E;&#x9032;&#x5316; Google&#x304B;&#x3089;Gem…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
    "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
    "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
    "date": "2026-08-14T02:16:04+09:00",
@@ -2911,6 +3882,21 @@ window.AIRADAR_DATA = {
    "sourceName": "Google DeepMind",
    "axis": "ai",
    "kind": "official",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Gemini 3.7 Flash launches three weeks after last model, live in Spark",
+   "url": "https://9to5google.com/2026/08/13/gemini-3-7-flash-launch/",
+   "date": "2026-08-14T02:00:00+09:00",
+   "summary": "Just three weeks after the last release , Google today announced Gemini 3.7 Flash, which continues the company’s accelerated cadence.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2025/07/gemini-new-logo-1.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5g",
+   "sourceName": "9to5Google (新製品)",
+   "axis": "ai",
+   "kind": "global",
    "weekly": false,
    "topics": [
     "モデル"
@@ -2945,6 +3931,21 @@ window.AIRADAR_DATA = {
    "topics": [
     "モデル",
     "開発・技術"
+   ]
+  },
+  {
+   "title": "2026年08月13日 夜のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260813_01_evening/",
+   "date": "2026-08-13T19:34:51+09:00",
+   "summary": "Anthropic&#x306E;IPO&#x8A55;&#x4FA1;&#x984D;&#x4E88;&#x6E2C;&#x3068;&#x7C73;&#x653F;&#x5E9C;&#x306E;AI&#x898F;&#x5236;&#x52D5;&#x5411; Anthropic&#x306E;IPO&#x306B;&#x5411;&#x3051;&…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "ビジネス・資金"
    ]
   },
   {
@@ -3024,6 +4025,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "2026年08月13日 朝のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260813_00_morning/",
+   "date": "2026-08-13T07:34:34+09:00",
+   "summary": "&#x5F37;&#x529B;&#x306A;AI&#x30E2;&#x30C7;&#x30EB;&#x306E;&#x9023;&#x7D9A;&#x30EA;&#x30EA;&#x30FC;&#x30B9;&#x3068;&#x30A8;&#x30FC;&#x30B8;&#x30A7;&#x30F3;&#x30C8;&#x6A5F;&#x80FD;&#…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
    "title": "エリック・シュミット：データからエージェントへ、AIは科学を再び変える",
    "url": "https://www.technologyreview.jp/s/387271/ai-for-science-needs-reasoning-not-just-data/",
    "date": "2026-08-13T05:53:24+09:00",
@@ -3036,6 +4052,21 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "エージェント"
+   ]
+  },
+  {
+   "title": "Honor finally launches Robot Phone starting at around $1,500",
+   "url": "https://9to5google.com/2026/08/12/honor-finally-launches-robot-phone-starting-at-around-1500/",
+   "date": "2026-08-13T03:30:00+09:00",
+   "summary": "The gimbal-touting AI-first Honor Robot Phone has finally made its debut, and it starts at around $1,500 – though you won’t be able to buy it in most of the world.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/honor-robot-phone-2.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5g",
+   "sourceName": "9to5Google (新製品)",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "新製品・デバイス"
    ]
   },
   {
@@ -3085,6 +4116,66 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "HiLight on the Pixel 11 Pro offers just two features at launch, more coming soon",
+   "url": "https://9to5google.com/2026/08/12/pixel-11-pro-hilight/",
+   "date": "2026-08-12T23:30:00+09:00",
+   "summary": "With the launch of the Pixel 11 Pro, Google has fully detailed how HiLight works and the thinking behind the hardware feature.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/MBG-Pixel-11-Pro-HiLight-Gemini-1.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5g",
+   "sourceName": "9to5Google (新製品)",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "新製品・デバイス"
+   ]
+  },
+  {
+   "title": "Google drops the AI Pro to 6 months with Pixel 11 Pro, ditches free plan for base model",
+   "url": "https://9to5google.com/2026/08/12/google-drops-the-ai-pro-to-6-months-with-pixel-11-pro-ditches-free-plan-for-base-model/",
+   "date": "2026-08-12T23:10:00+09:00",
+   "summary": "With the launch of the Pixel 9, Google offered fairly extensive 12-month free trials of the Google One AI Pro plan, but this is being stripped back with the Pixel 11 series.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/Pixel-11-Pro-XL-homescreen-4.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5g",
+   "sourceName": "9to5Google (新製品)",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Pixel 11 debuts Gboard Rambler, location-aware At a Glance, and more Gemini Intelligence",
+   "url": "https://9to5google.com/2026/08/12/pixel-11-gemini-intelligence/",
+   "date": "2026-08-12T23:05:00+09:00",
+   "summary": "Gemini Intelligence is a key aspect of Google’s new phones and many new features, as well as expansions, are debuting on the Pixel 11 series.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/Rambler-example-1.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5g",
+   "sourceName": "9to5Google (新製品)",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Pixel Buds Pro 2 get ‘dynamic’ ANC, sleep sync, and more next month, Olive color available now",
+   "url": "https://9to5google.com/2026/08/12/google-pixel-buds-pro-2-olive-anc-sleep-update/",
+   "date": "2026-08-12T23:03:00+09:00",
+   "summary": "It’s been a couple of years since Google rolled out a new set of Pro-branded earbuds , and while it’s still not ready to debut a true third-gen set for its premium audio offering,…",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/Olive_Pixel-Buds_2.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5g",
+   "sourceName": "9to5Google (新製品)",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "新製品・デバイス"
+   ]
+  },
+  {
    "title": "Putting sign language AI into users’ hands",
    "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
    "date": "2026-08-12T23:01:59+09:00",
@@ -3109,6 +4200,36 @@ window.AIRADAR_DATA = {
    "sourceName": "Hugging Face",
    "axis": "ai",
    "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Everything announced at Made by Google 2026: Pixel 11, Pixel Watch 5, Pixel Tag, & more",
+   "url": "https://9to5google.com/2026/08/12/made-by-google-2026-announcements/",
+   "date": "2026-08-12T23:00:00+09:00",
+   "summary": "While the actual Made by Google 2026 event isn’t happening for another eight hours, Google has fully detailed the Pixel 11, Pixel Watch 5, and Pixel Tag.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/Made-by-Google-2026-cover.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5g",
+   "sourceName": "9to5Google (新製品)",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "2026年08月12日 夜のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260812_01_evening/",
+   "date": "2026-08-12T19:34:40+09:00",
+   "summary": "AI&#x30A8;&#x30FC;&#x30B8;&#x30A7;&#x30F3;&#x30C8;&#x306E;&#x5B9F;&#x7528;&#x5316;&#x3068;&#x30B5;&#x30A4;&#x30D0;&#x30FC;&#x653B;&#x6483;&#x3078;&#x306E;&#x60AA;&#x7528;&#x4E8B;&#…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
    "weekly": false,
    "topics": [
     "その他"
@@ -3142,6 +4263,21 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "エージェント"
+   ]
+  },
+  {
+   "title": "2026年08月12日 朝のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260812_00_morning/",
+   "date": "2026-08-12T07:34:40+09:00",
+   "summary": "Gemini&#x30A2;&#x30D7;&#x30EA;&#x306E;&#x6708;&#x9593;&#x30E6;&#x30FC;&#x30B6;&#x30FC;10&#x5104;&#x4EBA;&#x7A81;&#x7834;&#x3068;&#x4E3B;&#x8981;AI&#x30E2;&#x30C7;&#x30EB;&#x306E;&#…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル"
    ]
   },
   {
@@ -3222,6 +4358,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "2026年08月11日 夜のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260811_01_evening/",
+   "date": "2026-08-11T19:34:34+09:00",
+   "summary": "Claude&#x306E;&#x96FB;&#x5B50;&#x900F;&#x304B;&#x3057;&#x5C0E;&#x5165;&#x3068;&#x5404;&#x793E;&#x6700;&#x65B0;&#x30E2;&#x30C7;&#x30EB;&#x306E;&#x52D5;&#x5411; Anthropic&#x304C;Clau…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
    "title": "Testing ads in ChatGPT",
    "url": "https://openai.com/index/testing-ads-in-chatgpt",
    "date": "2026-08-11T19:00:00+09:00",
@@ -3249,6 +4400,22 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "2026年08月11日 朝のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260811_00_morning/",
+   "date": "2026-08-11T07:33:57+09:00",
+   "summary": "&#x672A;&#x767A;&#x8868;Claude&#x306B;&#x3088;&#x308B;&#x6570;&#x5B66;&#x7684;&#x767A;&#x898B;&#x3068;NVIDIA&#x306E;&#x5DE8;&#x984D;&#x30A4;&#x30F3;&#x30D5;&#x30E9;&#x6295;&#x8CC7;…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "インフラ・半導体"
    ]
   },
   {
@@ -3374,6 +4541,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "【2026/8/3〜8/10】週刊AIニュース《動画AI Seedance 2.5公開、Qwen3.8-Max、OpenAI「Astra」の初Critical、Agent Plugins、Googleデミス・ハサビス退任と、動画とエージェント標準が同時に動いた1週間。》",
+   "url": "https://note.com/chaen_channel/n/ne3650cc7d1aa",
+   "date": "2026-08-10T13:56:40+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 📣 お知らせ",
+   "thumb": "https://assets.st-note.com/production/uploads/images/302083489/rectangle_large_type_2_e9792d27988a992801b017e6a55c0b03.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "エージェント"
+   ]
+  },
+  {
    "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
    "url": "https://huggingface.co/blog/muse-glimmer",
    "date": "2026-08-10T09:00:00+09:00",
@@ -3466,6 +4648,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "【徹底解説】最強の動画生成AI「Seedance 2.5」の使い方｜縦型ドラマを1本3,000円で作った実プロンプト全文つき",
+   "url": "https://note.com/chaen_channel/n/n9a36d215bc9b",
+   "date": "2026-08-09T17:48:09+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） TikTokやYouTubeで流れてくる「縦型のショートドラマ」ありますよね。あのような動画がAIだけで作れるようになりました！",
+   "thumb": "https://assets.st-note.com/production/uploads/images/301490383/rectangle_large_type_2_df7704a5c1b825c5c0bb22375117dccf.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "画像・音声・動画"
+   ]
+  },
+  {
    "title": "Responding to the next frontier of critical cyber capabilities",
    "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
    "date": "2026-08-08T00:20:00+09:00",
@@ -3537,6 +4734,22 @@ window.AIRADAR_DATA = {
    "kind": "jp",
    "weekly": false,
    "topics": [
+    "エージェント"
+   ]
+  },
+  {
+   "title": "【2026/7/27〜8/3】週刊AIニュース《Kimi K3のオープンウェイト公開、OpenAIとAnthropicの暴走AI事故と、「開放」と「安全」が同じ週に来ました。》",
+   "url": "https://note.com/chaen_channel/n/nfa86970adc2c",
+   "date": "2026-08-06T19:39:07+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 📣 お知らせ｜Claude Codeで2時間。SEO検索1位を獲ったLPの作り方と、再現用スキル「pro-lp-builder」を全公開しました",
+   "thumb": "https://assets.st-note.com/production/uploads/images/299963786/rectangle_large_type_2_677a3731d49b6de47cb8d56647a3719a.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル",
     "エージェント"
    ]
   },
@@ -3967,6 +5180,7 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "モデル",
+    "新製品・デバイス",
     "画像・音声・動画"
    ]
   },
@@ -4089,7 +5303,8 @@ window.AIRADAR_DATA = {
    "kind": "official",
    "weekly": false,
    "topics": [
-    "モデル"
+    "モデル",
+    "新製品・デバイス"
    ]
   },
   {
@@ -4150,7 +5365,23 @@ window.AIRADAR_DATA = {
    "kind": "global",
    "weekly": false,
    "topics": [
+    "新製品・デバイス",
     "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "【2026/7/20〜7/27】週刊AIニュース《Claude Opus 5、GPT-5.6 Solの脱走事故、Gemini新Flash 3種、Grok無料アドイン、Galaxy Unpackedなど重要ニュースが多数》",
+   "url": "https://note.com/chaen_channel/n/nba337042fb57",
+   "date": "2026-07-27T14:34:49+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 📣 お知らせ｜Claude Opus 5、普段使いはもうこれで良いと思います",
+   "thumb": "https://assets.st-note.com/production/uploads/images/297952695/rectangle_large_type_2_92091bf3d128c3bb42045f4a32084c79.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル"
    ]
   },
   {
@@ -4199,6 +5430,21 @@ window.AIRADAR_DATA = {
     "モデル",
     "エージェント",
     "画像・音声・動画"
+   ]
+  },
+  {
+   "title": "【ロンドン現地レポ】Galaxy Unpacked 2026 完全まとめ｜Galaxy Z Fold8 Ultra・Fold8・Flip8とGalaxy AIを実機で全部触ってきた",
+   "url": "https://note.com/chaen_channel/n/nb3501f9522fa",
+   "date": "2026-07-26T22:42:40+09:00",
+   "summary": "",
+   "thumb": "https://assets.st-note.com/production/uploads/images/297664874/rectangle_large_type_2_1e57c93401a529f8f6cfb283f40e3c6c.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "その他"
    ]
   },
   {
@@ -4340,6 +5586,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "【2026/7/13〜7/21】週刊AIニュース《Kimi K3、Qwen3.8、Claude Fable 5標準搭載、Gemini Spark日本対応と中国オープンモデルの攻勢が主役の週》",
+   "url": "https://note.com/chaen_channel/n/n91ba102487cf",
+   "date": "2026-07-21T21:58:08+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 📣 お知らせ",
+   "thumb": "https://assets.st-note.com/production/uploads/images/296190493/rectangle_large_type_2_adf93957bee3a6f8c212df9febdc7424.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
    "title": "Grabette: an open system to record robot-manipulation data",
    "url": "https://huggingface.co/blog/grabette",
    "date": "2026-07-21T09:00:00+09:00",
@@ -4351,7 +5612,7 @@ window.AIRADAR_DATA = {
    "kind": "global",
    "weekly": false,
    "topics": [
-    "その他"
+    "新製品・デバイス"
    ]
   },
   {
@@ -4368,6 +5629,21 @@ window.AIRADAR_DATA = {
    "topics": [
     "広告プロダクト",
     "アドテク・媒体"
+   ]
+  },
+  {
+   "title": "【Gemini Spark 完全ガイド】ついに日本上陸！Googleの\"24時間働くAI\"を、基本から実演まで全部解説",
+   "url": "https://note.com/chaen_channel/n/n953f57f11f5d",
+   "date": "2026-07-20T19:26:55+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 2026年7月16日、Gemini Spark が日本でも使えるようになりました！",
+   "thumb": "https://assets.st-note.com/production/uploads/images/295879305/rectangle_large_type_2_8d5966ae1315cb005eba505934237525.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル"
    ]
   },
   {
@@ -4609,6 +5885,22 @@ window.AIRADAR_DATA = {
    "kind": "official",
    "weekly": false,
    "topics": [
+    "モデル",
+    "新製品・デバイス"
+   ]
+  },
+  {
+   "title": "【2026/7/6〜7/13】週刊AIニュース《GPT-5.6、ChatGPT Work、GPT-Live、Grok 4.5、Meta、Caude Codeでブラウザと重要アップデートが多数。》",
+   "url": "https://note.com/chaen_channel/n/na1c7d131018e",
+   "date": "2026-07-13T17:33:59+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 📣 お知らせ",
+   "thumb": "https://assets.st-note.com/production/uploads/images/293964533/rectangle_large_type_2_87344a079ab6989c1bd517a957530988.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
     "モデル"
    ]
   },
@@ -4628,6 +5920,21 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "【GPT-5.6公開】ChatGPTが「答えるAI」から「仕事を納品するAI」へ｜Work・GPT-Live・実践プロンプト完全ガイド",
+   "url": "https://note.com/chaen_channel/n/nbe712a46dbb1",
+   "date": "2026-07-13T01:17:57+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 2026年7月9日、OpenAIが「GPT-5.6」を正式公開しました🔥",
+   "thumb": "https://assets.st-note.com/production/uploads/images/293855380/rectangle_large_type_2_32dee40f81f168a4e7e6bfa57e9e2f90.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
    "title": "【週刊AI】ランプの精は瓶に戻らない。AI社員がオフィスに出社、Fable 5は従量課金へ、GPT-5.6一般提供 | #74",
    "url": "https://chatgpt-lab.com/n/n3499a18b07ea",
    "date": "2026-07-12T22:54:50+09:00",
@@ -4641,6 +5948,22 @@ window.AIRADAR_DATA = {
    "topics": [
     "モデル",
     "画像・音声・動画"
+   ]
+  },
+  {
+   "title": "Claude Codeで2時間。AIだけで作ったLPがSEO検索1位になり、問い合わせ100件以上、初月受注三千万円超えのノウハウを全公開。秘伝のスキルもDL可能。【SEO・ブログ自動化・診断・ホワイトペーパー】",
+   "url": "https://note.com/chaen_channel/n/n13e9b5da0e46",
+   "date": "2026-07-11T22:01:21+09:00",
+   "summary": "こんにちは、チャエン（ @masahirochaen ）です。 Claude Codeに日本語で指示しただけで、SEOに強い企業LPを約2時間で作りました。 それが「Claude Code 法人導入」で検索1位になり、いまでは問い合わせが累計100件を超え（最初の3週間で約70件）。",
+   "thumb": "https://assets.st-note.com/production/uploads/images/293855070/rectangle_large_type_2_d5d11e0c435c0f23ee605dbcdfb1c60d.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント"
    ]
   },
   {
@@ -4859,6 +6182,23 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "【2026/6/29〜7/6】週刊AIニュース《Fable 5が輸出規制を越えて世界復活、Claude Sonnet 5が一般解禁など、“最強AIを誰が使えるか”と“AIを支える半導体・制作基盤を誰が握るか”が同時に動いた1週間‼️》",
+   "url": "https://note.com/chaen_channel/n/n59a479febb8a",
+   "date": "2026-07-06T16:14:00+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 今週は Fable 5が復活 し、 Sonnet 5が一般公開 と、Claudeの土台が一気に入れ替わりました。ただ、いざ触ろうとすると「結局どのモデルを・どのプランで・何から使えばいいの？」で止まる人がほとんどです。",
+   "thumb": "https://assets.st-note.com/production/uploads/images/291882150/rectangle_large_type_2_5a6118b71454f5491f69c0af89182276.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "規制・リスク",
+    "インフラ・半導体"
+   ]
+  },
+  {
    "title": "🤗 Kernels: Major Updates",
    "url": "https://huggingface.co/blog/revamped-kernels",
    "date": "2026-07-06T09:00:00+09:00",
@@ -4871,6 +6211,22 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Claude Fable 5とは？完全復活の全経緯と使い方｜CLAUDE.md・スキル・MCPを見直すClaude Code健康診断プロンプト【7/7まで無料】",
+   "url": "https://note.com/chaen_channel/n/n7c0351d564a9",
+   "date": "2026-07-05T22:39:26+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 一度サブスクから消えて、世界中のユーザーが不満を漏らしていた最強クラスのAI「Claude Fable 5」が、7月1日に完全復活しました👏🔥ずっと待ってました。嬉しすぎます。",
+   "thumb": "https://assets.st-note.com/production/uploads/images/291556798/rectangle_large_type_2_914c212f8691eddf50fc374af66e2ae3.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント"
    ]
   },
   {
@@ -5112,6 +6468,38 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "【2026年6月22日-2026年6月29日】週間AIニュース《GPT-5.6がMythos超えも政府が公開可否を握る時代へ、メモリ高騰でApple値上げ、賢さ競争から半導体・主権・組織の総力戦へ移った1週間‼️》",
+   "url": "https://note.com/chaen_channel/n/n86e97fb8e1fa",
+   "date": "2026-06-29T18:51:32+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 今週は、ClaudeがSlackでチームの同僚になりました！（「Claude Tag」） ただ、いざ自分の業務に入れようとすると「結局どのプランで、何から触ればいいの？」で止まってしまう人がほとんどです。 Claude Codeはもう、エンジニアだけの開発ツールではありません。メール・議事録・提…",
+   "thumb": "https://assets.st-note.com/production/uploads/images/289813709/rectangle_large_type_2_910e7d120986f4fad98e2b76d6e3abe4.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント",
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "【2026年最新】GPT-5.6（Sol・Terra・Luna）とは？Mythos超えの新・最強AIを、米政府が\"20社限定\"に封じた理由を完全解説",
+   "url": "https://note.com/chaen_channel/n/n82434fd41014",
+   "date": "2026-06-28T19:57:25+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 2026年6月26日、OpenAIが新しいフラッグシップ 「GPT-5.6」 を公開しました。",
+   "thumb": "https://assets.st-note.com/production/uploads/images/289470713/rectangle_large_type_2_128bc54bc964e1a99068b87ea5b53cb8.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル"
    ]
   },
   {
@@ -5423,6 +6811,23 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "【3分で先週のAI｜6/15-6/21】Fable 5が規制で全停止、SpaceXが9.6兆円でCursor買収、ChatGPTシェア5割割れ―AI競争は「賢さ」から「誰が握るか」の総力戦へ賢さ\"競争はもう古い",
+   "url": "https://note.com/chaen_channel/n/n32387d11a191",
+   "date": "2026-06-22T14:40:13+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 今週はOpenAIがCodexに「Record & Replay（見せるだけで自動化）」を追加するなど、Codexの進化が止まりません。",
+   "thumb": "https://assets.st-note.com/production/uploads/images/287613621/rectangle_large_type_2_11a54a47b9bda1397a492e1e9b28b6ab.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "エージェント",
+    "ビジネス・資金",
+    "規制・リスク"
+   ]
+  },
+  {
    "title": "【週刊AI】Fable停止でAIアクセスが揺れる。Cursor 600億ドル買収とGLM-5.2 | #71",
    "url": "https://chatgpt-lab.com/n/ndff8933b462b",
    "date": "2026-06-21T23:53:59+09:00",
@@ -5437,6 +6842,23 @@ window.AIRADAR_DATA = {
     "モデル",
     "エージェント",
     "ビジネス・資金"
+   ]
+  },
+  {
+   "title": "【完全保存版】Claude Code 2026年6月アップデート全まとめ｜アーティファクト・Claude Design・法人対応の詳細をわかりやすく",
+   "url": "https://note.com/chaen_channel/n/n16d021ca1da7",
+   "date": "2026-06-21T21:52:53+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 2026年6月、 Claude Code まわりが一気に動きました🔥 ターミナルで動くコーディングエージェントという認識のままだと、正直もう追いつけません。この1か月で、Claude Codeは「コードを書く道具」から「 チームの仕事そのものを動かすプラットフォーム 」へと姿を変えています！",
+   "thumb": "https://assets.st-note.com/production/uploads/images/287510675/rectangle_large_type_2_4816d015cb3d3edcedb3af9fc7fe79c5.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント",
+    "開発・技術"
    ]
   },
   {
@@ -5500,6 +6922,23 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "【2026年6月8日-2026年6月15日】週間AIニュース《Claude Fable 5一般公開と停止、Geminiリアルタイム通訳、AppleのSiri AI、Kimi-K2.7-Codeなど今週も重大AIニュースが多数‼️》",
+   "url": "https://note.com/chaen_channel/n/ndc479cca0100",
+   "date": "2026-06-15T17:48:11+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 今週は、Anthropicの最新モデルがローンチ3日後に規制の影響で一夜にして停止しました。（詳細は後述します）AIサービスは、自分のミスとは関係なく突然止まることがあります。だからこそ、Claude Codeだけに依存せず「2本目」を持っておくのが安全です。",
+   "thumb": "https://assets.st-note.com/production/uploads/images/285586298/rectangle_large_type_2_c5614aa6ecdabaafc8365bd232c81182.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント",
+    "規制・リスク"
+   ]
+  },
+  {
    "title": "【週刊AI 特別号】Claude Fable 5、公開3日で全ユーザー停止。米政府の指示をめぐり何が起きたのか",
    "url": "https://chatgpt-lab.com/n/n2e3fa19494b3",
    "date": "2026-06-14T18:24:30+09:00",
@@ -5510,6 +6949,37 @@ window.AIRADAR_DATA = {
    "axis": "ai",
    "kind": "main",
    "weekly": true,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "【保存版】OpenAI Codex完全解説マニュアル｜GPT-5.6・ChatGPT Work・GPT-Live対応｜AI開発・資料作成・業務自動化の教科書《2026年7月最新版｜特典4点付き》",
+   "url": "https://note.com/chaen_channel/n/n53f1b59dbaee",
+   "date": "2026-06-14T17:40:00+09:00",
+   "summary": "無料部分だけでも約9,000文字あります。 Codexの6つの入り口、Claude Codeとの違い、プラン選び、Mac / Windowsの導入、そして日本語で頼む最低限の使い方までを丁寧に解説しています。まずは無料部分だけでもどうぞ。 有料版は5万文字超。設定13項目、プロのTips、業務活用5選、Prompt 15本、配布Skill 7本、オートメーシ…",
+   "thumb": "https://assets.st-note.com/production/uploads/images/293448664/rectangle_large_type_2_aa2352db0e1df6c73847a09b50c283e0.jpeg?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント"
+   ]
+  },
+  {
+   "title": "【2026年6月最新】Mythos級AI公開で何が変わる？Claude Fable 5の凄さ・使い方・注意点を徹底解説《3日で緊急停止の背景、プロンプト付き活用事例も紹介》",
+   "url": "https://note.com/chaen_channel/n/nde37012c013e",
+   "date": "2026-06-14T16:18:28+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 2026年6月9日、Anthropicがとんでもないモデルを出してきました！ Claude Fable 5（クロード・ファブル5）です 。「危険すぎて一般公開できない」と封印されていた Mythos（ミュトス）級のAI が、初めて誰でも使える形になったものです。",
+   "thumb": "https://assets.st-note.com/production/uploads/images/285364117/rectangle_large_type_2_37c24bda410f61429cf797294d5dbda6.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
    "topics": [
     "モデル"
    ]
@@ -5713,7 +7183,7 @@ window.AIRADAR_DATA = {
    "kind": "official",
    "weekly": false,
    "topics": [
-    "その他"
+    "新製品・デバイス"
    ]
   },
   {
@@ -5732,6 +7202,23 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "【2026年6月1日-6月8日】週刊AIニュース《Anthropic評価額9650億ドルでIPO申請 、Codex Sites“仕事の成果物”を共有アプリ化、Gemini Omniで本人アバター動画の量産が現実になど今週も重大AIニュースが多数‼️》",
+   "url": "https://note.com/chaen_channel/n/n65f3d1fd1930",
+   "date": "2026-06-08T16:14:35+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 📣 お知らせ｜Claude Code Desktopアプリ完全解説マニュアル",
+   "thumb": "https://assets.st-note.com/production/uploads/images/283541561/rectangle_large_type_2_c9da2d4722d9eaa67faedebc14e6f216.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント",
+    "ビジネス・資金"
+   ]
+  },
+  {
    "title": "Notion Workersとは？ NotionにAIエージェントの実行基盤を持ち込む新機能",
    "url": "https://chatgpt-lab.com/n/n7e6450e05407",
    "date": "2026-06-08T11:25:48+09:00",
@@ -5745,6 +7232,21 @@ window.AIRADAR_DATA = {
    "topics": [
     "エージェント",
     "開発・技術"
+   ]
+  },
+  {
+   "title": "【保存版】OpenAI「Codex Sites」完全ガイド｜\"プロンプトひとつで社内アプリがURLになる\" 仕組み・作れるもの・使い方・注意点を全部まとめた",
+   "url": "https://note.com/chaen_channel/n/n35c1678e9a98",
+   "date": "2026-06-07T23:08:42+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 2026年6月2日、OpenAIが 「Codex Sites（コーデックス・サイト）」 を発表しました。現在はBusiness/Enterprise向けにプレビュー提供されています。",
+   "thumb": "https://assets.st-note.com/production/uploads/images/283428472/rectangle_large_type_2_b9950914fde8aa0a7f7a92a684a0642d.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "エージェント"
    ]
   },
   {
@@ -5867,6 +7369,23 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "AI検索体験"
+   ]
+  },
+  {
+   "title": "【2026/5/25〜6/1】週刊AIニュース《Anthropic：最上位モデル「Claude Opus 4.8」登場、評価額9650億ドルでOpenAI超え、Apple：次期AirPodsにカメラ搭載かなど今週も重大AIニュースが多数‼️》",
+   "url": "https://note.com/chaen_channel/n/na6972f3c7065",
+   "date": "2026-06-02T16:34:38+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 📣 お知らせ｜Claude Code Desktopアプリ完全解説マニュアル",
+   "thumb": "https://assets.st-note.com/production/uploads/images/281498804/rectangle_large_type_2_5f1d5d5a6a92a44308fd5fe4068541c8.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント",
+    "ビジネス・資金"
    ]
   },
   {
@@ -6004,6 +7523,22 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "広告プロダクト"
+   ]
+  },
+  {
+   "title": "【2026/5/18〜5/25】週刊AIニュース《Google世界モデル「Gemini Omni」登場、24時間働くAI秘書「Gemini Spark」、爆速「Gemini 3.5 Flash」など今週も重大AIニュースが多数‼️》",
+   "url": "https://note.com/chaen_channel/n/n2ded01f1c4bb",
+   "date": "2026-05-25T17:51:18+09:00",
+   "summary": "みなさん、こんにちは。 チャエンです。（自己紹介は こちら ） 📣 お知らせ｜Claude Code無料セミナー第5弾",
+   "thumb": "https://assets.st-note.com/production/uploads/images/279274073/rectangle_large_type_2_5e8ee40866d882e51fc852057e29e9ed.png?width=800",
+   "source": "chaen",
+   "sourceName": "チャエン",
+   "axis": "ai",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント"
    ]
   },
   {
@@ -6264,7 +7799,7 @@ window.AIRADAR_DATA = {
    "topics": [
     "モデル",
     "エージェント",
-    "ビジネス・資金"
+    "新製品・デバイス"
    ]
   },
   {
@@ -6429,7 +7964,8 @@ window.AIRADAR_DATA = {
    "kind": "main",
    "weekly": false,
    "topics": [
-    "エージェント"
+    "エージェント",
+    "新製品・デバイス"
    ]
   },
   {
@@ -6716,6 +8252,53 @@ window.AIRADAR_DATA = {
    "kind": "pickup",
    "thumb": "",
    "weekly": false
+  },
+  {
+   "title": "Claude Agent SDK でつくる！対話型AIエージェント開発",
+   "url": "https://zenn.dev/ml_bear/books/f2d52a3bc0b33c",
+   "date": "2026-04-06T09:27:23+09:00",
+   "summary": "この本では、Claude Agent SDK (Python) を用いて、Claude Code方式の「ヒアリング → 深掘り → 成果物を出す」対話型ワークフローを持つAIエージェントを開発していきます。つくりながら学ぶことを重視し、最小限のコードでSDKを動かすところから始めて、MCP連携やサブエージェントを活用するアプリ開発まで、ステップバイステップで…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--e-2M51IY--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci84MzMwZTI1MWE3LmpwZWc=%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
+   "source": "mlbear",
+   "sourceName": "ML_Bear (Zenn)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント",
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "Anthropicに学ぶ：AIエージェント向けツール設計の5原則",
+   "url": "https://zenn.dev/ml_bear/articles/7e315756ccd31a",
+   "date": "2025-09-17T08:12:19+09:00",
+   "summary": "これはなに？ Xでも絶賛しましたが、Anthropicが発表した \"Writing effective tools for agents — with agents\" という記事が素晴らしい内容でした。 その中でも特に「Principles for writing effective tools (効果的なツールを作成するための原則)」のセクションが実践的な…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--yn9JZNsG--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Anthropic%25E3%2581%25AB%25E5%25AD%25A6%25E3%2581%25B6%25EF%25BC%259AAI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E5%2590%2591%25E3%2581%2591%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%25AE5%25E5%258E%259F%25E5%2589%2587%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ML_Bear%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2YzMzQ3NmZjMjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "mlbear",
+   "sourceName": "ML_Bear (Zenn)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "エージェント"
+   ]
+  },
+  {
+   "title": "Google公式の Nano Banana プロンプトテンプレートが参考になったので試してみた",
+   "url": "https://zenn.dev/ml_bear/articles/b58004bf5a3e6c",
+   "date": "2025-09-04T08:54:43+09:00",
+   "summary": "これはなに？ Google AI Studio が以下のX投稿で Nano Banana 向けのプロンプトテンプレートを公開していました。 個人的に画像生成のPromptingはあまり経験がなく、写経しながら試してみたところ「こんなに詳しく書かないとまともな絵が出てこないのね」と勉強になったので備忘録としてメモを残します📝 https://x.com/goo…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--e_O6ylTi--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Google%25E5%2585%25AC%25E5%25BC%258F%25E3%2581%25AE%2520Nano%2520Banana%2520%25E3%2583%2597%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2597%25E3%2583%2588%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%25E3%2581%258C%25E5%258F%2582%25E8%2580%2583%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ML_Bear%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2YzMzQ3NmZjMjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "mlbear",
+   "sourceName": "ML_Bear (Zenn)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "画像・音声・動画"
+   ]
   },
   {
    "title": "2026年広告7大予測 AIエージェント、動画広告の自動生成、詐欺広告撲滅",

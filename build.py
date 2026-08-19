@@ -43,6 +43,25 @@ FEEDS = [
     {"id": "agilabo",   "name": "AGIラボ",            "axis": "ai", "kind": "main",
      "url": "https://chatgpt-lab.com/rss", "filter": None},
 
+    # ユーザーがXで追っているアカウントの代替ソース（Xは無料APIが無く自動取得できない）
+    # @masahirochaen（チャエン）→ note
+    {"id": "chaen",     "name": "チャエン",            "axis": "ai", "kind": "main",
+     "url": "https://note.com/chaen_channel/rss", "filter": None},
+    # @MLBear2 → Zenn記事 と 自動生成ニュースレター（朝夕2回）
+    # Zennの投稿は数か月おきなので鮮度上限を緩める（既定120日だと0件になる）
+    {"id": "mlbear",    "name": "ML_Bear (Zenn)",     "axis": "ai", "kind": "jp",
+     # KEEP_DAYS(365)より大きくしても最後の間引きで落ちるので、それに合わせる
+     "url": "https://zenn.dev/ml_bear/feed", "filter": None, "max_age": 360},
+    {"id": "mlbeartimes", "name": "ML_Bear Times",    "axis": "ai", "kind": "jp",
+     "url": "https://www.ml-bear-times.com/feed", "filter": None},
+    # @itmedia_news → ITmedia NEWS 全体（AI以外も流れるのでキーワードで絞る）
+    {"id": "itmnews",   "name": "ITmedia NEWS",       "axis": "ai", "kind": "jp",
+     "url": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml", "filter": "ai"},
+    # @nikkei → 日経は公式RSSを廃止しているので Google News 経由で拾う
+    {"id": "nikkei",    "name": "日経（Google News経由）", "axis": "ai", "kind": "jp",
+     "url": "https://news.google.com/rss/search?q=AI+site:nikkei.com&hl=ja&gl=JP&ceid=JP:ja",
+     "filter": None, "clean_title": "gnews"},
+
     {"id": "itmedia",   "name": "ITmedia AI+",        "axis": "ai", "kind": "jp",
      "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml", "filter": None},
     {"id": "ainow",     "name": "AINOW",              "axis": "ai", "kind": "jp",
@@ -67,6 +86,11 @@ FEEDS = [
     {"id": "hf",        "name": "Hugging Face",       "axis": "ai", "kind": "global",
      "url": "https://huggingface.co/blog/feed.xml", "filter": None},
 
+    # 9to5Googleの全体フィードは、GoogleのAI新製品や他社の新デバイス発表だけを拾う。
+    # 日々のPixel小改良・セール・レビュー・噂は filter="launch" で落とす。
+    {"id": "9to5g",     "name": "9to5Google (新製品)", "axis": "ai", "kind": "global",
+     "url": "https://9to5google.com/feed/", "filter": "launch"},
+
     {"id": "openai",    "name": "OpenAI",             "axis": "ai", "kind": "official",
      "url": "https://openai.com/news/rss.xml", "filter": None},
     {"id": "googleai",  "name": "Google AI",          "axis": "ai", "kind": "official",
@@ -85,12 +109,9 @@ FEEDS = [
      "url": "https://ads-developers.googleblog.com/feeds/posts/default?alt=rss", "filter": None},
     {"id": "blogads",   "name": "Google Ads & Commerce", "axis": "product", "kind": "official",
      "url": "https://blog.google/products/ads-commerce/rss/", "filter": None},
-    # 9to5Googleの全体フィードはPixel/Android記事が大半で広告・検索の歩留まりが悪い。
-    # 検索カテゴリのフィードを主にし、全体フィードはキーワードで絞って取りこぼしを拾う。
+    # 9to5Googleの検索カテゴリは検索プロダクトの話なのでプロダクト軸に置く
     {"id": "9to5gs",    "name": "9to5Google (検索)",   "axis": "product", "kind": "media",
      "url": "https://9to5google.com/guides/google-search/feed/", "filter": None},
-    {"id": "9to5g",     "name": "9to5Google",         "axis": "product", "kind": "media",
-     "url": "https://9to5google.com/feed/", "filter": "product"},
 ]
 
 # filter="ai" のフィードを絞り込むキーワード
@@ -109,6 +130,30 @@ PRODUCT_KEYWORDS = [
     "search console", "bidding", "keyword", "discover", "sge",
 ]
 
+# filter="launch" 用。「AI絡み or 新デバイス」×「発表・提供開始」で、0→1の発表だけを狙う。
+# 末尾 * は語幹一致（announc* → announce / announced / announcement）。
+LAUNCH_SUBJECT = AI_KEYWORDS + [
+    "device", "hardware", "smart glasses", "glasses", "headset", "robot*",
+    "wearable", "chip", "tablet", "laptop", "デバイス", "端末", "新製品",
+    "tv", "watch", "earbuds", "speaker", "car", "xr", "vr", "ar",
+]
+LAUNCH_ANNOUNCE = [
+    "announc*", "unveil*", "launch*", "introduc*", "debut*", "reveal*",
+    "now available", "goes official", "rolling out", "rolls out", "roll out",
+    "can now", "now lets", "now supports", "gains",
+    "発表", "登場", "提供開始", "リリース", "公開", "刷新",
+]
+# セール・小ネタ・レビュー・噂・キーノート実況・色違いは 0→1 ではないので落とす。
+# "first" / "new" / "officially" は弱すぎて機種の細かい話まで通してしまうので入れない。
+LAUNCH_EXCLUDE = [
+    "deal", "deals", "freebies", "sale", "discount", "coupon", "off",
+    "how to", "tips", "review*", "hands-on", "hands on", "wallpaper*", "apk",
+    "teardown", "rumor*", "leak*", "giveaway", "best", "vs", "comparison",
+    "roundup", "live blog", "keynote", "colorway", "band", "edition",
+    "what to expect", "everything you need",
+    "値下げ", "セール", "レビュー", "噂", "リーク", "使い方",
+]
+
 # トピックタグ（軸ごとに別体系。表示順 = 優先度）
 AI_TOPIC_RULES = [
     ("モデル",     ["gpt", "claude", "gemini", "llama", "grok", "opus", "sonnet", "haiku",
@@ -116,6 +161,10 @@ AI_TOPIC_RULES = [
                     "ベンチマーク", "benchmark", "model"]),
     ("エージェント", ["エージェント", "agent", "codex", "claude code", "devin", "mcp",
                     "自律", "ワークフロー自動", "cursor", "copilot"]),
+    # 動詞（発表/launch等）を入れると要約文に当たって過剰に付くので、名詞だけで判定する
+    ("新製品・デバイス", ["新製品", "新型", "smart glasses", "headset", "wearable",
+                    "hardware", "robot*", "earbuds", "tablet", "smartphone",
+                    "端末", "デバイス", "スマホ", "ウェアラブル", "ロボット", "eyewear"]),
     ("画像・音声・動画", ["画像生成", "動画生成", "音声", "sora", "midjourney", "veo",
                     "stable diffusion", "音楽", "image", "video", "voice", "tts"]),
     ("ビジネス・資金", ["資金調達", "買収", "提携", "決算", "ipo", "投資", "billion",
@@ -277,27 +326,48 @@ def parse_feed(xml_bytes):
     return out
 
 
-_ASCII_RE = re.compile(r"^[a-z0-9 .+-]+$")
+_ASCII_RE = re.compile(r"^[a-z0-9 .+*-]+$")
 _KW_CACHE = {}
 
 
 def _match(kw, text):
-    """英数キーワードは単語境界で判定する（"Fairphone" が "ai" に当たるのを防ぐ）。"""
+    """英数キーワードは単語境界で判定する（"Fairphone" が "ai" に当たるのを防ぐ）。
+    末尾に * を付けたものは語幹一致（"launch*" が launches/launched にも当たる）。"""
     if not _ASCII_RE.match(kw):
         return kw in text
     pat = _KW_CACHE.get(kw)
     if pat is None:
-        pat = re.compile(r"(?<![a-z0-9])" + re.escape(kw) + r"(?![a-z0-9])")
+        if kw.endswith("*"):
+            pat = re.compile(r"(?<![a-z0-9])" + re.escape(kw[:-1]) + r"[a-z]*")
+        else:
+            pat = re.compile(r"(?<![a-z0-9])" + re.escape(kw) + r"(?![a-z0-9])")
         _KW_CACHE[kw] = pat
     return pat.search(text) is not None
+
+
+def _any(words, text):
+    return any(_match(w, text) for w in words)
 
 
 def passes_filter(item, mode):
     if not mode:
         return True
-    words = AI_KEYWORDS if mode == "ai" else PRODUCT_KEYWORDS
     text = (item["title"] + " " + item["summary"]).lower()
-    return any(_match(kw, text) for kw in words)
+
+    if mode == "ai":
+        return _any(AI_KEYWORDS, text)
+    if mode == "product":
+        return _any(PRODUCT_KEYWORDS, text)
+
+    if mode == "launch":
+        # 9to5Google のような一般Googleニュース向け。
+        # 「AI or 新デバイスの話」かつ「新しく発表・提供開始された」ものだけ通す。
+        # 日々のPixel小改良、セール、レビュー、噂は落とす。
+        if _any(LAUNCH_EXCLUDE, text):
+            return False
+        return _any(LAUNCH_SUBJECT, text) and _any(LAUNCH_ANNOUNCE, text)
+
+    raise ValueError("unknown filter mode: " + str(mode))
 
 
 def topics_for(item, axis):
@@ -316,7 +386,11 @@ def title_key(title):
 
 
 def load_existing():
-    """前回の data.js を読んで items を返す（累積マージ用）。"""
+    """前回の data.js を読んで items を返す（累積マージ用）。
+
+    貯めたデータにも現在のフィルタとトピック規則を再適用する。こうしないと、
+    フィルタを厳しくしても過去に取り込んだノイズが永久に残ってしまう。
+    """
     if not os.path.exists(OUT_PATH):
         return []
     try:
@@ -325,10 +399,25 @@ def load_existing():
     except (OSError, ValueError):
         log("!! data.js を読めなかったので新規作成扱いにする")
         return []
-    items = data.get("items", [])
-    for it in items:
+
+    by_id = {f["id"]: f for f in FEEDS}
+    items, dropped = [], 0
+    for it in data.get("items", []):
         it["date"] = parse_date(it.get("date"))
         it.setdefault("axis", "ai")          # 2軸化より前のデータへの後方互換
+        feed = by_id.get(it.get("source"))
+        if feed:
+            if not passes_filter(it, feed["filter"]):
+                dropped += 1
+                continue
+            it["axis"] = feed["axis"]        # 軸の付け替えにも追随させる
+            it["kind"] = feed["kind"]
+            it["sourceName"] = feed["name"]
+            it["topics"] = topics_for(it, feed["axis"])
+        items.append(it)
+
+    if dropped:
+        log("--  既存{}件が現在のフィルタに合わないため除去".format(dropped))
     return items
 
 
@@ -352,11 +441,16 @@ def main():
             continue
 
         limit = MAIN_FEED_LIMIT if feed["kind"] == "main" else PER_FEED_LIMIT
+        # 投稿頻度が低いソースは max_age で鮮度上限を個別に緩められる
+        cut = now - timedelta(days=feed.get("max_age", MAX_AGE_DAYS))
         picked = [it for it in parsed if passes_filter(it, feed["filter"])]
-        picked = [it for it in picked if it["date"] and it["date"] >= cutoff_new]
+        picked = [it for it in picked if it["date"] and it["date"] >= cut]
         picked.sort(key=lambda x: x["date"], reverse=True)
 
         for it in picked[:limit]:
+            # Google News のタイトルは末尾に " - 媒体名" が付くので落とす
+            if feed.get("clean_title") == "gnews":
+                it["title"] = re.sub(r"\s+-\s+[^\s-]{1,40}$", "", it["title"]).strip()
             it["source"] = feed["id"]
             it["sourceName"] = feed["name"]
             it["axis"] = axis

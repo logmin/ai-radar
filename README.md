@@ -69,6 +69,11 @@ python C:/Users/S19122/ai-radar/build.py
 blog.google 3か月。**SERが律速なので、自動更新を止めないこと。**
 
 `data.js` に貯める期間は `KEEP_DAYS`（既定365日）、上限は `MAX_ITEMS`（4000件）。
+フィードごとに `max_age` を書けば、そのソースだけ鮮度上限を変えられる（既定は `MAX_AGE_DAYS`=120日）。
+
+貯めたデータには**毎回その時点のフィルタとトピック規則を再適用する**。
+これがないと、フィルタを厳しくしても過去に取り込んだノイズが永久に残る。
+ソースの `axis` を付け替えた場合も既存データが追従する。
 
 ### 収集元
 
@@ -76,9 +81,9 @@ blog.google 3か月。**SERが律速なので、自動更新を止めないこ�
 
 | 区分 | ソース |
 |---|---|
-| ★最重要 | AGIラボ（chatgpt-lab.com/rss） |
-| 国内 | ITmedia AI+ / AINOW / Publickey / Zenn(AI) / ASCII.jp / PC Watch / 日経xTECH / GIGAZINE / MITTR Japan |
-| 海外 | TechCrunch AI / Hugging Face |
+| ★最重要 | AGIラボ（chatgpt-lab.com/rss）/ チャエン（note） |
+| 国内 | ITmedia AI+ / ITmedia NEWS / 日経(Google News経由) / AINOW / Publickey / Zenn(AI) / ML_Bear(Zenn) / ML_Bear Times / ASCII.jp / PC Watch / 日経xTECH / GIGAZINE / MITTR Japan |
+| 海外 | TechCrunch AI / Hugging Face / 9to5Google(新製品) |
 | 公式 | OpenAI / Google AI / Google DeepMind |
 
 **プロダクトアップデート軸**
@@ -86,11 +91,34 @@ blog.google 3か月。**SERが律速なので、自動更新を止めないこ�
 | 区分 | ソース |
 |---|---|
 | ★最重要 | Search Engine Roundtable（`/index.rdf`） |
-| 専門メディア | PPC Land / 9to5Google(検索カテゴリ) / 9to5Google(全体・絞り込み) |
+| 専門メディア | PPC Land / 9to5Google(検索カテゴリ) |
 | 公式 | Google Ads Developer Blog / blog.google Ads & Commerce |
 
-9to5Googleの全体フィードはPixel/Android記事が大半で歩留まりが悪い（100件中1件程度）。
-そのため検索カテゴリの専用フィード `guides/google-search/feed/` を主にしている。
+### Xアカウントの代替ソース
+
+Xは無料APIが廃止されていて自動取得できないため、同じ人・同じ媒体が発信している
+RSSを持つ場所に置き換えている。
+
+| 追っていたX | 代替ソース | 備考 |
+|---|---|---|
+| @ctgptlb（AGIラボ） | `chatgpt-lab.com/rss` | `agi-labo.com/home` はnoteと同一コンテンツなので追加不要 |
+| @masahirochaen（チャエン） | `note.com/chaen_channel/rss` | 週刊AIニュースもここに載る |
+| @MLBear2 | `zenn.dev/ml_bear/feed` ＋ `ml-bear-times.com/feed` | Zennは数か月おきなので `max_age` を緩めている。ML_Bear Timesは朝夕2回の自動生成ダイジェスト（タイトルが日付なので中身は開いて読む） |
+| @itmedia_news | `rss.itmedia.co.jp/rss/2.0/news_bursts.xml` | AI以外も流れるので `filter:"ai"` |
+| @nikkei | `news.google.com/rss/search?q=AI+site:nikkei.com` | 日経は公式RSSを廃止済み。Google News RSS で代替。タイトル末尾の「 - nikkei.com」は自動で削る |
+
+### 9to5Google の扱い（2フィードに分けている）
+
+全体フィードはPixel/Android記事が大半で、広告・検索の記事は100件中1件程度しかない。
+そのため用途を分けている。
+
+- **検索カテゴリ** `guides/google-search/feed/` → プロダクト軸。検索プロダクトの話が中心
+- **全体フィード** `feed/` → AI軸。`filter:"launch"` で「AI絡み or 新デバイス」×「発表・提供開始」
+  だけを通す。日々のPixel小改良、セール、レビュー、噂、キーノート実況、色違いは落とす（100件→11件）
+
+`filter:"launch"` の判定語は `LAUNCH_SUBJECT` / `LAUNCH_ANNOUNCE` / `LAUNCH_EXCLUDE`。
+`first` `new` `officially` は弱すぎて機種の細かい話まで通すので意図的に入れていない。
+キーワードによる推定なので、取りこぼしと軽いノイズは残る。
 
 ### 収集元の追加・変更
 
