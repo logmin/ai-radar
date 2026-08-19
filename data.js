@@ -1,10 +1,11 @@
 // AI Radar データ - build.py が自動生成。手で編集しない。
 window.AIRADAR_DATA = {
- "updatedAt": "2026-08-19T13:25:41.798679+09:00",
+ "updatedAt": "2026-08-19T14:12:02.567378+09:00",
  "sources": [
   {
    "id": "agilabo",
    "name": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "count": 48,
    "ok": true
@@ -12,6 +13,7 @@ window.AIRADAR_DATA = {
   {
    "id": "itmedia",
    "name": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "count": 20,
    "ok": true
@@ -19,6 +21,7 @@ window.AIRADAR_DATA = {
   {
    "id": "ainow",
    "name": "AINOW",
+   "axis": "ai",
    "kind": "jp",
    "count": 10,
    "ok": true
@@ -26,6 +29,7 @@ window.AIRADAR_DATA = {
   {
    "id": "publickey",
    "name": "Publickey",
+   "axis": "ai",
    "kind": "jp",
    "count": 10,
    "ok": true
@@ -33,6 +37,7 @@ window.AIRADAR_DATA = {
   {
    "id": "zenn",
    "name": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "count": 20,
    "ok": true
@@ -40,20 +45,23 @@ window.AIRADAR_DATA = {
   {
    "id": "ascii",
    "name": "ASCII.jp",
+   "axis": "ai",
    "kind": "jp",
-   "count": 4,
+   "count": 2,
    "ok": true
   },
   {
    "id": "impress",
    "name": "PC Watch",
+   "axis": "ai",
    "kind": "jp",
-   "count": 6,
+   "count": 5,
    "ok": true
   },
   {
    "id": "xtech",
    "name": "日経xTECH",
+   "axis": "ai",
    "kind": "jp",
    "count": 10,
    "ok": true
@@ -61,6 +69,7 @@ window.AIRADAR_DATA = {
   {
    "id": "gigazine",
    "name": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "count": 13,
    "ok": true
@@ -68,6 +77,7 @@ window.AIRADAR_DATA = {
   {
    "id": "mittr",
    "name": "MITTR Japan",
+   "axis": "ai",
    "kind": "jp",
    "count": 5,
    "ok": true
@@ -75,6 +85,7 @@ window.AIRADAR_DATA = {
   {
    "id": "techcrunch",
    "name": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "count": 20,
    "ok": true
@@ -82,20 +93,23 @@ window.AIRADAR_DATA = {
   {
    "id": "hf",
    "name": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
-   "count": 25,
+   "count": 40,
    "ok": true
   },
   {
    "id": "openai",
    "name": "OpenAI",
+   "axis": "ai",
    "kind": "official",
-   "count": 25,
+   "count": 40,
    "ok": true
   },
   {
    "id": "googleai",
    "name": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "count": 20,
    "ok": true
@@ -103,21 +117,89 @@ window.AIRADAR_DATA = {
   {
    "id": "deepmind",
    "name": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "count": 40,
+   "ok": true
+  },
+  {
+   "id": "ser",
+   "name": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "count": 15,
+   "ok": true
+  },
+  {
+   "id": "ppcland",
+   "name": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "count": 40,
+   "ok": true
+  },
+  {
+   "id": "adsdev",
+   "name": "Google Ads Developer",
+   "axis": "product",
    "kind": "official",
    "count": 25,
    "ok": true
+  },
+  {
+   "id": "blogads",
+   "name": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "count": 20,
+   "ok": true
+  },
+  {
+   "id": "9to5gs",
+   "name": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "count": 18,
+   "ok": true
+  },
+  {
+   "id": "9to5g",
+   "name": "9to5Google",
+   "axis": "product",
+   "kind": "media",
+   "count": 1,
+   "ok": true
   }
  ],
- "topics": [
-  "モデル",
-  "エージェント",
-  "画像・音声・動画",
-  "ビジネス・資金",
-  "規制・リスク",
-  "開発・技術",
-  "広告・マーケ",
-  "インフラ・半導体",
-  "その他"
+ "axes": [
+  {
+   "id": "ai",
+   "label": "AIアップデート",
+   "topics": [
+    "モデル",
+    "エージェント",
+    "画像・音声・動画",
+    "ビジネス・資金",
+    "規制・リスク",
+    "開発・技術",
+    "インフラ・半導体",
+    "その他"
+   ]
+  },
+  {
+   "id": "product",
+   "label": "プロダクトアップデート",
+   "topics": [
+    "検索・SEO",
+    "AI検索体験",
+    "広告プロダクト",
+    "計測・データ",
+    "アドテク・媒体",
+    "API・開発",
+    "ポリシー・規制",
+    "その他"
+   ]
+  }
  ],
  "items": [
   {
@@ -128,6 +210,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -143,6 +226,22 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "impress",
    "sourceName": "PC Watch",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "「AIを使える人か、使えない人か」で仕事や評価に差が？ 6割のエンジニアが実感した“AI格差”の正体",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/19/news047.html",
+   "date": "2026-08-19T13:00:00+09:00",
+   "summary": "AIを使うかどうかだけではなく、どの程度使いこなせるかも問われる中、活用スキルの差は業務効率だけではなく、仕事やキャリアにも影響し始めているという。何が起きているのか。ITエンジニア572人の調査から探る。",
+   "thumb": "",
+   "source": "itmedia",
+   "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -157,6 +256,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -172,6 +272,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -187,6 +288,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://ascii.jp/img/2026/08/19/4514370/s/fdef60eb922e333f.jpg",
    "source": "ascii",
    "sourceName": "ASCII.jp",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -201,6 +303,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -217,6 +320,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "impress",
    "sourceName": "PC Watch",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -232,10 +336,11 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
-    "広告・マーケ"
+    "その他"
    ]
   },
   {
@@ -246,6 +351,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://ascii.jp/img/2026/08/19/4514331/s/6a48b06c5a9a244e.jpg",
    "source": "ascii",
    "sourceName": "ASCII.jp",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -260,6 +366,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -274,6 +381,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -288,6 +396,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -302,6 +411,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -316,6 +426,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -331,6 +442,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -349,7 +461,8 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "広告・マーケ"
-   ]
+   ],
+   "axis": "ai"
   },
   {
    "title": "OpenAI、自らAI開発を減速 「安全より競争」を止められるか",
@@ -364,7 +477,8 @@ window.AIRADAR_DATA = {
    "topics": [
     "モデル",
     "規制・リスク"
-   ]
+   ],
+   "axis": "ai"
   },
   {
    "title": "CursorがGitHub対抗のコードホスティングサービス「Origin」を発表",
@@ -374,6 +488,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -390,6 +505,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -404,6 +520,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "impress",
    "sourceName": "PC Watch",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -418,6 +535,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--oKDzpSb9--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E7%2594%259F%25E6%2588%2590%25E3%2581%2597%25E3%2581%259F%25E3%2583%2594%25E3%2582%25AF%25E3%2582%25BB%25E3%2583%25AB%25E3%2582%25AD%25E3%2583%25A3%25E3%2583%25A9%25E3%2582%25AF%25E3%2582%25BF%25E3%2583%25BC%25E3%2582%2592Godot%25E3%2581%25B8%25E5%258F%2596%25E3%2582%258A%25E8%25BE%25BC%25E3%2582%2580%25E3%2583%2591%25E3%2582%25A4%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25B3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%2592%25E3%2583%25AD%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQ3MzZmYmQ0NzAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -432,6 +550,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--FrPhVGYX--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258BAI%25E9%25A7%2586%25E5%258B%2595%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AE%25E5%258B%2598%25E6%2589%2580%25EF%25BC%259A%25E7%25AC%25AC2%25E5%259B%259E%25E3%2580%2591AI%25E3%2581%258C%25E6%259B%25B8%25E3%2581%2584%25E3%2581%259F%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AB%25E4%25BB%2595%25E8%25BE%25BC%25E3%2581%25BE%25E3%2582%258C%25E3%2582%258B%25E6%25AC%25A0%25E9%2599%25A5%25E3%2582%2592%25E8%25A6%258B%25E6%258A%259C%25E3%2581%258F%25E3%2581%25AB%25E3%2581%25AF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:wfukatsu%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzIyYWQ5MTcyZjMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Scalar%2520Solution%2520Engi...%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzBhZjQwOTk3NDYuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -446,6 +565,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--aLAlr4W_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:744B%25E3%2581%25AEGLM-5.2%25E3%2582%259225GB%25E3%2581%25AERAM%25E3%2581%25A7%25E5%258B%2595%25E3%2581%258B%25E3%2581%2599colibri%25E3%2580%2581%25E3%2582%25A8%25E3%2582%25AD%25E3%2582%25B9%25E3%2583%2591%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%25E3%2583%2587%25E3%2582%25A3%25E3%2582%25B9%25E3%2582%25AF%25E3%2581%258B%25E3%2582%2589%25E6%25B5%2581%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25A8%25E3%2581%2586%25E3%2582%2582%25E3%2582%258D%25E3%2581%2593%25E3%2581%2597%25E8%258C%25B6%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSW96UXYxMFhOSmoybmNYTlZkQzFRV1IxV2UxZHVyMy1FeHlhd19tTno1MkZJT3NyRzFzQT1zOTYtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -461,6 +581,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--rcFj7GPU--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%258C%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25A7%25E5%25AE%2588%25E3%2582%258B%25E3%2580%258C1%25E3%2583%25A9%25E3%2582%25A6%25E3%2583%25B3%25E3%2583%25891%2520push%25E3%2580%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:miyakona%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc0MzEzNDFiODYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -475,6 +596,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -489,6 +611,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--xxmtVnYz--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E3%2581%25A9%25E3%2581%2593%25E3%2581%258C%25E9%2581%2585%25E3%2581%2584%25E3%2580%258D%25E3%2580%258C%25E3%2581%25A9%25E3%2581%2593%25E3%2581%25A7%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%2597%25E3%2581%259F%25E3%2580%258D%25E3%2582%2592%25E5%258B%2598%25E3%2581%25A7%25E6%258E%25A2%25E3%2581%2599%25E3%2581%25AE%25E3%2582%2592%25E3%2582%2584%25E3%2582%2581%25E3%2581%259F%2520%25E2%2580%2595%2520%25E9%2596%258B%25E7%2599%25BA%25E4%25B8%25AD%25E3%2581%25AE%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E5%258F%25AF%25E8%25A6%25B3%25E6%25B8%25AC%25E6%2580%25A7%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E5%25B0%258F%25E5%25B7%259D%25E5%25B9%25B9%25E9%259B%2584%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRjN2FhNTMzZmYuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:DataRobot%2520Japan%2520Tech%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSXdtS3dQM3dzMEtYM0l1V2hxT3Vwa1ZLOWtCcjVKWjJubWpBSEVtUEhsR25rUlFRTWY9czI1MC1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -503,6 +626,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--Qu55wR2Y--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Agents%2520on%2520Guren%253A%2520AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E8%2587%25AA%25E4%25BD%259C%25E3%2583%2595%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%25A0%25E3%2583%25AF%25E3%2583%25BC%25E3%2582%25AF%25E3%2582%2592360%25E5%259B%259E%25E8%25A7%25A3%25E3%2581%258B%25E3%2581%259B%25E3%2581%25A6%25E3%2582%258F%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Daiki%2520Urata%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2luUk9ncUNFbm9DQ2NnZ0NVR0k0b1k4R3ByYUVNdE1XRF9qR1plWXc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -518,6 +642,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--9EIorNba--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:44.%2520AI%25E3%2581%25AE%25E5%2588%25A4%25E6%2596%25AD%25E5%259F%25BA%25E6%25BA%2596%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E8%25B3%2587%25E6%2596%2599%25E3%2581%258B%25E3%2582%2589%25E4%25BD%259C%25E3%2582%258B%25E3%2580%2590%25E8%25AA%25BF%25E6%259F%25BB%25E7%25B7%25A8%25E3%2580%2591%25E2%2580%2594%2520%25E6%25A4%259C%25E7%25B4%25A2%25E8%25A6%2581%25E7%25B4%2584%25E3%2582%2592%25E4%25BF%25A1%25E3%2581%2598%25E3%2581%259A803%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%2592%25E5%25AE%259F%25E6%25B8%25AC%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:yamada-ai-dev%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUR2ZDZHcjlqTjdCUnhjX3BDTlpIVTlNQUpoR0pvWllTS2Q5dFFzalJzaG44RmlnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -532,6 +657,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--HPihrm0e--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BD%259C%25E6%25A5%25AD%25E6%258C%2587%25E7%25A4%25BA%25E6%259B%25B8%25E3%2581%25AF%25E3%2580%2581%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%258B%25E3%2581%259B%25E3%2581%25AA%25E3%2581%2584%2520%25E2%2580%2595%2520%25E8%25A8%25AD%25E8%25A8%2588AI%25E3%2581%25A8%25E3%2581%25AE%25E3%2582%2584%25E3%2582%258A%25E5%258F%2596%25E3%2582%258A%25E3%2582%2592%25E5%2585%25A8%25E9%2583%25A8%25E8%25A6%258B%25E3%2581%259B%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:R2-san%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTFNiVUpuVzdEUFBlcG9JZlRSSVZSWUg4S1N3NnU4TWxRMHFyVHpwYUpHY1JUWjdKaW9ldz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -546,6 +672,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--Xgm9eTcD--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25AD%2590%25E9%2580%25A3%25E3%2582%258C%25E5%25AE%25BF%25E7%25B4%25841%252C900%25E8%25BB%2592%25E3%2581%25AE%25E6%25A4%259C%25E8%25A8%25BC%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2582%2592MCP%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2581%25A7%25E7%2584%25A1%25E6%2596%2599%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:guusuu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2YxNGVjODAzNWEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -561,6 +688,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--EaaJ_6pN--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%2592%25E5%2585%25A8%25E5%2593%25A1%25E3%2581%25AB%25E9%2585%258D%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%2582%25E7%2594%259F%25E7%2594%25A3%25E6%2580%25A7%25E3%2581%258C%25E8%2590%25BD%25E3%2581%25A1%25E3%2581%25AA%25E3%2581%2584%25E7%25B5%2584%25E7%25B9%2594%25E3%2581%258C%25E5%2582%2599%25E3%2581%2588%25E3%2582%258B%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mahitotsu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUdObXl4YlNHZHlEUlp4WmdETF81ZE1pcklOZkwyN1ExSHZKX2hVa3p5SzQ9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -575,6 +703,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -589,6 +718,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -603,6 +733,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -617,6 +748,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--7BV9LzET--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%259D%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2588%25E5%25A4%25B1%25E5%258A%25B9%25E3%2581%25A7%25E6%2590%258D%25E3%2581%2597%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E3%2580%2581%25E3%2582%25B9%25E3%2582%25AF%25E3%2582%25B7%25E3%2583%25A7%25E3%2582%2592%25E9%2580%2581%25E3%2582%258B%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A7%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E8%25B0%25B7%25E5%258F%25A3%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJmMDg2MDNhZjQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -631,6 +763,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--MwgbbU5M--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Agent%2520Framework%25E3%2581%25AEagent-hooks%25E3%2581%25AF%25E3%2580%2581deny%25E3%2581%25A7%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%25A0%25E3%2581%258C1%25E6%2596%2587%25E5%25AD%2597%25E3%2582%2582%25E5%2587%25BA%25E3%2581%25AA%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Kazu_AzureAI%25E9%2596%258B%25E6%258B%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RiNjQ2OWU3OGEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -646,6 +779,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--JBlnUqXl--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E9%259D%259E%25E5%25AF%25BE%25E5%25BF%259C%25E3%2583%2597%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25BF%25E3%2581%25AEmacOS%25E7%2594%25A8%25E3%2583%2589%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2590%25E8%2587%25AA%25E4%25BD%259C%25EF%25BC%2581AI%25E3%2582%2592%25E6%25B4%25BB%25E7%2594%25A8%25E3%2581%2597%25E3%2581%259F%25E4%25BD%258E%25E3%2583%25AC%25E3%2582%25A4%25E3%2583%25A4%25E5%2588%25B6%25E5%25BE%25A1%25E3%2581%25AE%25E5%25AE%259F%25E8%25B7%25B5%25E4%25BA%258B%25E4%25BE%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%2594%25B0%25E4%25B8%25AD%25E6%25A0%25B9%25E5%25B0%258F%25E4%25BB%258B%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS2ZJTlVWMXNGNFFjSFpoSkNrbTBOMGJENEo3Y2dMNHZMMjRvdjJIam01akRnNXlLeHU9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -662,6 +796,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--BlrzygDX--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E6%258A%2580%25E8%25A1%2593%25E3%2581%25AF%25E3%2582%2582%25E3%2581%2586%25E7%2584%25A1%25E4%25BE%25A1%25E5%2580%25A4%25E3%2581%25A7%25E3%2580%2581%25E3%2581%259D%25E3%2582%258D%25E3%2581%25B0%25E3%2582%2593%25E3%2581%25AE%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AA%25E5%25AD%2598%25E5%259C%25A8%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:yskms%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSURoZjI1RGxMTmxoRTR1eXpMcEtxLWxzWUY1TDJ3U3VDZHh4SEpTcl82cXZrSGtzVT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -676,6 +811,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -691,6 +827,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -706,6 +843,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "xtech",
    "sourceName": "日経xTECH",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -720,6 +858,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "xtech",
    "sourceName": "日経xTECH",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -734,6 +873,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -748,6 +888,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -762,6 +903,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -776,6 +918,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "xtech",
    "sourceName": "日経xTECH",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -790,6 +933,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "xtech",
    "sourceName": "日経xTECH",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -804,6 +948,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "xtech",
    "sourceName": "日経xTECH",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -819,6 +964,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -834,6 +980,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "mittr",
    "sourceName": "MITTR Japan",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -848,12 +995,149 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--Ms6jXUUR--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%25A4%2587%25E6%2595%25B0%25E3%2581%25AE%25E7%2594%259F%25E6%2588%2590AI%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%25E3%2582%2592%25E4%25B8%2580%25E3%2581%25A4%25E3%2581%25AEAPI%25E3%2581%25A7%25E5%2588%2587%25E3%2582%258A%25E6%259B%25BF%25E3%2581%2588%25E3%2582%258B%25E8%25A8%25AD%25E8%25A8%2588%25E3%2583%2591%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%25B3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:HiAPI%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvaC5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
     "モデル",
     "画像・音声・動画",
     "開発・技術"
+   ]
+  },
+  {
+   "title": "Brands named in ChatGPT's own query win mentions 33x more often",
+   "url": "https://ppc.land/brands-named-in-chatgpts-own-query-win-mentions-33x-more-often/",
+   "date": "2026-08-19T06:09:21+09:00",
+   "summary": "Only 3.1% of 3,554 retrieved pages earned a citation, and 21 of 27 first queries carried brands nobody typed. Where does technical AI visibility work land?",
+   "thumb": "https://ppc.land/content/images/2026/08/mentions.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "AI検索体験"
+   ]
+  },
+  {
+   "title": "Teads gains exclusive 10-day Black Friday takeover of V smart TV screens",
+   "url": "https://ppc.land/teads-gains-exclusive-10-day-black-friday-takeover-of-v-smart-tv-screens/",
+   "date": "2026-08-19T06:06:48+09:00",
+   "summary": "Hardware-level targeting by screen size and room placement reaches 30 markets, a first for CTV buyers. How does it fit Nexxen's exclusive North American rights?",
+   "thumb": "https://ppc.land/content/images/2026/08/access-1.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "アドテク・媒体"
+   ]
+  },
+  {
+   "title": "Nano Interactive Screen Graph fills missing CTV episode and cast data",
+   "url": "https://ppc.land/nano-interactive-screen-graph-fills-missing-ctv-episode-and-cast-data/",
+   "date": "2026-08-19T05:57:44+09:00",
+   "summary": "Content sensitivity flags for addiction, abuse and violence reach CTV planners, with segments updating in real time. Coverage, partners and pricing undisclosed.",
+   "thumb": "https://ppc.land/content/images/2026/08/missing-CTV-episode-and-cast-data.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "アドテク・媒体"
+   ]
+  },
+  {
+   "title": "DeepIntent gains Vistar DOOH and point-of-care inventory in its DSP",
+   "url": "https://ppc.land/deepintent-gains-vistar-dooh-and-point-of-care-inventory-in-its-dsp/",
+   "date": "2026-08-19T05:53:00+09:00",
+   "summary": "Vistar screens across transit hubs, retail, offices and airports open to pharma buyers 12 weeks after three EHR deals. Can DOOH be measured on script lift?",
+   "thumb": "https://ppc.land/content/images/2026/08/health-dooh.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "アドテク・媒体",
+    "API・開発"
+   ]
+  },
+  {
+   "title": "xAI loses Texas venue bid as court finds Grok terms too faint to bind",
+   "url": "https://ppc.land/xai-loses-texas-venue-bid-as-court-finds-grok-terms-too-faint-to-bind/",
+   "date": "2026-08-19T05:52:19+09:00",
+   "summary": "Judge Freeman ruled gray-on-black links on two Grok screens formed no contract at all. Sites skipping checkbox consent now face wider class action exposure.",
+   "thumb": "https://ppc.land/content/images/2026/08/terms.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "計測・データ"
+   ]
+  },
+  {
+   "title": "Startpage wins built-in Firefox search slot in 5 European countries",
+   "url": "https://ppc.land/startpage-wins-built-in-firefox-search-slot-in-5-european-countries/",
+   "date": "2026-08-19T05:37:08+09:00",
+   "summary": "Firefox users already ran over a billion Startpage queries a year through add-ons. Exa now powers AI answers and NVIDIA opens 2,000 games. Who gets defaults?",
+   "thumb": "https://ppc.land/content/images/2026/08/search.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "LiveRamp executives lose merger pay vote by 44.3m votes to 7.3m",
+   "url": "https://ppc.land/liveramp-executives-lose-merger-pay-vote-by-44-3m-votes-to-7-3m/",
+   "date": "2026-08-19T05:34:22+09:00",
+   "summary": "Merger itself cleared with 51.6m shares in favour, only 60,073 against, sending RampID toward Publicis. The pay rebuke is advisory and does not bind the board.",
+   "thumb": "https://ppc.land/content/images/2026/08/LiveRamp.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Apple kills EU per-install fee for 5% commission on non-App Store sales",
+   "url": "https://ppc.land/apple-kills-eu-per-install-fee-for-5-commission-on-non-app-store-sales/",
+   "date": "2026-08-19T05:23:47+09:00",
+   "summary": "Developers face a 26% App Store commission and 20% with alternative payments. Every EU developer moves to one set of terms on October 1, locked for 12 months.",
+   "thumb": "https://ppc.land/content/images/2026/08/apple-europe.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "API・開発"
+   ]
+  },
+  {
+   "title": "Google's third spam update of 2026 hits every language and region",
+   "url": "https://ppc.land/googles-third-spam-update-of-2026-hits-every-language-and-region/",
+   "date": "2026-08-19T05:22:02+09:00",
+   "summary": "Rollout began at 09:27 Pacific on August 18 and may run for several days across every market. Ranking swings on August 12 and 13 now have a candidate cause.",
+   "thumb": "https://ppc.land/content/images/2026/08/spam-update.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "検索・SEO"
    ]
   },
   {
@@ -864,6 +1148,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--M6dnEi9l--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AF%25E3%2580%258C%25E7%25BE%25A4%25E3%2582%258C%25E3%2580%258D%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E5%25A3%258A%25E3%2582%258C%25E3%2582%258B%2520%25E2%2580%2594%25E2%2580%2594%25E5%2590%2584%25E5%2587%25BA%25E5%258A%259B%25E3%2582%2592%25E6%25A4%259C%25E8%25A8%25BC%25E3%2581%2597%25E3%2581%25A6%25E3%2582%2582%25E3%2580%2581%25E9%2585%258D%25E5%2582%2599%25E3%2581%258C%25E5%25A3%258A%25E3%2581%2599%25E6%2596%25B0%25E3%2581%2597%25E3%2581%2584%25E6%25AC%25A1%25E5%2585%2583%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ryok%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc3MjU0NDY4YzUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -879,6 +1164,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -893,6 +1179,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "xtech",
    "sourceName": "日経xTECH",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -907,6 +1194,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "xtech",
    "sourceName": "日経xTECH",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -921,6 +1209,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "xtech",
    "sourceName": "日経xTECH",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -935,6 +1224,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "xtech",
    "sourceName": "日経xTECH",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -949,6 +1239,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "xtech",
    "sourceName": "日経xTECH",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -963,6 +1254,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -977,6 +1269,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--t-tLDhMf--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2588%25E3%2583%25B3%25E3%2583%2588%25E3%2583%25B3%25E3%2583%2588%25E3%2583%25B3%25E3%2583%2588%25E3%2583%25B3%25E6%2597%25A5%25E9%2587%258E%25E3%2581%25AE2%25E3%2583%2588%25E3%2583%25B3%2520%25E2%2580%2595%2520%25E9%2581%258A%25E3%2581%25B3%25E3%2582%2592%25E8%25A6%25B3%25E6%25B8%25AC%25E3%2581%2597%25E3%2582%2588%25E3%2581%2586%25E3%2581%25A8%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E8%25A6%25B3%25E6%25B8%25AC%25E3%2581%2595%25E3%2582%258C%25E3%2581%25A6%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25AF%25E7%25A7%2581%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2520%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%2520Pomodoro%25E3%2583%258A%25E3%2582%25AA%25E3%2583%259F%2520%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzAzMDEzYTkzOTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -991,6 +1284,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--XUGhyM10--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E3%2580%258E%25E5%258B%259D%25E7%258E%258788%2525%25E3%2581%25AE%25E7%2599%25BA%25E8%25A6%258B%25E3%2580%258F%25E3%2582%2592%25E6%25A4%259C%25E8%25A8%25BC%25E3%2581%25A7%25E6%25AE%25BA%25E3%2581%2599%25E3%2581%25BE%25E3%2581%25A7%2520%25E2%2580%2594%2520%25E8%25A8%2588%25E6%25B8%25AC%25E3%2582%25A2%25E3%2583%25BC%25E3%2583%2586%25E3%2582%25A3%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25AF%25E3%2583%25882%25E3%2581%25A4%25E3%2581%25AE%25E5%25AE%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:WD%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzA0Y2E3NGQ0NTguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1005,6 +1299,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--gx5tofeB--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25BC%25E3%2583%25AD%25E3%2581%258B%25E3%2582%2589%25E5%25A7%258B%25E3%2582%2581%25E3%2582%258BClaude%2520Code%2520%252311%2520%25E5%25AE%259F%25E8%25B7%25B5%25E7%25B7%25A8%25EF%25BC%259A%25E5%2588%259D%25E3%2582%2581%25E3%2581%25A6%25E3%2581%25AE%25E8%2587%25AA%25E4%25BD%259C%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2580%2581%25E3%2583%259D%25E3%2583%25A2%25E3%2583%2589%25E3%2583%25BC%25E3%2583%25AD%25E3%2582%25BF%25E3%2582%25A4%25E3%2583%259E%25E3%2583%25BC%25E3%2582%2592%25E4%25B8%2580%25E7%25B7%2592%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25BF%25E3%2581%258B%2520%25E3%2581%2582%25E3%2582%2593%25E3%2581%25A9%2520%25E3%2581%2593%25E3%2581%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZkNjRjNGU5ZGQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1020,6 +1315,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1034,6 +1330,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://res.cloudinary.com/zenn/image/upload/s--7p1F_vgf--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520Agent%25E3%2582%2592%25E3%2583%2587%25E3%2583%2590%25E3%2583%2583%25E3%2582%25B0%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%258A%25E3%2581%25AA%25E3%2581%2595%25E3%2581%2584%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvbi5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "source": "zenn",
    "sourceName": "Zenn (AI)",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1048,6 +1345,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1062,6 +1360,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1076,7 +1375,98 @@ window.AIRADAR_DATA = {
    "thumb": "https://ainow.ai/wp-content/uploads/2026/08/thumbnail-6.jpg",
    "source": "ainow",
    "sourceName": "AINOW",
+   "axis": "ai",
    "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Google August 2026 Spam Update Has Been Unleashed",
+   "url": "https://www.seroundtable.com/google-august-2026-spam-update-41895.html",
+   "date": "2026-08-19T01:45:00+09:00",
+   "summary": "Google has just announced the release of the August 2026 spam update and said it should only take a few days to roll out. This is a global update and is expected to impact all lang…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "検索・SEO"
+   ]
+  },
+  {
+   "title": "Explaining GPTBot",
+   "url": "https://ppc.land/gptbot/",
+   "date": "2026-08-19T01:39:29+09:00",
+   "summary": "GPTBot is OpenAI's training crawler for foundation models. The robots.txt token, user agent versions, published IP ranges, blocking rates and the open disputes.",
+   "thumb": "https://ppc.land/content/images/2026/08/GPTBot.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Explaining Applebot",
+   "url": "https://ppc.land/applebot/",
+   "date": "2026-08-19T01:36:11+09:00",
+   "summary": "Applebot is Apple's web crawler, indexing pages for Spotlight, Siri and Safari and feeding foundation model training. Three separate robots controls govern it.",
+   "thumb": "https://ppc.land/content/images/2026/08/Applebot.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "検索・SEO"
+   ]
+  },
+  {
+   "title": "Explaining Bytespider",
+   "url": "https://ppc.land/bytespider/",
+   "date": "2026-08-19T01:25:39+09:00",
+   "summary": "Bytespider is ByteDance's web crawler, gathering page content for Toutiao search and AI model training. It is among the most blocked and disputed bots online.",
+   "thumb": "https://ppc.land/content/images/2026/08/Bytespider.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Explaining Demand Gen",
+   "url": "https://ppc.land/demand-gen/",
+   "date": "2026-08-19T01:23:21+09:00",
+   "summary": "Demand Gen is Google's visual campaign type for image and video ads on YouTube, Discover, Gmail, Maps and the Display Network. Mechanics, history, disputes.",
+   "thumb": "https://ppc.land/content/images/2026/08/Demand-Gen.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Google wins bankrupt Spirit Airlines data for $10 million",
+   "url": "https://ppc.land/google-wins-bankrupt-spirit-airlines-data-for-10-million/",
+   "date": "2026-08-19T01:19:42+09:00",
+   "summary": "Mercor.io bid $7.5 million and lost. Assets cover 100 million emails, 30 million lines of code and 7.5 billion transactions. Judge rules on the sale August 19.",
+   "thumb": "https://ppc.land/content/images/2026/08/sold-data.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
    "weekly": false,
    "topics": [
     "その他"
@@ -1090,10 +1480,41 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Spotify editors gain public profiles as Playlist Notes reach 6 markets",
+   "url": "https://ppc.land/spotify-editors-gain-public-profiles-as-playlist-notes-reach-6-markets/",
+   "date": "2026-08-19T01:17:33+09:00",
+   "summary": "User notes ship on iOS and Android in more than 100 markets, against an editor rollout in only six. Named playlists double as Sponsored Playlist inventory.",
+   "thumb": "https://ppc.land/content/images/2026/08/spotify.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "アドテク・媒体"
+   ]
+  },
+  {
+   "title": "Explaining doorway pages",
+   "url": "https://ppc.land/doorway-pages/",
+   "date": "2026-08-19T01:15:54+09:00",
+   "summary": "Doorway pages are sets of near identical pages built to rank for similar queries and funnel visitors elsewhere. Google renamed the policy doorway abuse in 2024.",
+   "thumb": "https://ppc.land/content/images/2026/08/doorway.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "ポリシー・規制"
    ]
   },
   {
@@ -1104,6 +1525,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "publickey",
    "sourceName": "Publickey",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1120,11 +1542,27 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "publickey",
    "sourceName": "Publickey",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
     "エージェント",
     "開発・技術"
+   ]
+  },
+  {
+   "title": "Daily Search Forum Recap: August 18, 2026",
+   "url": "https://www.seroundtable.com/recap-08-18-2026-41885.html",
+   "date": "2026-08-18T23:00:00+09:00",
+   "summary": "Here is a recap of what happened in the search forums today...",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "その他"
    ]
   },
   {
@@ -1135,6 +1573,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1149,6 +1588,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1163,7 +1603,84 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "You Can Now Edit Your Handle On Google Search Profiles",
+   "url": "https://www.seroundtable.com/google-search-profiles-edit-your-handle-41886.html",
+   "date": "2026-08-18T20:51:00+09:00",
+   "summary": "As expected, Google is now enabling those with Google Search Profiles to edit their handle, their short name. This is available by going to your Google Search Profile, click Edit p…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Google Related Searches For With Underline Hyperlink",
+   "url": "https://www.seroundtable.com/google-related-search-for-underline-41846.html",
+   "date": "2026-08-18T20:41:00+09:00",
+   "summary": "Google is testing underlining and maybe hyperlinking the word in the related searches for section of the search results. Normally, that section is not underlined, but for some reas…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "ChatGPT Ads Switching Advertisers On Load",
+   "url": "https://www.seroundtable.com/chatgpt-ads-switching-advertisers-41883.html",
+   "date": "2026-08-18T20:31:00+09:00",
+   "summary": "Sometimes when you look at the ads within OpenAI's ChatGPT, you might notice an ad from one advertiser first loads and then it quickly blinks and loads a different advertiser. I su…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "AI検索体験",
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Google AdSense Will Stop Euro-Denominated Check Payments August 7",
+   "url": "https://www.seroundtable.com/google-adsense-drops-euro-denominated-check-payments-41817.html",
+   "date": "2026-08-18T20:21:00+09:00",
+   "summary": "Google is dropping support for Euro-denominated check payments for AdSense publishers after August 7, 2026. Google wrote this as a note in this document saying, \"Effective August 7…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Google Search Will Eventually Support HTTP QUERY Method",
+   "url": "https://www.seroundtable.com/google-support-http-query-method-41882.html",
+   "date": "2026-08-18T20:11:00+09:00",
+   "summary": "Gary Illyes from Google said Google Search will eventually support the new HTTP QUERY method. He said as the \"ecosystem catches up\" Google will then support the HTTP QUERY method.",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
    "weekly": false,
    "topics": [
     "その他"
@@ -1177,6 +1694,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "impress",
    "sourceName": "PC Watch",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1191,6 +1709,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -1205,6 +1724,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -1219,6 +1739,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -1233,6 +1754,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1247,6 +1769,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1262,6 +1785,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1278,6 +1802,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -1292,6 +1817,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "impress",
    "sourceName": "PC Watch",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1306,6 +1832,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1321,10 +1848,71 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "gigazine",
    "sourceName": "GIGAZINE",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Explaining campaign",
+   "url": "https://ppc.land/campaign/",
+   "date": "2026-08-18T15:08:12+09:00",
+   "summary": "Campaign is the container an ad platform uses to hold budget, objective, bidding strategy and delivery rules, sitting between the account and the ad group.",
+   "thumb": "https://ppc.land/content/images/2026/08/Campaign.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Explaining flight",
+   "url": "https://ppc.land/flight/",
+   "date": "2026-08-18T15:05:21+09:00",
+   "summary": "Flight is the start and end date range in which a campaign may serve. Pacing maths, budget caps, makegoods and cancellation rights all hang off those two dates.",
+   "thumb": "https://ppc.land/content/images/2026/08/Flight.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Explaining PMax",
+   "url": "https://ppc.land/pmax/",
+   "date": "2026-08-18T15:03:12+09:00",
+   "summary": "PMax, short for Performance Max, is the Google Ads campaign type buying across every Google surface from one campaign. How it works, and where it is contested.",
+   "thumb": "https://ppc.land/content/images/2026/08/pmax.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Google pushes budget-capped campaigns back up to target CPA",
+   "url": "https://ppc.land/google-pushes-budget-capped-campaigns-back-up-to-target-cpa/",
+   "date": "2026-08-18T14:46:07+09:00",
+   "summary": "Google began lifting budget-capped Target CPA and ROAS campaigns toward their stated targets on August 17, across Search, Shopping, Travel and Performance Max.",
+   "thumb": "https://ppc.land/content/images/2026/08/google-ads-target-cpa.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
    ]
   },
   {
@@ -1339,6 +1927,22 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "その他"
+   ],
+   "axis": "ai"
+  },
+  {
+   "title": "The search channel has two dialects and one glossary",
+   "url": "https://ppc.land/search-channel-two-dialects/",
+   "date": "2026-08-18T14:38:17+09:00",
+   "summary": "A grid of sixteen terms drawn from the paid and organic sides of search, where one group has nothing to do with advertising until you look at it twice.",
+   "thumb": "https://ppc.land/content/images/2026/08/Search-AI-Game.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
    ]
   },
   {
@@ -1349,6 +1953,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1363,6 +1968,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1377,6 +1983,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1391,6 +1998,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -1405,6 +2013,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1420,6 +2029,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1435,6 +2045,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "itmedia",
    "sourceName": "ITmedia AI+",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1453,7 +2064,8 @@ window.AIRADAR_DATA = {
    "weekly": false,
    "topics": [
     "その他"
-   ]
+   ],
+   "axis": "ai"
   },
   {
    "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
@@ -1463,6 +2075,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1477,10 +2090,41 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "mittr",
    "sourceName": "MITTR Japan",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Explaining YouTube Views",
+   "url": "https://ppc.land/explaining-youtube-views/",
+   "date": "2026-08-18T05:06:16+09:00",
+   "summary": "YouTube views count how many times a video was played. From August 24, 2026 the counter fires on the first frame across every format, inflating public totals.",
+   "thumb": "https://ppc.land/content/images/2026/08/YouTube-Video-Views.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "YouTube makes a view an impression across all formats from August 24",
+   "url": "https://ppc.land/youtube-makes-a-view-an-impression-across-all-formats-from-august-24/",
+   "date": "2026-08-18T04:56:36+09:00",
+   "summary": "YouTube counts views from the first frame across Shorts, long-form and live streams on August 24. Public counters inflate. Creator pay stays on engaged views.",
+   "thumb": "https://ppc.land/content/images/2026/08/youtube-lader.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "アドテク・媒体"
    ]
   },
   {
@@ -1491,10 +2135,178 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Similarweb opens AI ad data as 26% of ChatGPT replies carry sponsored ads",
+   "url": "https://ppc.land/similarweb-opens-ai-ad-data-as-26-of-chatgpt-replies-carry-sponsored-ads/",
+   "date": "2026-08-18T03:31:36+09:00",
+   "summary": "Nearly 30% of ad-eligible Google AI Mode queries now show ads, yet advertisers cannot segment them in Google Ads reporting. Can a vendor panel close that gap?",
+   "thumb": "https://ppc.land/content/images/2026/08/AI-Ads.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "AI検索体験",
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "EU AI Office opens three complaint routes covering Google and Meta systems",
+   "url": "https://ppc.land/eu-ai-office-opens-three-complaint-routes-covering-google-and-meta-systems/",
+   "date": "2026-08-18T03:22:46+09:00",
+   "summary": "Downstream providers get an email route to report Articles 53 to 55 breaches. Complainants must identify themselves. Who files first against a model provider?",
+   "thumb": "https://ppc.land/content/images/2026/08/AI-Complaints.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "OpenAI gains 2 Latin American markets for ChatGPT ads, reaching 9 total",
+   "url": "https://ppc.land/openai-gains-2-latin-american-markets-for-chatgpt-ads-reaching-9-total/",
+   "date": "2026-08-18T03:15:40+09:00",
+   "summary": "Advertisers in both countries get the Ads Solutions team, partners and the self-serve Ads Manager on day one, unlike the UK. Which markets stay unlit in 2026?",
+   "thumb": "https://ppc.land/content/images/2026/08/open-ai-2-new-countries-with-ads.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "AI検索体験",
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Blood Cancer UK loses 53% of leukaemia page views to Google AI answers",
+   "url": "https://ppc.land/blood-cancer-uk-loses-53-of-leukaemia-page-views-to-google-ai-answers/",
+   "date": "2026-08-18T02:57:48+09:00",
+   "summary": "Community forum visits rose 86% over the same period, while Save the Children logged 303% more AI Overview appearances. Where does charity traffic go next?",
+   "thumb": "https://ppc.land/content/images/2026/08/charities.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Apple faces four-month deadline to redesign ATT prompt in Germany",
+   "url": "https://ppc.land/apple-faces-four-month-deadline-to-redesign-att-prompt-in-germany/",
+   "date": "2026-08-18T02:51:40+09:00",
+   "summary": "Warning hand symbol goes, and app publishers get 4,000 characters to explain ads. Commitments bind for seven years. Will other EU markets inherit the design?",
+   "thumb": "https://ppc.land/content/images/2026/08/ATT-Apple-Germany.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Apple adds 4,656 IP addresses to Applebot crawler in one update",
+   "url": "https://ppc.land/apple-adds-4-656-ip-addresses-to-applebot-crawler-in-one-update/",
+   "date": "2026-08-18T02:49:36+09:00",
+   "summary": "Merj's monitor logged 21 new CIDR prefixes at 00:49, taking the published pool to 7,056 addresses. Apple has issued no statement about the capacity increase.",
+   "thumb": "https://ppc.land/content/images/2026/08/apple-bots.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Google today forces overperforming CPAs up across 5 campaign types",
+   "url": "https://ppc.land/google-today-forces-overperforming-cpas-up-across-5-campaign-types/",
+   "date": "2026-08-18T02:44:39+09:00",
+   "summary": "Overperformers on Target CPA and ROAS drift toward stated figures in Search, Shopping, PMax, Demand Gen and Travel. Will results read before Q4 budgets lock?",
+   "thumb": "https://ppc.land/content/images/2026/08/bid.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Google Performance Reports Drop In Impressions/Clicks ~August 12",
+   "url": "https://www.seroundtable.com/google-search-console-performance-reports-drop-41884.html",
+   "date": "2026-08-18T02:37:00+09:00",
+   "summary": "There are a number of reports that the performance reports, both for Google Search and the Generative AI features reports, are showing a decline in impressions and clicks (AI repor…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "YouTube counts views from the first frame across all formats on August 24",
+   "url": "https://ppc.land/youtube-counts-views-from-the-first-frame-across-all-formats-on-august-24/",
+   "date": "2026-08-18T02:34:55+09:00",
+   "summary": "Engaged views stay the basis for Partner Program pay, so bigger counters will not move creator earnings. Help Center text still carries the old 30-second rule.",
+   "thumb": "https://ppc.land/content/images/2026/08/YouTube-Views-1.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Italy fines Piaggio 460,000 euros over 112 emails taken from two staff",
+   "url": "https://ppc.land/italy-fines-piaggio-460-000-euros-over-112-emails-taken-from-two-staff/",
+   "date": "2026-08-18T02:25:19+09:00",
+   "summary": "Retention ran five years past termination and access logs six months, the Garante found. The company can now settle at half the sum inside the appeal window.",
+   "thumb": "https://ppc.land/content/images/2026/08/piaggio.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Google AI Overviews With AI-Generated Images In The Wild (Test Paused)",
+   "url": "https://www.seroundtable.com/ai-generated-images-google-ai-overviews-41872.html",
+   "date": "2026-08-18T02:00:00+09:00",
+   "summary": "A month ago, we reported that Google said it would be rolling out AI-generated images within AI Overviews in Google Search. Well, it seems Google is starting to roll out those AI-g…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "AI検索体験"
    ]
   },
   {
@@ -1505,6 +2317,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1519,6 +2332,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1534,6 +2348,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "publickey",
    "sourceName": "Publickey",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1550,6 +2365,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "publickey",
    "sourceName": "Publickey",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1564,11 +2380,27 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
     "開発・技術",
     "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "Daily Search Forum Recap: August 17, 2026",
+   "url": "https://www.seroundtable.com/recap-08-17-2026-41881.html",
+   "date": "2026-08-17T23:00:00+09:00",
+   "summary": "Here is a recap of what happened in the search forums today...",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "その他"
    ]
   },
   {
@@ -1579,10 +2411,86 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Google Search Using Gemini 3.7 Flash In AI Mode",
+   "url": "https://www.seroundtable.com/google-search-gemini-3-7-flash-41879.html",
+   "date": "2026-08-17T20:51:00+09:00",
+   "summary": "Late on Friday, Google's Robby Stein and Rajan Patel announced on X and X that Google Search is now using its latest AI model named Gemini 3.7 Flash. This model was first announced…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "AI検索体験"
+   ]
+  },
+  {
+   "title": "Google Ads Tests New Review Layout With Supersized Star",
+   "url": "https://www.seroundtable.com/google-ads-review-layout-41877.html",
+   "date": "2026-08-17T20:41:00+09:00",
+   "summary": "Google Ads is testing a new layout for review stars for a product in the mobile sponsored results within Google Search. I am pretty sure I've seen this layout before, but it is not…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Apple Adds Thousands Of New IP Addresses For Applebot To Crawl From",
+   "url": "https://www.seroundtable.com/applebot-ip-addresses-41876.html",
+   "date": "2026-08-17T20:31:00+09:00",
+   "summary": "Apple has added over 4,000 new IP addresses for Applebot, Apple's Siri and Apple Intelligence crawler, to crawl from. Specifically, there are now 18 of /24 CIDR ranges and 3 of /28…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Bing Testing Large Images In Sponsored Results",
+   "url": "https://www.seroundtable.com/large-images-bing-ads-41878.html",
+   "date": "2026-08-17T20:21:00+09:00",
+   "summary": "Microsoft Advertising is testing displaying larger images in the Bing sponsored results. These images are full block size images that take up a lot of space in the search results.",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Google Ads Tests Blue Hyperlinks In Ad Descriptions",
+   "url": "https://www.seroundtable.com/google-ads-blue-hyperlinks-41847.html",
+   "date": "2026-08-17T20:11:00+09:00",
+   "summary": "Google is testing blue hyperlinks in the ad descriptions within the sponsored results. These are clickable, keyword rich, links in the ads, similar to what we saw last week with th…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
    ]
   },
   {
@@ -1593,10 +2501,26 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
     "モデル"
+   ]
+  },
+  {
+   "title": "Acemoglu says removing algorithmic feeds would break TikTok's business",
+   "url": "https://ppc.land/acemoglu-says-removing-algorithmic-feeds-would-break-tiktoks-business/",
+   "date": "2026-08-17T14:31:59+09:00",
+   "summary": "MIT economist would strip ranking from feeds at Meta and TikTok, firms already facing EU addictive design findings. What happens to the ad model underneath?",
+   "thumb": "https://ppc.land/content/images/2026/08/algos.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "検索・SEO"
    ]
   },
   {
@@ -1607,7 +2531,54 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "NIQ AI-native revenue gains 34% as agentic commerce product nears launch",
+   "url": "https://ppc.land/niq-ai-native-revenue-gains-34-as-agentic-commerce-product-nears-launch/",
+   "date": "2026-08-17T14:22:30+09:00",
+   "summary": "Optiq Bridge opens retail measurement to AI agents via MCP in September, and Unlimitail is the first retail media client. Can NIQ price agent access to data?",
+   "thumb": "https://ppc.land/content/images/2026/08/NIQ-Agentic-AI.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "計測・データ",
+    "アドテク・媒体"
+   ]
+  },
+  {
+   "title": "iHeartMedia radio profit drops 39% as programmatic revenue targets $200m",
+   "url": "https://ppc.land/iheartmedia-radio-profit-drops-39-as-programmatic-revenue-targets-200m/",
+   "date": "2026-08-17T14:19:15+09:00",
+   "summary": "Broadcast radio revenue grew just 0.5% to $397.6 million as segment margin sank to 10.9% from 17.7%. Amazon DSP arrives in Q4. Can programmatic close the gap?",
+   "thumb": "https://ppc.land/content/images/2026/08/audio-money.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "アドテク・媒体"
+   ]
+  },
+  {
+   "title": "YouTube doubles monetization thresholds and adds a rolling Shorts test",
+   "url": "https://ppc.land/youtube-doubles-monetization-thresholds-and-adds-a-rolling-shorts-test/",
+   "date": "2026-08-17T14:03:27+09:00",
+   "summary": "YouTube doubles Partner Program entry bars from February 2027, puts Shorts pay on a rolling 90-day test, and expands Premium Lite into 57 further markets.",
+   "thumb": "https://ppc.land/content/images/2026/08/YouTube-Machine-1.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
    "weekly": false,
    "topics": [
     "その他"
@@ -1621,7 +2592,68 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Ahrefs's Letaido claims a 40-hour audit now takes 60 minutes",
+   "url": "https://ppc.land/ahrefss-letaido-claims-a-40-hour-audit-now-takes-60-minutes/",
+   "date": "2026-08-17T13:59:24+09:00",
+   "summary": "Foundation's CEO says the AI workspace cut a full workweek of research to an hour. Ahrefs built it on 170 trillion pages and 439 million monthly AI prompts.",
+   "thumb": "https://ppc.land/content/images/2026/08/boat-time.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "WP Engine drops hosting requirement for Smart Search AI plugin",
+   "url": "https://ppc.land/wp-engine-drops-hosting-requirement-for-smart-search-ai-plugin/",
+   "date": "2026-08-17T13:57:04+09:00",
+   "summary": "Once locked to WP Engine's own paying customers only, Smart Search AI now runs on any WordPress site as agencies weigh search tools against AI answer engines.",
+   "thumb": "https://ppc.land/content/images/2026/08/search-wordpress.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Intentsify adds QuantumDemand to score B2B buying groups over leads",
+   "url": "https://ppc.land/intentsify-adds-quantumdemand-to-score-b2b-buying-groups-over-leads/",
+   "date": "2026-08-17T13:53:18+09:00",
+   "summary": "The Westwood, Massachusetts vendor pairs it with the Quantum Index, a purchase-readiness score replacing marketing qualified leads for enterprise sales teams.",
+   "thumb": "https://ppc.land/content/images/2026/08/data-pieces.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "検索・SEO"
+   ]
+  },
+  {
+   "title": "Automation took the trading desk's job, not its words",
+   "url": "https://ppc.land/automation-took-the-job-not-the-words/",
+   "date": "2026-08-17T13:43:00+09:00",
+   "summary": "Sixteen terms, four groups of four. Most of this grid comes from the machinery of a media buy, and one group has been hiding in plain sight for years.",
+   "thumb": "https://ppc.land/content/images/2026/08/game-trade-desk.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
    "weekly": false,
    "topics": [
     "その他"
@@ -1635,6 +2667,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -1649,6 +2682,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1663,6 +2697,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1677,6 +2712,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1691,6 +2727,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "publickey",
    "sourceName": "Publickey",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1705,6 +2742,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "publickey",
    "sourceName": "Publickey",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -1716,10 +2754,11 @@ window.AIRADAR_DATA = {
    "title": "【週刊AI】エージェントの置き場所が、手元からクラウドへ | #79",
    "url": "https://chatgpt-lab.com/n/n283b92c54a04",
    "date": "2026-08-16T19:49:35+09:00",
-   "summary": "今週は、「ChatGPT Work」を旅先で使い込んだ話を書きたいと思います。 7月にChatGPTに追加された機能で、頼んだ仕事を、成果物になるまで代わりに進めてくれるエージェントと公式では紹介されています。 続きをみる",
+   "summary": "今週は、「ChatGPT Work」を旅先で使い込んだ話を書きたいと思います。 7月にChatGPTに追加された機能で、頼んだ仕事を、成果物になるまで代わりに進めてくれるエージェントと公式では紹介されています。",
    "thumb": "https://assets.st-note.com/production/uploads/images/304112963/rectangle_large_type_2_93320ef0219fcb75e526b6cdd9cc4803.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -1734,6 +2773,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1748,6 +2788,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1762,6 +2803,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1776,6 +2818,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "techcrunch",
    "sourceName": "TechCrunch AI",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1783,13 +2826,44 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "Pixel 11 ads show a mysterious screen-equipped tracker that’s not Pixel Watch 5 or Fitbit Air [Gallery]",
+   "url": "https://9to5google.com/2026/08/15/google-pixel-11-ad-unknown-fitbit-tracker/",
+   "date": "2026-08-15T22:30:00+09:00",
+   "summary": "Google might have another fitness tracker in the works, as a pair of new ads online show off a mysterious little pebble that’s neither a Fitbit Air nor a Pixel Watch 5 – but is it…",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/pixel-11-ads-unknown-tracker.jpg?quality=82&#038;strip=all&#038;w=1200",
+   "source": "9to5g",
+   "sourceName": "9to5Google",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Google Ads language targeting changes starting September 2026",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/8241268561751522389",
+   "date": "2026-08-14T11:42:05.501000+09:00",
+   "summary": "We're making changes to language targeting for Search, AI Max for Search, and Performance Max campaigns in Google Ads, simplifying campaign management while maintaining a high-qual…",
+   "thumb": "https://blogger.googleusercontent.com/img/a/AVvXsEhMd1fdKsHQ-Ld1S2S7p1QnHKGIsAxgkzDAnAZ4Ennu3TL968-LZlrDhnCAtVhhh-UUMIKK6ecAadUoYY2_S-nU6HNVWDZK4vE28WYzIilQUhe8Fh_FMOaFo5sahlfpyIV7j_sR8xS-HtM_KU_deoWN91Y3dk21HE65O2lzO4fd8aOAFTxqpd2-rVhO5XM=s72-c",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
    "title": "AIエージェント事例共有会を8/23(日)に開催します！【現地15名・オンライン無料】",
    "url": "https://chatgpt-lab.com/n/nc98cba9cf0e1",
    "date": "2026-08-14T11:03:04+09:00",
-   "summary": "いつもAGIラボを見てくださっている皆さま、ありがとうございます。 Claude CodeやCodex、そしてAGI Cockpitを日々活用しているメンバーが、具体的な活用術を持ち寄る会を開催します！ 続きをみる",
+   "summary": "いつもAGIラボを見てくださっている皆さま、ありがとうございます。 Claude CodeやCodex、そしてAGI Cockpitを日々活用しているメンバーが、具体的な活用術を持ち寄る会を開催します！",
    "thumb": "https://assets.st-note.com/production/uploads/images/302733377/rectangle_large_type_2_09c7af897fbc28d92a96f5d9dfe25274.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -1805,6 +2879,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1819,6 +2894,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1833,6 +2909,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -1847,6 +2924,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -1861,6 +2939,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -1876,6 +2955,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -1891,6 +2971,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -1901,10 +2982,11 @@ window.AIRADAR_DATA = {
    "title": "SpaceXAI、新モデル「Grok 4.6」を発表。実力を発表当日に検証",
    "url": "https://chatgpt-lab.com/n/n3dda3ff52b45",
    "date": "2026-08-13T12:49:16+09:00",
-   "summary": "xAI（現SpaceXAI）が米国時間2026年8月12日に Grok 4.6 を発表しました。公式発表の要点と、発表当日に行った実機検証をまとめます。 要点： 続きをみる",
+   "summary": "xAI（現SpaceXAI）が米国時間2026年8月12日に Grok 4.6 を発表しました。公式発表の要点と、発表当日に行った実機検証をまとめます。 要点：",
    "thumb": "https://assets.st-note.com/production/uploads/images/303043194/rectangle_large_type_2_5a551a5bc2439becf928477fd857b1fe.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -1919,11 +3001,11 @@ window.AIRADAR_DATA = {
    "thumb": "https://ainow.ai/wp-content/uploads/2026/08/thumbnail-5.jpg",
    "source": "ainow",
    "sourceName": "AINOW",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
-    "エージェント",
-    "広告・マーケ"
+    "エージェント"
    ]
   },
   {
@@ -1934,6 +3016,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -1948,10 +3031,26 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "mittr",
    "sourceName": "MITTR Japan",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
     "エージェント"
+   ]
+  },
+  {
+   "title": "Migrate Campaign-level Broad Match and Automatically Created Assets to AI Max",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/3570700793593515721",
+   "date": "2026-08-13T03:02:08.468000+09:00",
+   "summary": "The legacy automigrations are divided into two separate phases: Phase 1 ( Campaign-level Broad Match and Automatically Created Assets ), which starts September 1, 2026. Phase 2 (Dy…",
+   "thumb": "",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
    ]
   },
   {
@@ -1962,10 +3061,27 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Query report data with the Campaign Manager 360 API",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/4794231048859903119",
+   "date": "2026-08-13T00:02:05.880000+09:00",
+   "summary": "You can now use the reportData.query endpoint in the Campaign Manager 360 API to synchronously query your campaign performance data and retrieve structured JSON data directly in th…",
+   "thumb": "https://blogger.googleusercontent.com/img/a/AVvXsEiChe_g1JujivrmFreqOSiiJVG79VFlvDXoigneV-ZD8m1fDd6MfMyi3dGgc4PYhLKJrzb_QxVMM7jqCfqNpWk3CxmsvDxSvdiGwgqUlPZ0NIhAGdRJXiNeWj77GTFI3bAdcnNr8VamYJEFSi1GdAzq4UuiY3w5EZpXQzHWQDHTI8Hf-9aU3rI3Q_Vdutc=s72-c",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
    ]
   },
   {
@@ -1976,6 +3092,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://lh3.googleusercontent.com/8RcynTx1ujudyw8Fs05Pv8WJahe2FQ3z1Y7gNHm-xvOTJLdMp9hNDsIIoQbJsnav6evNLgY1iT9B9ercsyIn0U1N51pzScvSfe6IHk2SjDJx-MaVzQ=w528-h297-n-nu-rw-lo",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -1990,6 +3107,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -2004,6 +3122,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2018,6 +3137,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2032,6 +3152,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "mittr",
    "sourceName": "MITTR Japan",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -2047,6 +3168,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "mittr",
    "sourceName": "MITTR Japan",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -2062,6 +3184,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2076,6 +3199,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://ainow.ai/wp-content/uploads/2026/08/thumbnail-4.jpg",
    "source": "ainow",
    "sourceName": "AINOW",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -2090,6 +3214,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "publickey",
    "sourceName": "Publickey",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -2104,6 +3229,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2118,6 +3244,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2132,6 +3259,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2146,6 +3274,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -2159,12 +3288,14 @@ window.AIRADAR_DATA = {
    "date": "2026-08-10T23:30:00+09:00",
    "summary": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp",
-   "source": "googleai",
-   "sourceName": "Google AI",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
    "kind": "official",
    "weekly": false,
    "topics": [
-    "広告・マーケ"
+    "広告プロダクト",
+    "計測・データ"
    ]
   },
   {
@@ -2175,6 +3306,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2189,6 +3321,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2203,6 +3336,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -2217,6 +3351,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2231,6 +3366,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2245,6 +3381,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -2259,6 +3396,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2273,6 +3411,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2287,10 +3426,11 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
-    "広告・マーケ"
+    "その他"
    ]
   },
   {
@@ -2301,6 +3441,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "publickey",
    "sourceName": "Publickey",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -2311,10 +3452,11 @@ window.AIRADAR_DATA = {
    "title": "【週刊AI】AIが社内に「掲示板」を作っていた | #78",
    "url": "https://chatgpt-lab.com/n/na6a48ee43bd5",
    "date": "2026-08-09T22:48:49+09:00",
-   "summary": "未来のエージェントのために、扉を開けておく 週刊AIでは、過去2号にわたって、OpenAIの評価環境から始まったHugging Face（AIモデルの共有プラットフォーム）へのセキュリティインシデントをまとめてきました。今週は、この事件を一度整理したいと思います。 続きをみる",
+   "summary": "未来のエージェントのために、扉を開けておく 週刊AIでは、過去2号にわたって、OpenAIの評価環境から始まったHugging Face（AIモデルの共有プラットフォーム）へのセキュリティインシデントをまとめてきました。今週は、この事件を一度整理したいと思います。",
    "thumb": "https://assets.st-note.com/production/uploads/images/301969599/rectangle_large_type_2_16125ab9dee19e34f58ea6965cbad51a.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -2331,6 +3473,22 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "openai",
    "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+   "url": "https://openai.com/index/hsp-gruppe",
+   "date": "2026-08-07T18:00:00+09:00",
+   "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2341,10 +3499,11 @@ window.AIRADAR_DATA = {
    "title": "AI木曜会 × AGIラボ 合同AIハッカソンを開催します（9/13・渋谷）",
    "url": "https://chatgpt-lab.com/n/n142d471a4adb",
    "date": "2026-08-07T17:07:51+09:00",
-   "summary": "いつもAGIラボを一緒に盛り上げてくださっているラボメンの皆さま、ありがとうございます。 この度、9月13日（日）に 「10年後のあたりまえ」 をテーマとして、AI木曜会さんと合同ハッカソンを開催することが決定しました！ 先着50名限定 の開催となります。 続きをみる",
+   "summary": "いつもAGIラボを一緒に盛り上げてくださっているラボメンの皆さま、ありがとうございます。 この度、9月13日（日）に 「10年後のあたりまえ」 をテーマとして、AI木曜会さんと合同ハッカソンを開催することが決定しました！ 先着50名限定 の開催となります。",
    "thumb": "https://assets.st-note.com/production/uploads/images/303061854/rectangle_large_type_2_efee3c98c7c863b00b3356d92864d948.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -2359,6 +3518,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://lh3.googleusercontent.com/Mj8GyJnsjROScr1hYl7PL_QCAaLGukliPCTMUlpKiQtZuVkmh2ouydYh80ibejg9vWgKkg2dYPx2jCJOOohKid5P-dLzwvIyB4-fZjWXYIx0ImZd=w528-h297-n-nu-rw-lo",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2373,10 +3533,41 @@ window.AIRADAR_DATA = {
    "thumb": "https://ainow.ai/wp-content/uploads/2026/08/thumbnail-3.jpg",
    "source": "ainow",
    "sourceName": "AINOW",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
     "エージェント"
+   ]
+  },
+  {
+   "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+   "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+   "date": "2026-08-06T19:00:00+09:00",
+   "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Working with the American Psychological Association on youth mental health and AI",
+   "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+   "date": "2026-08-06T15:00:00+09:00",
+   "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
    ]
   },
   {
@@ -2387,7 +3578,23 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "From asking to doing: How the world is putting ChatGPT to work",
+   "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+   "date": "2026-08-06T09:00:00+09:00",
+   "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
    "weekly": false,
    "topics": [
     "その他"
@@ -2401,6 +3608,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://ainow.ai/wp-content/uploads/2026/08/thumbnail-2.jpg",
    "source": "ainow",
    "sourceName": "AINOW",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -2411,16 +3619,32 @@ window.AIRADAR_DATA = {
    "title": "【実践】マルチエージェントガイド",
    "url": "https://chatgpt-lab.com/n/n3090abc8e97a",
    "date": "2026-08-05T11:19:19+09:00",
-   "summary": "AIエージェントに頼めば仕事が形になる場面は、この1年で一気に増えました。 一方で、頼む量が増えるほど、 1つのモデルに全てをやらせることの限界 も見えてきます。たとえば、設計とコードは見事に組み上げたモデルが、画面に表示する言葉(UXコピー)になると、どうもしっくりこない出力ばかりしてしまうなどです。 続きをみる",
+   "summary": "AIエージェントに頼めば仕事が形になる場面は、この1年で一気に増えました。 一方で、頼む量が増えるほど、 1つのモデルに全てをやらせることの限界 も見えてきます。たとえば、設計とコードは見事に組み上げたモデルが、画面に表示する言葉(UXコピー)になると、どうもしっくりこない出力ばかりしてしまうなどです。",
    "thumb": "https://assets.st-note.com/production/uploads/images/300595299/rectangle_large_type_2_175b0fb80712345618f7ed5c8642551f.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
     "モデル",
     "エージェント",
     "開発・技術"
+   ]
+  },
+  {
+   "title": "Third-party cyber evaluations involving OpenAI models",
+   "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+   "date": "2026-08-05T04:00:00+09:00",
+   "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "モデル"
    ]
   },
   {
@@ -2431,6 +3655,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://ainow.ai/wp-content/uploads/2026/08/thumbnail-1.jpg",
    "source": "ainow",
    "sourceName": "AINOW",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -2445,6 +3670,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "publickey",
    "sourceName": "Publickey",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -2460,6 +3686,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "publickey",
    "sourceName": "Publickey",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -2475,10 +3702,57 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "New ways to learn and teach with ChatGPT Work and Codex",
+   "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+   "date": "2026-08-04T09:00:00+09:00",
+   "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "エージェント"
+   ]
+  },
+  {
+   "title": "Apple is getting this wrong",
+   "url": "https://openai.com/index/apple-is-getting-this-wrong",
+   "date": "2026-08-04T07:00:00+09:00",
+   "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "規制・リスク"
+   ]
+  },
+  {
+   "title": "Google Ads API pilot: Secure API Access to your Manager Accounts",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/4774123560152328684",
+   "date": "2026-08-04T06:06:09.530000+09:00",
+   "summary": "The Google Ads API is piloting a security feature designed for securing API access to Google Ads manager accounts. We are seeking developers who would like to participate in this p…",
+   "thumb": "https://lh3.googleusercontent.com/a-/AD_cMMRmfdsXvZhyLvWsLuqqcScxtYI0ih7DPGCk8lTee140NzXH=s72-c",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
    ]
   },
   {
@@ -2489,10 +3763,43 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "How we built a realtime system for responsive voice AI in six months",
+   "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+   "date": "2026-08-03T16:00:00+09:00",
+   "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "画像・音声・動画"
+   ]
+  },
+  {
+   "title": "Circles powers telco personalization with OpenAI technology",
+   "url": "https://openai.com/index/circles",
+   "date": "2026-08-03T09:00:00+09:00",
+   "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "エージェント",
+    "開発・技術"
    ]
   },
   {
@@ -2503,6 +3810,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/299919757/rectangle_large_type_2_e75318986a840f93d58af6da360949fb.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -2517,11 +3825,103 @@ window.AIRADAR_DATA = {
    "thumb": "https://ainow.ai/wp-content/uploads/2026/08/thumbnail.jpg",
    "source": "ainow",
    "sourceName": "AINOW",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
     "エージェント",
     "開発・技術"
+   ]
+  },
+  {
+   "title": "Ten advances in mathematics and theoretical computer science",
+   "url": "https://openai.com/index/ten-advances-in-mathematics",
+   "date": "2026-08-01T09:00:00+09:00",
+   "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Advancing responsible AI across Europe",
+   "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+   "date": "2026-08-01T00:00:00+09:00",
+   "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "規制・リスク"
+   ]
+  },
+  {
+   "title": "Building abundant intelligence",
+   "url": "https://openai.com/index/building-abundant-intelligence",
+   "date": "2026-08-01T00:00:00+09:00",
+   "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Univé builds an AI-ready workforce",
+   "url": "https://openai.com/index/unive",
+   "date": "2026-07-31T16:00:00+09:00",
+   "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Disrupting a Criminal Scam Operation",
+   "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+   "date": "2026-07-31T09:00:00+09:00",
+   "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Data Manager API updates: RemoveAllAudienceMembers method, ingestion field warnings, expanded address data",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/8022189612344399816",
+   "date": "2026-07-31T05:24:01.048000+09:00",
+   "summary": "The latest release of the Data Manager API introduces features that simplify audience management, enhance ingestion workflows with field-level warnings, and enable more granular us…",
+   "thumb": "https://blogger.googleusercontent.com/img/a/AVvXsEiChe_g1JujivrmFreqOSiiJVG79VFlvDXoigneV-ZD8m1fDd6MfMyi3dGgc4PYhLKJrzb_QxVMM7jqCfqNpWk3CxmsvDxSvdiGwgqUlPZ0NIhAGdRJXiNeWj77GTFI3bAdcnNr8VamYJEFSi1GdAzq4UuiY3w5EZpXQzHWQDHTI8Hf-9aU3rI3Q_Vdutc",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "計測・データ",
+    "API・開発"
    ]
   },
   {
@@ -2532,6 +3932,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://ainow.ai/wp-content/uploads/2026/07/thumbnail-19.jpg",
    "source": "ainow",
    "sourceName": "AINOW",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -2546,6 +3947,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -2560,11 +3962,42 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
     "モデル",
     "画像・音声・動画"
+   ]
+  },
+  {
+   "title": "Advancing the price-performance frontier with GPT-5.6",
+   "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+   "date": "2026-07-30T19:00:00+09:00",
+   "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Launching Structured Data Files v10.1",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/3956869784443149495",
+   "date": "2026-07-30T06:54:34.905000+09:00",
+   "summary": "Today we’re announcing the general availability of Structured Data Files v10.1 . All users can now use v10.1 when downloading and uploading SDFs in the Display & Video 360 interfac…",
+   "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXVr7f4ytIcmllzEyXHydnMWFyaVwwDJ4ZEweChJMlryjlu4_NY39i-y_s0zjoslPkp60LgoSfgmypI_6rXjpGUsWPfQyvQyml31BDxWzh2BBYtyr2tp7NpaIA4hGs-86rGjlLNUX1tX2H_fkEzw83BOaWGJPKcZIzVtzIMBNzuLCoTlrpCrnA8Z1DLR8/s512/unnamed%20%286%29.jpg",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "検索・SEO"
    ]
   },
   {
@@ -2575,10 +4008,57 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Prepare for the holiday season with July’s Demand Gen Drop.",
+   "url": "https://blog.google/products/ads-commerce/demand-gen-drop-july-2026/",
+   "date": "2026-07-30T00:30:00+09:00",
+   "summary": "Prepare for the holiday season with upgraded tROAS bidding, Checkout Links, and more from YouTube’s July Demand Gen Drop.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Demand_Gen_Drops_July.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Samsung Galaxy phones add a Pixel-style dedicated Google Search bar on homescreen [Gallery]",
+   "url": "https://9to5google.com/2026/07/28/samsung-galaxy-search-bar-update-one-ui-9/",
+   "date": "2026-07-29T04:30:00+09:00",
+   "summary": "As a part of its next major update, Samsung Galaxy phones are adding a dedicated Google Search bar on the bottom of the homescreen, just like Pixel phones.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/galaxy-z-fold-8-one-ui-9-search-bar-2.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Support for AI Content Labeling using the Campaign Manager and Display & Video 360 APIs",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/2711845243031957475",
+   "date": "2026-07-29T02:18:08.269000+09:00",
+   "summary": "As the use of AI becomes more prevalent, transparency is key. In the last week, we have launched updates in both the Campaign Manager 360 API and Display & Video 360 API that add n…",
+   "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXVr7f4ytIcmllzEyXHydnMWFyaVwwDJ4ZEweChJMlryjlu4_NY39i-y_s0zjoslPkp60LgoSfgmypI_6rXjpGUsWPfQyvQyml31BDxWzh2BBYtyr2tp7NpaIA4hGs-86rGjlLNUX1tX2H_fkEzw83BOaWGJPKcZIzVtzIMBNzuLCoTlrpCrnA8Z1DLR8/s512/unnamed%20%286%29.jpg",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
    ]
   },
   {
@@ -2589,6 +4069,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2604,6 +4085,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://lh3.googleusercontent.com/VZ5KwQMxv9xBcQnYipsQB2EUj3oX1yvFYLktIamY8V2a76Y6ctEEuaLF59TuPdnaVn6OAMINDilqnuhju1O-AXc7QlOVmcogjskrWxS7xVQ1mc5S7g=w528-h297-n-nu-rw-lo",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2614,10 +4096,11 @@ window.AIRADAR_DATA = {
    "title": "5 ways AI Mode in Search helps you enjoy the real world",
    "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
    "date": "2026-07-28T22:00:00+09:00",
-   "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…",
+   "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf",
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2632,10 +4115,27 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Passkey authentication requirement for the Google Ads API",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/7132363063735296802",
+   "date": "2026-07-28T00:59:03.183000+09:00",
+   "summary": "As part of improving security for Google Ads accounts, the Google Ads API will start requiring passkeys for Google Ads API users . This is part of a broader change in Google Ads th…",
+   "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAelgqsu9dhibYTqwpJTtlcfFQZNvUCpgc66eHz_Dw3yBo5y4cHQZjlbHAnM0pZMnlVWg6PuN-gfqC58e_KVfieOPO8DEinQDQEet_p5n8Tr4pa4v3sRCTeUae2ccnkRvBk3f86qx-K4m0-cM3nmHOlTpfNeLslKwMec2svaVCOgv4kO1B1GIATzWQQ2c/s72-c/blog_image_072726_2.png",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
    ]
   },
   {
@@ -2646,6 +4146,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -2660,6 +4161,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -2674,6 +4176,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://ainow.ai/wp-content/uploads/2026/07/thumbnail-18.jpg",
    "source": "ainow",
    "sourceName": "AINOW",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
@@ -2685,10 +4188,11 @@ window.AIRADAR_DATA = {
    "title": "【週刊AI】声はCodexの指揮者になった。Opus 5が「半額のFable級」、モデルがサンドボックスを脱出した週 | #76",
    "url": "https://chatgpt-lab.com/n/n256645eb959a",
    "date": "2026-07-26T23:37:42+09:00",
-   "summary": "今週のエッセイ：移動するのは、AIのほうになった OpenAIは7月23日（現地時間）、ChatGPT Voiceをデスクトップアプリに展開しました。macOSとWindowsの有料プラン向けで、基盤は音声モデルのGPT-Liveです。 続きをみる",
+   "summary": "今週のエッセイ：移動するのは、AIのほうになった OpenAIは7月23日（現地時間）、ChatGPT Voiceをデスクトップアプリに展開しました。macOSとWindowsの有料プラン向けで、基盤は音声モデルのGPT-Liveです。",
    "thumb": "https://assets.st-note.com/production/uploads/images/297832643/rectangle_large_type_2_67d20b3699a1ac6b96cc04eb8f9b34fa.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -2705,11 +4209,43 @@ window.AIRADAR_DATA = {
    "thumb": "https://ainow.ai/wp-content/uploads/2026/07/thumbnail-17.jpg",
    "source": "ainow",
    "sourceName": "AINOW",
+   "axis": "ai",
    "kind": "jp",
    "weekly": false,
    "topics": [
     "エージェント",
     "規制・リスク"
+   ]
+  },
+  {
+   "title": "EU fines Google $1 billion for ‘preferential treatment’ in Search, Play Store",
+   "url": "https://9to5google.com/2026/07/23/european-union-fines-google-in-antitrust-for-search-play-store/",
+   "date": "2026-07-24T06:29:30+09:00",
+   "summary": "Google is looking at two fines from the European Union, which claims the company violated the Digital Markets Act with both Search and the Google Play Store.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2023/09/google-store-logo-4.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "July 2026 update to the Display & Video 360 API",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/1513827152433454234",
+   "date": "2026-07-24T05:39:02.515000+09:00",
+   "summary": "Today we’re launching the July 2026 update to the Display & Video 360 API. This update includes the following: Added a new syntheticContentAttestationStatus field to Creative and A…",
+   "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXVr7f4ytIcmllzEyXHydnMWFyaVwwDJ4ZEweChJMlryjlu4_NY39i-y_s0zjoslPkp60LgoSfgmypI_6rXjpGUsWPfQyvQyml31BDxWzh2BBYtyr2tp7NpaIA4hGs-86rGjlLNUX1tX2H_fkEzw83BOaWGJPKcZIzVtzIMBNzuLCoTlrpCrnA8Z1DLR8/s512/unnamed%20%286%29.jpg",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
    ]
   },
   {
@@ -2720,10 +4256,27 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Announcing v25 of the Google Ads API",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/507376310170375094",
+   "date": "2026-07-23T08:24:15.284000+09:00",
+   "summary": "Today, we’re announcing the v25 release of the Google Ads API . This major release brings support for new reporting features and goals. To use these new capabilities, you must upgr…",
+   "thumb": "https://lh3.googleusercontent.com/a-/AD_cMMRmfdsXvZhyLvWsLuqqcScxtYI0ih7DPGCk8lTee140NzXH=s72-c",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
    ]
   },
   {
@@ -2734,6 +4287,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2748,6 +4302,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2762,6 +4317,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/296278669/rectangle_large_type_2_8a17c46a81840e56ace5e3953f197f07.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -2776,6 +4332,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2790,6 +4347,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -2797,13 +4355,30 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "Enabling Local Inventory Ads by Default for Shopping Campaigns starting on August 31, 2026",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/5341021206723470669",
+   "date": "2026-07-21T01:35:18.270000+09:00",
+   "summary": "What is changing? On August 31, 2026, we are aligning Shopping campaigns with Performance Max for Retail campaigns by enabling Local Inventory Ads (LIA) by default. Previously, dev…",
+   "thumb": "https://blogger.googleusercontent.com/img/a/AVvXsEhMd1fdKsHQ-Ld1S2S7p1QnHKGIsAxgkzDAnAZ4Ennu3TL968-LZlrDhnCAtVhhh-UUMIKK6ecAadUoYY2_S-nU6HNVWDZK4vE28WYzIilQUhe8Fh_FMOaFo5sahlfpyIV7j_sR8xS-HtM_KU_deoWN91Y3dk21HE65O2lzO4fd8aOAFTxqpd2-rVhO5XM=s72-c",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "アドテク・媒体"
+   ]
+  },
+  {
    "title": "【週刊AI】Fable 5が7/20からMax標準に、中国発のKimi K3がFable 5/GPT 5.6 Sol超え | #75",
    "url": "https://chatgpt-lab.com/n/n27dad30e0a7a",
    "date": "2026-07-20T00:03:02+09:00",
-   "summary": "AIエージェントの今週 ① Kimi K3登場 続きをみる",
+   "summary": "AIエージェントの今週 ① Kimi K3登場",
    "thumb": "https://assets.st-note.com/production/uploads/images/295815839/rectangle_large_type_2_ad8e34c6465536ee86313a17a62c6998.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -2819,10 +4394,41 @@ window.AIRADAR_DATA = {
    "thumb": "https://lh3.googleusercontent.com/esSD0-kSrZ8K07XxNkSKL3OGlcx1Cf3M-qiQut0q_vArHMiK2L1CpUIGVkjuQrhu_m0g8UMVflVQpDp7VFAJSubDdCjSXsPJPDeK-PUtaPbqA8W1=w528-h297-n-nu-rw-lo",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
     "モデル"
+   ]
+  },
+  {
+   "title": "Beach vibes and temporary wallpaper are trending for back-to-school season.",
+   "url": "https://blog.google/products-and-platforms/products/shopping/back-to-school-trends/",
+   "date": "2026-07-17T02:00:00+09:00",
+   "summary": "College students are eager to turn their dull dorm rooms into cozy spaces. Here are the Google Search trends we’re seeing.",
+   "thumb": "",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "6 back-to-school shopping tricks every student should know",
+   "url": "https://blog.google/products-and-platforms/products/shopping/6-back-to-school-shopping-tricks-every-student-should-know/",
+   "date": "2026-07-17T02:00:00+09:00",
+   "summary": "Whether you're decorating, refreshing your wardrobe or picking up last-minute essentials, these shopping tools make all the difference.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Back_to_School_Shopping_Trends_.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
    ]
   },
   {
@@ -2833,6 +4439,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2847,11 +4454,27 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
     "モデル",
     "画像・音声・動画"
+   ]
+  },
+  {
+   "title": "EU demands opening Android access and Search data to rivals, Google warns of privacy risks",
+   "url": "https://9to5google.com/2026/07/16/eu-dma-google-search-data-android-access-decisions/",
+   "date": "2026-07-16T23:10:00+09:00",
+   "summary": "The EU has ordered Google to crack open Android and Search to its rivals including other AI assistants, but Google warns that it’s a privacy risk.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2025/04/Pixel-9a-Display-Bezel-Google-Logo.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "ポリシー・規制"
    ]
   },
   {
@@ -2862,6 +4485,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -2876,6 +4500,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://lh3.googleusercontent.com/ZRyQg91pjea8kXXaGSlnZIJF90-VwnKHSBxo22e2RedCvCCszsurR8W9NHw80e1V6HtWXccbU1MI27Rtjjf963rD673XgkWK7cZe_1ekfruPgdHHVEc=w528-h297-n-nu-rw-lo",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2890,6 +4515,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -2904,6 +4530,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -2918,6 +4545,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -2932,6 +4560,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -2946,10 +4575,26 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Optimize your reach and frequency across campaigns with video campaign groups.",
+   "url": "https://blog.google/products/ads-commerce/video-campaign-groups/",
+   "date": "2026-07-14T01:00:00+09:00",
+   "summary": "Coordinate reach and frequency across campaigns while still maintaining individual campaign settings.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Reach_and_Frequency_UI_Nb3ub0t.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
    ]
   },
   {
@@ -2960,6 +4605,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://lh3.googleusercontent.com/0BYvIo8ObViyRtRGOYajXHdEGUFX6cKMTQ6lxys98kN0sB6H7rrTo1pdW8M4kCUGnBnidJWbIr6VvcxGKDEDD4YxOVqYRlyxj_a48uqNw_AytF7c-A=w528-h297-n-nu-rw-lo",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -2970,10 +4616,11 @@ window.AIRADAR_DATA = {
    "title": "AIエージェントに仕事を任せる操縦席 — はじめてのAGI Cockpitハンズオン講座",
    "url": "https://chatgpt-lab.com/n/n158a43180985",
    "date": "2026-07-13T10:16:38+09:00",
-   "summary": "7月19日（日）の午前に、AGI Cockpitのハンズオン講座 「はじめてのAGI Cockpit — AIエージェント並列仕事術ハンズオン」 を開催します！ チャットで聞くAIから、仕事を任せるAIへ 続きをみる",
+   "summary": "7月19日（日）の午前に、AGI Cockpitのハンズオン講座 「はじめてのAGI Cockpit — AIエージェント並列仕事術ハンズオン」 を開催します！ チャットで聞くAIから、仕事を任せるAIへ",
    "thumb": "https://assets.st-note.com/production/uploads/images/293148648/rectangle_large_type_2_7ec9070dbbc54a8b2537175b70a7ebf3.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -2984,10 +4631,11 @@ window.AIRADAR_DATA = {
    "title": "【週刊AI】ランプの精は瓶に戻らない。AI社員がオフィスに出社、Fable 5は従量課金へ、GPT-5.6一般提供 | #74",
    "url": "https://chatgpt-lab.com/n/n3499a18b07ea",
    "date": "2026-07-12T22:54:50+09:00",
-   "summary": "オフィスの真ん中に、AI社員を置いてみた 金曜日の昼、AGIラボのオフィスの真ん中に、OpenAIが9日に公開したばかりのChatGPTの新しい音声モード（GPT-Live）を起動したiPhoneを、三脚に設置してみました。 続きをみる",
+   "summary": "オフィスの真ん中に、AI社員を置いてみた 金曜日の昼、AGIラボのオフィスの真ん中に、OpenAIが9日に公開したばかりのChatGPTの新しい音声モード（GPT-Live）を起動したiPhoneを、三脚に設置してみました。",
    "thumb": "https://assets.st-note.com/production/uploads/images/293822476/rectangle_large_type_2_ab5011c72731c00be1c618ed477658b4.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -3003,6 +4651,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/293045289/rectangle_large_type_2_0d6a2e98d9437b3d920a934a30e8bee4.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3018,7 +4667,38 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Expanding AI transparency in ads",
+   "url": "https://blog.google/products/ads-commerce/google-ads-ai-transparency-labels/",
+   "date": "2026-07-10T01:00:00+09:00",
+   "summary": "We're introducing new AI transparency features to help people understand the ads they see and give advertisers simple disclosure tools.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Expanding_AI_transparency_hero.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Google Search hit an all-time usage record yesterday",
+   "url": "https://9to5google.com/2026/07/08/google-search-hit-an-all-time-usage-record-yesterday/",
+   "date": "2026-07-09T05:30:00+09:00",
+   "summary": "At the end of the Argentina vs Egypt match during the World Cup yesterday, Google Search usage apparently hit a new all-time record high.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/google-logo-1.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
    "weekly": false,
    "topics": [
     "その他"
@@ -3032,6 +4712,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
@@ -3046,10 +4727,57 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "hf",
    "sourceName": "Hugging Face",
+   "axis": "ai",
    "kind": "global",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Google Search can now show traffic sent to YouTube, TikTok, and your other social accounts",
+   "url": "https://9to5google.com/2026/07/07/google-search-traffic-social-accounts/",
+   "date": "2026-07-08T01:15:00+09:00",
+   "summary": "Google is launching a new way to see traffic being sent from Search to social accounts on platforms including YouTube, TikTok, Instagram, and more.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2023/06/google-search-logo-1.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Hugging Face Models on Foundry Managed Compute",
+   "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+   "date": "2026-07-08T00:20:06+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Accelerate Google Ads API Basic Access reviews with brand verification",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/6502080694881879711",
+   "date": "2026-07-07T20:54:04.598000+09:00",
+   "summary": "Today, we are launching a pilot process to expedite the Basic Access application review process. If you have a pending Basic Access application for your Google Ads API developer to…",
+   "thumb": "https://lh3.googleusercontent.com/a-/AD_cMMRmfdsXvZhyLvWsLuqqcScxtYI0ih7DPGCk8lTee140NzXH=s72-c",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
    ]
   },
   {
@@ -3060,6 +4788,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3069,13 +4798,90 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+   "url": "https://huggingface.co/blog/skypilot-hf-storage",
+   "date": "2026-07-07T09:00:00+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+   "url": "https://huggingface.co/blog/lerobot-release-v060",
+   "date": "2026-07-07T09:00:00+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Announcing Google Mobile Ads Next-Gen SDK as the preferred SDK for Android",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/2385574519757041379",
+   "date": "2026-07-07T06:14:52.625000+09:00",
+   "summary": "Google Mobile Ads (GMA) Next-Gen SDK is now the preferred SDK for Android development with Google AdMob and Google Ad Manager. GMA Next-Gen SDK is a significant rewrite of Google M…",
+   "thumb": "https://lh3.googleusercontent.com/a-/ALV-UjVu343qG7QkJyx8EZTjs_KZ4ntoxUhZSR99eWYCw7RMI1-bN-k=s72-w88-h88-c-k-no?sz=40",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
+   ]
+  },
+  {
+   "title": "PRX Part 4: Our Data Strategy",
+   "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+   "date": "2026-07-07T00:30:55+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "🤗 Kernels: Major Updates",
+   "url": "https://huggingface.co/blog/revamped-kernels",
+   "date": "2026-07-06T09:00:00+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
    "title": "【週刊AI】新装刊：Fableが帰ってきた夜、寝ている間に世界文学の地図ができていた | #73",
    "url": "https://chatgpt-lab.com/n/n07be334be4df",
    "date": "2026-07-05T22:22:58+09:00",
-   "summary": "今号から、週刊AIはAIエージェント特化に生まれ変わります。 最初のエッセイでその理由を書きました。主要ニュースは末尾に短くまとめています。 今週のエッセイ：AIは、確信を持って間違えてくる 続きをみる",
+   "summary": "今号から、週刊AIはAIエージェント特化に生まれ変わります。 最初のエッセイでその理由を書きました。主要ニュースは末尾に短くまとめています。 今週のエッセイ：AIは、確信を持って間違えてくる",
    "thumb": "https://assets.st-note.com/production/uploads/images/291775140/rectangle_large_type_2_3917218c23f1b6f3a59abdb2ada80163.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -3090,6 +4896,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3104,6 +4911,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3118,6 +4926,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3132,11 +4941,42 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/290426271/rectangle_large_type_2_d7f9a58561842488f3f5d58920cb16b8.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
     "モデル",
     "エージェント"
+   ]
+  },
+  {
+   "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+   "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+   "date": "2026-07-01T09:00:00+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "画像・音声・動画"
+   ]
+  },
+  {
+   "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+   "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+   "date": "2026-07-01T03:32:50+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
    ]
   },
   {
@@ -3147,6 +4987,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3154,13 +4995,29 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "Why Specialization Is Inevitable",
+   "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+   "date": "2026-06-30T23:39:11+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
    "title": "ヘビーユーザー続出 - AGI Cockpitは「AIエージェントの作業OS」へ進化",
    "url": "https://chatgpt-lab.com/n/n3d51e1b32798",
    "date": "2026-06-30T17:33:55+09:00",
-   "summary": "AGI Cockpitを毎日業務で使い込むヘビーユーザーが増えてきました。 前回記事を書いたのは2026年2月。あれから約4か月で、AGI Cockpitはv2からv4.19まで進みました。 最初は「複数のAIエージェントを見失わないアプリ」という性格が強かったのですが、現在のAGI Cockpitは、単にAIエージェントを管理するアプリではありません。 続…",
+   "summary": "AGI Cockpitを毎日業務で使い込むヘビーユーザーが増えてきました。 前回記事を書いたのは2026年2月。あれから約4か月で、AGI Cockpitはv2からv4.19まで進みました。 最初は「複数のAIエージェントを見失わないアプリ」という性格が強かったのですが、現在のAGI Cockpitは、単にAIエージェントを管理するアプリではありません。",
    "thumb": "https://assets.st-note.com/production/uploads/images/290175173/rectangle_large_type_2_7e6a994e4101f17dfc57a5670ee5a62f.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3175,10 +5032,56 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+   "url": "https://huggingface.co/blog/eee-community-evals",
+   "date": "2026-06-30T09:00:00+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "DiScoFormer: One transformer for density and score, across distributions",
+   "url": "https://huggingface.co/blog/allenai/discoformer",
+   "date": "2026-06-30T03:02:48+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Deprecating Structured Data Files v9, v9.1, and v9.2",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/1623995231499628635",
+   "date": "2026-06-30T02:13:44.257000+09:00",
+   "summary": "Today we’re announcing the deprecation of Structured Data Files v9 , v9.1 , and v9.2 . These three versions will all sunset on January 28, 2027 . Migrate to v10 or higher before th…",
+   "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXVr7f4ytIcmllzEyXHydnMWFyaVwwDJ4ZEweChJMlryjlu4_NY39i-y_s0zjoslPkp60LgoSfgmypI_6rXjpGUsWPfQyvQyml31BDxWzh2BBYtyr2tp7NpaIA4hGs-86rGjlLNUX1tX2H_fkEzw83BOaWGJPKcZIzVtzIMBNzuLCoTlrpCrnA8Z1DLR8/s72-c/unnamed%20%286%29.jpg",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "検索・SEO"
    ]
   },
   {
@@ -3189,6 +5092,22 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Unlock deeper insights for YouTube brand campaigns.",
+   "url": "https://blog.google/products/ads-commerce/youtube-brand-campaign-updates/",
+   "date": "2026-06-29T23:00:00+09:00",
+   "summary": "New features will help prove how YouTube brand campaigns are driving the results advertisers care about.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Logo_socialshare.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3199,15 +5118,95 @@ window.AIRADAR_DATA = {
    "title": "【週刊AI】GPT-5.6が限定プレビュー、Claude TagとAIチップJalapeñoも登場 | #72",
    "url": "https://chatgpt-lab.com/n/n75a5b06e7c43",
    "date": "2026-06-28T19:51:23+09:00",
-   "summary": "OpenAIが6月26日に GPT-5.6のSol、Terra、Luna を限定プレビューとして公開し、AI界隈にまた新たな動きがありました。 先週から注目されているAnthropicのFable 5とMythos 5をめぐる調整については、今週もまだ決着がつかない状況が続いています。 続きをみる",
+   "summary": "OpenAIが6月26日に GPT-5.6のSol、Terra、Luna を限定プレビューとして公開し、AI界隈にまた新たな動きがありました。 先週から注目されているAnthropicのFable 5とMythos 5をめぐる調整については、今週もまだ決着がつかない状況が続いています。",
    "thumb": "https://assets.st-note.com/production/uploads/images/289610846/rectangle_large_type_2_d63cdfde3cc790b5fb86e4c587c72a08.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
     "モデル",
     "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "July 2026 changes for Display & Video 360 API and Structured Data Files",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/2423659204249492633",
+   "date": "2026-06-27T01:41:18.452000+09:00",
+   "summary": "Today we’re announcing two unversioned changes to the Display & Video 360 API and Structured Data Files that will take effect on July 13, 2026 and may impact your existing integrat…",
+   "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXVr7f4ytIcmllzEyXHydnMWFyaVwwDJ4ZEweChJMlryjlu4_NY39i-y_s0zjoslPkp60LgoSfgmypI_6rXjpGUsWPfQyvQyml31BDxWzh2BBYtyr2tp7NpaIA4hGs-86rGjlLNUX1tX2H_fkEzw83BOaWGJPKcZIzVtzIMBNzuLCoTlrpCrnA8Z1DLR8/s512/unnamed%20%286%29.jpg",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "検索・SEO",
+    "API・開発"
+   ]
+  },
+  {
+   "title": "Unlocking Data Strength with Data Manager API: Ads DevCast E7",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/1204663821782618695",
+   "date": "2026-06-27T00:26:33.112000+09:00",
+   "summary": "We are thrilled to share the newest episode of Ads DevCast , the podcast series brought to you by Google’s Ads Developer Relations team. This episode features a conversation with D…",
+   "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijPIUSUhvT_GEvIKTc-opFKMky5-YCXNWb9GDugn2R1RLcWjRb0OnTGJFQ_rgYCc6UqQGVCk1PlQmhU6O0BZtRVK-o_hsRv8x2R5dRNHADDyyfQef9yy3nA36s9_K0f23OW5rB87xOzg7nd4wTQb5zNnqhOoqfvJSX7VRLpvgZdny_Hx_xUtdteASptL8/s72-c/Screenshot%202026-06-24%20at%2010.10.49%E2%80%AFPM.png",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
+   ]
+  },
+  {
+   "title": "Google Ads API v21 sunset reminder",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/2223804944121247024",
+   "date": "2026-06-26T09:06:36.798000+09:00",
+   "summary": "Google Ads API v21 will sunset on August 5, 2026. Starting on this date, all v21 API requests will begin to fail. Migrate to a newer version prior to August 5, 2026 to ensure your…",
+   "thumb": "https://lh3.googleusercontent.com/a-/AOh14GhFLgYJAFpYHUS1kBcLzMIT2gKkUyYcjWCuOWM3=s600-p",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
+   ]
+  },
+  {
+   "title": "Run a vLLM Server on HF Jobs in One Command",
+   "url": "https://huggingface.co/blog/vllm-jobs",
+   "date": "2026-06-26T09:00:00+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Multi-party approvals in the Google Ads API",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/6319952324811985173",
+   "date": "2026-06-26T08:24:24.037000+09:00",
+   "summary": "As part of improving security for Google Ads accounts, the Google Ads API will start requiring multi-party approvals when performing sensitive API actions. This is part of a broade…",
+   "thumb": "https://lh3.googleusercontent.com/a-/AD_cMMRmfdsXvZhyLvWsLuqqcScxtYI0ih7DPGCk8lTee140NzXH=s72-c",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
    ]
   },
   {
@@ -3218,10 +5217,57 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
     "その他"
+   ]
+  },
+  {
+   "title": "Elevate your campaign performance with June’s Demand Gen Drop.",
+   "url": "https://blog.google/products/ads-commerce/demand-gen-drop-june-2026/",
+   "date": "2026-06-26T01:00:00+09:00",
+   "summary": "Our June Demand Gen Drop offers more ways to elevate campaign performance and engage new viewers on YouTube.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Demand_Gen_Drops_10.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Announcing v24.2 of the Google Ads API",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/4981407651934041130",
+   "date": "2026-06-25T10:00:31.600000+09:00",
+   "summary": "Today, we’re announcing the v24.2 release of the Google Ads API . This minor release brings critical security updates, new AI transparency features, reporting enhancements, and pow…",
+   "thumb": "https://lh3.googleusercontent.com/a-/AD_cMMRmfdsXvZhyLvWsLuqqcScxtYI0ih7DPGCk8lTee140NzXH=s300",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
+   ]
+  },
+  {
+   "title": "More autonomy, less context: Introducing Agent Skills for Google Advertising and Measurement",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/5735402964444378595",
+   "date": "2026-06-25T02:01:23.103000+09:00",
+   "summary": "The way developers build and integrate software is changing. With the rapid adoption of AI-powered coding assistants, we are launching a dedicated set of Google Advertising and Mea…",
+   "thumb": "https://lh3.googleusercontent.com/a-/AOh14GjtsQZdIExmcjrR581d0QKQR_WB3m0ETlK1hUK5=s72-w88-h88-c-k?sz=40",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "計測・データ"
    ]
   },
   {
@@ -3232,10 +5278,26 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
     "モデル"
+   ]
+  },
+  {
+   "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+   "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+   "date": "2026-06-25T01:00:13+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
    ]
   },
   {
@@ -3246,11 +5308,118 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/288466465/rectangle_large_type_2_86b5ba4bbfaf6cfd970e90aef34372cd.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
     "モデル",
     "エージェント"
+   ]
+  },
+  {
+   "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+   "url": "https://huggingface.co/blog/ffasr-leaderboard",
+   "date": "2026-06-24T09:00:00+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Changes to Support for Smart Campaigns in the Google Ads API",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/3498464304976419670",
+   "date": "2026-06-23T23:59:33.306000+09:00",
+   "summary": "August 13, 2026 Update: The start date changed from August 5, 2026 to September 23, 2026. Starting on September 23, 2026 you will no longer be able to create new Smart Campaigns us…",
+   "thumb": "https://lh3.googleusercontent.com/a-/AOh14GhFLgYJAFpYHUS1kBcLzMIT2gKkUyYcjWCuOWM3=s72-c-p",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
+   ]
+  },
+  {
+   "title": "Cannes Lions 2026: Strengthen creative campaigns with new tools from YouTube",
+   "url": "https://blog.google/products/ads-commerce/youtube-insights-tools-cannes-lions-2026/",
+   "date": "2026-06-23T21:30:00+09:00",
+   "summary": "YouTube announces new insights tools to support creator partnerships and strengthen ad campaigns at Cannes Lions 2026.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/YT_Illustration.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Expanding financial advertiser verification across Europe",
+   "url": "https://blog.google/products/ads-commerce/eu-financial-advertiser-verification/",
+   "date": "2026-06-23T14:00:00+09:00",
+   "summary": "Google is expanding its mandatory financial advertiser verification program across the EU to help people find services they can trust.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/EU_Ads_Safety_hero.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+   "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+   "date": "2026-06-23T09:00:00+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+   "url": "https://huggingface.co/blog/cross-origin-storage",
+   "date": "2026-06-23T09:00:00+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "New Google Search setting saves images and audio you upload; how to turn it off",
+   "url": "https://9to5google.com/2026/06/22/google-saving-audio-images-used-to-search-how-to-turn-it-off/",
+   "date": "2026-06-23T01:59:28+09:00",
+   "summary": "Google says it’s saving files and media uploaded during searches in user search history to train AI and improve the experience after announcing the change last month. Search histor…",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/03/circle-to-search-find-look-2.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
    ]
   },
   {
@@ -3261,6 +5430,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/287547611/rectangle_large_type_2_db043dddcc263ff1fe11396009a5aead.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -3277,6 +5447,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp",
    "source": "googleai",
    "sourceName": "Google AI",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3291,6 +5462,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://lh3.googleusercontent.com/kc7RMwXGDfJAoCsgs6pUuONGMXePGbvF_q_i8i-bWBBakQ91O8VYPk8cyHfpOD1uF-lw8Mk6pd2JpXofi5n4qNoNziPol46lBMmZuxoG9NKl16CW=w528-h297-n-nu-rw-lo",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3305,6 +5477,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://lh3.googleusercontent.com/X6w_t9eA7TLFiq3JMp1kXlon25qi9N6O0AxPyp7j0qOIu8oz-QDsaOP-oKz7FIuqlA3W1evDbeLYssDJM_fjkqeyscPO_fHJd0xeD0IoDlHkiUQW1w=w528-h297-n-nu-rw-lo",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3312,13 +5485,29 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "Updates to Smart Bidding Strategy Naming and Organization in Google Ads",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/6163920570446024116",
+   "date": "2026-06-16T23:04:10.570000+09:00",
+   "summary": "Starting in June 2026, Google Ads is updating how bidding strategies are labeled to offer greater clarity between volume-focused and target-focused goals. As part of this update, w…",
+   "thumb": "https://blogger.googleusercontent.com/img/a/AVvXsEgGD29rjK09jXwR45TSO8b6YG5OcppqiupjPewe1sWjTCjdjnDUnnivyy_WV7YBOJalPln-jxXdnu31x-ueYdhuGw0FyuQepiy4RXnrFsFmlWFZBcd9Fue1B-aR9gvWjyVe9PwEbuPeRaK8soOkprJfedUFO9uvnLv58ETUxPqCpws9SU8YmmmkUMQqrbs=s72-c",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
    "title": "【週刊AI 特別号】Claude Fable 5、公開3日で全ユーザー停止。米政府の指示をめぐり何が起きたのか",
    "url": "https://chatgpt-lab.com/n/n2e3fa19494b3",
    "date": "2026-06-14T18:24:30+09:00",
-   "summary": "いつもは日曜に「 週刊AI 」として、その週の動きをまとめてお届けしていますが、今週はFableの件があまりに大きかったため、通常号をお休みして特別号としてお送りします。 6/15（9：23）更新：最新の情報に基づいて更新しました 続きをみる",
+   "summary": "いつもは日曜に「 週刊AI 」として、その週の動きをまとめてお届けしていますが、今週はFableの件があまりに大きかったため、通常号をお休みして特別号としてお送りします。 6/15（9：23）更新：最新の情報に基づいて更新しました",
    "thumb": "https://assets.st-note.com/production/uploads/images/285398255/rectangle_large_type_2_dc5ca2b1d9832415b78547201b6d4d85.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -3329,15 +5518,61 @@ window.AIRADAR_DATA = {
    "title": "【6/20(土)渋谷】BBQミートアップ『トークン消費より、肉を消費する会』開催決定!🍖",
    "url": "https://chatgpt-lab.com/n/n37715bb63e1b",
    "date": "2026-06-12T19:19:00+09:00",
-   "summary": "いつもAGIラボを楽しんでいただきありがとうございます! Fable 5 に Codex App…新モデルラッシュでトークンを燃やし続けた6月。たまには画面を閉じて、炭火で肉を燃やしませんか? 続きをみる",
+   "summary": "いつもAGIラボを楽しんでいただきありがとうございます! Fable 5 に Codex App…新モデルラッシュでトークンを燃やし続けた6月。たまには画面を閉じて、炭火で肉を燃やしませんか?",
    "thumb": "https://assets.st-note.com/production/uploads/images/284811948/rectangle_large_type_2_9ce46f14518cba29f90e09f4f2ca66b0.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
     "モデル",
     "エージェント"
+   ]
+  },
+  {
+   "title": "Dynamic Search Ads (DSA) Automigration Delayed to February 2027 and Campaign Creation Restored",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/589421592080885626",
+   "date": "2026-06-12T01:39:32.911000+09:00",
+   "summary": "What is changing? Google is extending the timeline for the transition of Dynamic Search Ads (DSA) to AI Max for Search campaigns and restoring campaign creation functionality. Auto…",
+   "thumb": "",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Enhanced Local Services Ads for Home Listings bring homebuyers and local agents together.",
+   "url": "https://blog.google/products/ads-commerce/new-real-estate-ads-formats/",
+   "date": "2026-06-12T00:00:00+09:00",
+   "summary": "When buyers search for homes, they get critical property details — and they can contact an agent right from the ad.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/bring_homebuyers_and_local_agen.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "We’re bringing Walmart Connect to Display & Video 360.",
+   "url": "https://blog.google/products/marketingplatform/360/walmart-connect/",
+   "date": "2026-06-11T21:00:00+09:00",
+   "summary": "The new partnership will help brands reach high-intent shoppers through YouTube campaigns and measure their results.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/heroimagenoarrownoborder.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
    ]
   },
   {
@@ -3348,6 +5583,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3355,13 +5591,46 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "Introducing the Google Ads API Developer Assistant v3.0.0",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/8725267558618735394",
+   "date": "2026-06-11T00:52:46.774000+09:00",
+   "summary": "We are pleased to announce the release of v3.0.0 of the Google Ads API Developer Assistant . This major release marks a significant milestone in the evolution of the Assistant, foc…",
+   "thumb": "",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
+   ]
+  },
+  {
+   "title": "June 2026 update to the Display & Video 360 API",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/8575603801217859350",
+   "date": "2026-06-10T23:04:55.534000+09:00",
+   "summary": "Today we’re launching the June 2026 update to the Display & Video 360 API. This update includes the following: Support for Structured Data Files v10 . Introduction of new AudioCont…",
+   "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXVr7f4ytIcmllzEyXHydnMWFyaVwwDJ4ZEweChJMlryjlu4_NY39i-y_s0zjoslPkp60LgoSfgmypI_6rXjpGUsWPfQyvQyml31BDxWzh2BBYtyr2tp7NpaIA4hGs-86rGjlLNUX1tX2H_fkEzw83BOaWGJPKcZIzVtzIMBNzuLCoTlrpCrnA8Z1DLR8/s512/unnamed%20%286%29.jpg",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "検索・SEO",
+    "API・開発"
+   ]
+  },
+  {
    "title": "AGIラボ Claude Code仕事術講座｜6/21(日) 開催します！資料作成・議事録・情報収集を自分の手で自動化する",
    "url": "https://chatgpt-lab.com/n/n6f51ea86dc0e",
    "date": "2026-06-10T22:11:59+09:00",
-   "summary": "AGIラボでは、2026年6月21日（日）に 「Claude Code仕事術講座」 を開催します！講師は、AGIラボ運営メンバーのあやみさんです。 Claude Codeを、明日の業務に効く小さな仕組みにする 続きをみる",
+   "summary": "AGIラボでは、2026年6月21日（日）に 「Claude Code仕事術講座」 を開催します！講師は、AGIラボ運営メンバーのあやみさんです。 Claude Codeを、明日の業務に効く小さな仕組みにする",
    "thumb": "https://assets.st-note.com/production/uploads/images/283597346/rectangle_large_type_2_a8fd7a9b0138124fec69c640e88c01fa.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3377,6 +5646,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://lh3.googleusercontent.com/YgqOl-h3mEKPbpttnT89PtoHDKTc1-2fbhwRgDauUPtagZVWiw0lr1IGgRUDZDqb9Ib4nhaU93T0mJSE8FFbhkDRiaT53BGLnLVdpqliTP8v5kvmwu8=w528-h297-n-nu-rw-lo",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3389,10 +5659,11 @@ window.AIRADAR_DATA = {
    "title": "GPT-5.5に29点差。政府限定だった『Mythos』が Claude Fable 5 として解禁【独自検証】",
    "url": "https://chatgpt-lab.com/n/ncdfe71830759",
    "date": "2026-06-10T08:43:04+09:00",
-   "summary": "日本時間 2026年6月10日、Anthropicが新モデル「Claude Fable 5」を公開しました。政府や重要インフラ向け限定だった「Mythosクラス」が、セーフガード付きで初めて一般開放されます。価格は100万トークンあたり入力10ドル／出力50ドルと、Opus 4.8の2倍です。 要点： 続きをみる",
+   "summary": "日本時間 2026年6月10日、Anthropicが新モデル「Claude Fable 5」を公開しました。政府や重要インフラ向け限定だった「Mythosクラス」が、セーフガード付きで初めて一般開放されます。価格は100万トークンあたり入力10ドル／出力50ドルと、Opus 4.8の2倍です。 要点：",
    "thumb": "https://assets.st-note.com/production/uploads/images/284080754/rectangle_large_type_2_c471c4532a0a9369c467cf924e2da491.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3407,6 +5678,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3422,6 +5694,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3436,6 +5709,7 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3450,6 +5724,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://lh3.googleusercontent.com/5g2RQPPxqVGuOzfaYj1-8r_6B-Ytp79c9mpWXzBIrk2vUhtxZmA7bMywH41h-8b0EJAdW_K4l7kqHZlfS-QTFk8kFB5MA2bgxZ4hxbuAiOuDIn3ohA=w528-h297-n-nu-rw-lo",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3460,10 +5735,11 @@ window.AIRADAR_DATA = {
    "title": "Notion Workersとは？ NotionにAIエージェントの実行基盤を持ち込む新機能",
    "url": "https://chatgpt-lab.com/n/n7e6450e05407",
    "date": "2026-06-08T11:25:48+09:00",
-   "summary": "Notionは、開発者向けの新機能として Notion Workers を公開しています。 Notion Workersは、Notion上で動く小さなNode.js / TypeScriptプログラムです。 続きをみる",
+   "summary": "Notionは、開発者向けの新機能として Notion Workers を公開しています。 Notion Workersは、Notion上で動く小さなNode.js / TypeScriptプログラムです。",
    "thumb": "https://assets.st-note.com/production/uploads/images/283534195/rectangle_large_type_2_880f2909ca931d585be2f06056ed6573.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3479,12 +5755,43 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/283322443/rectangle_large_type_2_812ec95f1195e34818e01627ddbf8de0.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
     "モデル",
     "規制・リスク",
     "開発・技術"
+   ]
+  },
+  {
+   "title": "The latest AI news we announced in May 2026",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+   "date": "2026-06-05T23:45:00+09:00",
+   "summary": "Here are Google’s latest AI updates from May 2026",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Google Chrome tests sending users straight to AI Mode instead of Search, but no plans to change [U]",
+   "url": "https://9to5google.com/2026/06/05/google-tests-sending-users-straight-to-ai-mode-instead-of-search-in-chrome/",
+   "date": "2026-06-05T22:45:00+09:00",
+   "summary": "Google is in the early days of testing a new behavior in Chrome that sends users straight to AI Mode, bypassing the standard Search experience.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2023/02/google-chrome-laptop.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "AI検索体験"
    ]
   },
   {
@@ -3495,6 +5802,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/282692315/rectangle_large_type_2_2173e59ae9725f38dc5194f1e34a7d35.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3502,13 +5810,74 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "Google Search adding profile pages for websites and creators",
+   "url": "https://9to5google.com/2026/06/04/google-search-profiles/",
+   "date": "2026-06-05T01:00:00+09:00",
+   "summary": "Google today announced “Search profiles” as a new way for website owners and creators to “shape their presence on Search.”",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/06/Google-Search-profiles-cover.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "YouTube earns industry's first MRC accreditation for short-form video.",
+   "url": "https://blog.google/products/ads-commerce/youtube-mrc-accreditation-shorts/",
+   "date": "2026-06-04T01:00:00+09:00",
+   "summary": "YouTube achieves its sixth consecutive MRC brand safety accreditation, and becomes the first platform certified for short-form video.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Youtube_Safety_social.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "5 ways Google Search can level up your thrift and vintage shopping",
+   "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+   "date": "2026-06-03T22:00:00+09:00",
+   "summary": "Uncover second-hand scores with AI tools in Google Search and Shopping.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Google will let websites opt-out of AI Mode & Overviews in Search",
+   "url": "https://9to5google.com/2026/06/02/google-ai-mode-overviews-opt-out/",
+   "date": "2026-06-03T14:10:00+09:00",
+   "summary": "Google announced today that it will let publishers determine whether their websites appear and are used by AI Mode and AI Overviews, independently of regular Search results.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/03/google-ai-mode-2.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "AI検索体験"
+   ]
+  },
+  {
    "title": "Claude Code新機能『Dynamic Workflows』を徹底検証！",
    "url": "https://chatgpt-lab.com/n/nb31ebfac8cbc",
    "date": "2026-06-02T15:04:08+09:00",
-   "summary": "はじめに：AI に大きな仕事を任せると、なぜ途中で迷子になるのか 2026 年 5 月 28 日、Anthropic は Claude Code の新機能 Dynamic Workflows（動的ワークフロー） を発表しました。 続きをみる",
+   "summary": "はじめに：AI に大きな仕事を任せると、なぜ途中で迷子になるのか 2026 年 5 月 28 日、Anthropic は Claude Code の新機能 Dynamic Workflows（動的ワークフロー） を発表しました。",
    "thumb": "https://assets.st-note.com/production/uploads/images/281773952/rectangle_large_type_2_d59d27f47a18bd4e33773d53e93d1a70.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3520,10 +5889,11 @@ window.AIRADAR_DATA = {
    "title": "【週刊AI】Opus 4.8で信頼性が争点に、Xではコストと人間の役割をめぐる議論が広がる | #69",
    "url": "https://chatgpt-lab.com/n/n818a96e3297c",
    "date": "2026-05-31T23:57:22+09:00",
-   "summary": "今週、Anthropicは『Opus 4.8』をリリース。Opus 4.7から4.8への更新にかかった時間は、わずか42日でした。 続きをみる",
+   "summary": "今週、Anthropicは『Opus 4.8』をリリース。Opus 4.7から4.8への更新にかかった時間は、わずか42日でした。",
    "thumb": "https://assets.st-note.com/production/uploads/images/281325712/rectangle_large_type_2_782d2b1d4e728f5aec1d9182b85d4204.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -3538,6 +5908,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/280439536/rectangle_large_type_2_a6c6817aaf8acd1f796470e42ca3909e.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3546,13 +5917,59 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "Catch up on 12 major I/O 2026 moments",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+   "date": "2026-05-29T00:00:00+09:00",
+   "summary": "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Here's how AI is rebuilding the foundation of modern marketing.",
+   "url": "https://blog.google/products/ads-commerce/ads-decoded-finale/",
+   "date": "2026-05-28T22:00:00+09:00",
+   "summary": "The finale of Ads Decoded, recorded live at Google Marketing Live 2026, features the teams behind the day’s biggest announcements.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Decoded_Podcast_-_Thumbnail_-_S.max-600x600.format-webp_GzdErme.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Google AI Mode and AI Overviews will highlight your Preferred Sources",
+   "url": "https://9to5google.com/2026/05/27/google-ai-mode-preferred-sources/",
+   "date": "2026-05-28T02:00:00+09:00",
+   "summary": "After introducing for regular Search results , Google is bringing Preferred Sources to AI Mode and AI Overviews.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/Google-AI-Mode-Preferred-Sources.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "AI検索体験"
+   ]
+  },
+  {
    "title": "Codexアプリでできること｜今日から試せる活用事例7選と便利な使い方",
    "url": "https://chatgpt-lab.com/n/n781a58c28ed1",
    "date": "2026-05-27T23:59:39+09:00",
-   "summary": "2026年2月2日に、OpenAIがmacOS向けの「 Codexアプリ 」を正式にリリースしました。 続きをみる",
+   "summary": "2026年2月2日に、OpenAIがmacOS向けの「 Codexアプリ 」を正式にリリースしました。",
    "thumb": "https://assets.st-note.com/production/uploads/images/280121893/rectangle_large_type_2_83b4141291e1575949767f8ffaaf4970.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3560,13 +5977,44 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "Google rolling out new settings for Search Services History & Personalized Recommendations",
+   "url": "https://9to5google.com/2026/05/26/google-search-services-history-settings/",
+   "date": "2026-05-27T07:09:30+09:00",
+   "summary": "Google Search is adding two new settings related to your history and personalization. The aim is to provide users with “more control over saved history and personalized recommendat…",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/04/Google-Search-cover-April-2026.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Google Display Ads has a new home in Demand Gen.",
+   "url": "https://blog.google/products/ads-commerce/google-display-ads-demand-gen/",
+   "date": "2026-05-27T02:00:00+09:00",
+   "summary": "Display advertisers can still serve ads exclusively on the Google Display Network while unlocking more streamlined campaign management.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ads_Logo_SS_social.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
    "title": "M5 Pro MaxでローカルClaude CodeをOpusと比較検証：エクセル系のクローンアプリを作ってみた",
    "url": "https://chatgpt-lab.com/n/ndb44053f3706",
    "date": "2026-05-24T22:54:18+09:00",
-   "summary": "はじめに 2026年に入り、 Claude Code がローカルLLMで動かせる時代 がやってきました。Anthropic 公式が ANTHROPIC_BASE_URL という環境変数を介して、自前のLLMサーバへの接続をネイティブサポートしています。 続きをみる",
+   "summary": "はじめに 2026年に入り、 Claude Code がローカルLLMで動かせる時代 がやってきました。Anthropic 公式が ANTHROPIC_BASE_URL という環境変数を介して、自前のLLMサーバへの接続をネイティブサポートしています。",
    "thumb": "https://assets.st-note.com/production/uploads/images/279164812/rectangle_large_type_2_3faecc6d48655772773556cdc7f38a0c.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3582,6 +6030,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/279040996/rectangle_large_type_2_78c1eaa4590d4d871531335f93b52a66.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -3591,13 +6040,44 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "You can turn off AI in Google Search results with this easy modifier",
+   "url": "https://9to5google.com/2026/05/23/google-ai-overviews-turn-off-modifier/",
+   "date": "2026-05-24T00:05:00+09:00",
+   "summary": "AI in Google Search can be useful, but it’s also one of those “love it or hate it” tools. If you’ve been wanting to turn AI Overviews in Google Search off, though, there’s a pretty…",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/google-ai-overview-2.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "AI検索体験"
+   ]
+  },
+  {
+   "title": "Google’s AI Overviews break the dictionary when you use words like ‘disregard’",
+   "url": "https://9to5google.com/2026/05/22/google-ai-overview-dictionary/",
+   "date": "2026-05-23T01:30:00+09:00",
+   "summary": "In a slightly funny twist, it’s been highlighted that Google’s AI Overviews currently break when you use words such as “disregard.”",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/google-ai-overview-disregard.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "AI検索体験"
+   ]
+  },
+  {
    "title": "Codex × ChatGPT for PowerPointでスライド作成を自動化：画像で作っても編集は自由自在にする裏技",
    "url": "https://chatgpt-lab.com/n/ne05ef76d7e08",
    "date": "2026-05-22T19:04:36+09:00",
-   "summary": "AIでスライドを作る方法は増えてきました。 ただ、実務で使うとなると、まだ悩ましい点があります。 続きをみる",
+   "summary": "AIでスライドを作る方法は増えてきました。 ただ、実務で使うとなると、まだ悩ましい点があります。",
    "thumb": "https://assets.st-note.com/production/uploads/images/278465232/rectangle_large_type_2_00703bf04d1394456d809cfa59c3954f.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3612,6 +6092,52 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Google adds US National Teams to its growing list of World Cup partnerships",
+   "url": "https://9to5google.com/2026/05/21/google-becomes-us-national-team-sponsor-before-world-cup/",
+   "date": "2026-05-22T00:02:08+09:00",
+   "summary": "As the 2026 FIFA World Cup approaches, Google is announcing a partnership with the US Men’s and Women’s National Teams to integrate additional themed features into Google Search.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/US-mens-soccer-world-cup-google-search.jpg?quality=82&#038;strip=all&#038;w=1400",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "How we’re helping retailers thrive with new Universal Commerce Protocol features and AI tools on Google",
+   "url": "https://blog.google/products-and-platforms/products/shopping/shopping-updates-google-marketing-live/",
+   "date": "2026-05-21T01:00:00+09:00",
+   "summary": "New UCP-powered features and AI tools will create a more intuitive, agentic shopping experience for consumers and retailers.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Commerce_hero.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "Google Marketing Live 2026",
+   "url": "https://blog.google/products/ads-commerce/google-marketing-live-2026-collection/",
+   "date": "2026-05-21T01:00:00+09:00",
+   "summary": "At Google Marketing Live 2026, we announced new AI-powered advertising solutions to help marketers grow across Google and YouTube.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GML_2026_Collection_Header_Imag.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3622,15 +6148,46 @@ window.AIRADAR_DATA = {
    "title": "【Google I/O 2026まとめ】Gemini 3.5 Flash / Spark / Antigravity 2.0",
    "url": "https://chatgpt-lab.com/n/n737ad76b16a5",
    "date": "2026-05-20T17:13:11+09:00",
-   "summary": "5月20日、Google I/O 2026で主要なアップデートが公開されました。 2025年11月以降、AIエージェントが実務の成果物を安定して出力できるようになりました。 これを受け、今回の発表では「チャットUIを超えた作業環境への統合」が鮮明になっています。 続きをみる",
+   "summary": "5月20日、Google I/O 2026で主要なアップデートが公開されました。 2025年11月以降、AIエージェントが実務の成果物を安定して出力できるようになりました。 これを受け、今回の発表では「チャットUIを超えた作業環境への統合」が鮮明になっています。",
    "thumb": "https://assets.st-note.com/production/uploads/images/277855602/rectangle_large_type_2_ecfdebb77a6639d788646374f964841b.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
     "モデル",
     "エージェント"
+   ]
+  },
+  {
+   "title": "Google is adding AI detection for photos, videos, and audio to Search and Chrome",
+   "url": "https://9to5google.com/2026/05/19/google-is-adding-ai-detection-for-photos-videos-and-audio-to-search-and-chrome/",
+   "date": "2026-05-20T02:50:00+09:00",
+   "summary": "Thanks in part to tools like Nano Banana , AI-generated content is more unavoidable than ever. As announced at I/O, Google is doing its part to help curtail the situation it’s play…",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2025/08/Gemini-Options-.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Google gets ‘intelligent’ Search box redesign, information agents, mini apps, & more",
+   "url": "https://9to5google.com/2026/05/19/google-gets-intelligent-search-box-redesign/",
+   "date": "2026-05-20T02:47:00+09:00",
+   "summary": "Google Search received big updates at I/O 2026. For starters, AI Mode is now powered by Gemini 3.5 Flash globally and has over 1 billion users every month.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/Google-Intelligent-Search-Box.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "AI検索体験"
    ]
   },
   {
@@ -3641,6 +6198,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://lh3.googleusercontent.com/Xyt_1kwd_q4W4dKV0YND9MzHJF0UOGAYyZjfKEVQK0LoE2HC7i29ZnIG32Sd8RR1qj5iXEzbexg20aePXF5vLjYUB5vO_zdoqAZhKrSV4VVyce5VT1s=w528-h297-n-nu-rw-lo",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3655,6 +6213,37 @@ window.AIRADAR_DATA = {
    "thumb": "",
    "source": "deepmind",
    "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Introducing Gemini Omni",
+   "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+   "date": "2026-05-18T04:50:57+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Introducing Google Antigravity 2.0",
+   "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+   "date": "2026-05-18T04:43:45+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
    "kind": "official",
    "weekly": false,
    "topics": [
@@ -3669,6 +6258,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/277000114/rectangle_large_type_2_c73438b3aceac704ccbb72ffdcf22a43.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -3678,13 +6268,164 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+   "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
+   "date": "2026-05-17T22:50:34+09:00",
+   "summary": "A collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+   "thumb": "",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Making it easier to understand how content was created and edited",
+   "url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
+   "date": "2026-05-17T22:43:50+09:00",
+   "summary": "We're expanding our tools to help you understand how content was created and edited across the web.",
+   "thumb": "",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Strengthening Singapore’s AI Future: A New National Partnership",
+   "url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
+   "date": "2026-05-16T18:13:34+09:00",
+   "summary": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.",
+   "thumb": "https://lh3.googleusercontent.com/Woiv_MqlJsgv6bSWD505JCSu936VdLLtR0y7Ev1wPWDmuhFK1SYxkpyU4N2vhSpSMl22NAtbxuZ1yFMHIcDFwABNZIgRtX0ccRXxWiBaHETRXUQEZQ=w528-h297-n-nu-rw-lo",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Finding the molecular switches behind new infectious diseases",
+   "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
+   "date": "2026-05-16T17:16:06+09:00",
+   "summary": "Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases.",
+   "thumb": "https://lh3.googleusercontent.com/N1YiCxjf6dUaR3FRHJhNIw6EiWvYEIUrcRZqQJXAJK96qNIio-YlutelO-JQBcmWugKOGF4Cc5n_ugnggILDFXvfud-hTAb3qAQVED2NWcR9TW6azQ=w528-h297-n-nu-rw-lo",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Opening new paths in aging research",
+   "url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
+   "date": "2026-05-16T17:08:44+09:00",
+   "summary": "Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research.",
+   "thumb": "https://lh3.googleusercontent.com/B7CCW8x-V6U0PvCuF6-9V6Cm50m5gRG8SigI6yTMQYs-S7HpY_cKeGn8uLZrJom_0Wuok-iltNFic4I8Eel7riB7Dytm2k1_pytxTtvk-vrEIxw9pg=w528-h297-n-nu-rw-lo",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Accelerating discovery of liver disease mechanisms",
+   "url": "https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/",
+   "date": "2026-05-16T17:00:15+09:00",
+   "summary": "Filippo Menolascina uses Co-Scientist to identify new liver disease treatments and explain why existing drugs only help certain patients.",
+   "thumb": "https://lh3.googleusercontent.com/BviYtfKhFkYTOW9MCZSU9GB3fFLNEupgc1ZynnxKJDiZqNVBaCN-1vtpF1H5e9vXubypNvruDDTrEMwuUEEHPiO4DeohPfocpIXVR7hdcolcP5WX3K4=w528-h297-n-nu-rw-lo",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Uniting biological toolkits for a new approach to ALS",
+   "url": "https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/",
+   "date": "2026-05-16T16:53:11+09:00",
+   "summary": "Co-Scientist unites Boston Children’s Hospital and MIT’s labs to explore new RNA-based treatments for ALS.",
+   "thumb": "https://lh3.googleusercontent.com/fR4KAfFp4Ns7W90QSrwVipuPprhWP4kEnH-hYbP07bEryUBVGjCAm4yEgo6MRBZAhf6Hp6TTzA-z9EKXm7doG9A-hHTbL1IVeIcjtVg_8cI06LYf=w528-h297-n-nu-rw-lo",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Uncovering repurposed medicines to fight liver fibrosis",
+   "url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/",
+   "date": "2026-05-16T16:40:27+09:00",
+   "summary": "Stanford geneticist uses Co-Scientist to help find new treatments for chronic liver disease and liver fibrosis.",
+   "thumb": "https://lh3.googleusercontent.com/WjgQH7IbetdRNwoNAOp7_2JAoHaEckFl7ph9ffhCEtEiGWqzonO9MtqdjOl3n_ZEIAb3uVQ3z-Hq3whlg3ob9lcx6vDOF5lb3MyTE1rIoAeX6peAhOM=w528-h297-n-nu-rw-lo",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica",
+   "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/",
+   "date": "2026-05-16T12:14:17+09:00",
+   "summary": "Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of the historic Hurricane Melissa.",
+   "thumb": "https://lh3.googleusercontent.com/iLgzjfK9faS-SQePs9fq0zjKGOVGpcyS0J0wQ3SS7llJjJhzz214LUtuy82bJIjweaMRiRWcLMDhPxdP1Z2VitCvWEQyMpY8xLFekP2RG255e2td=w528-h297-n-nu-rw-lo",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Gemini 3.5: frontier intelligence with action",
+   "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
+   "date": "2026-05-16T07:50:12+09:00",
+   "summary": "Gemini 3.5 is built to help you execute complex, agentic workflows.",
+   "thumb": "",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
    "title": "【速報】OpenAI Codex、ChatGPTモバイルアプリ対応。ローカルで動くCodexをスマホから監督可能に",
    "url": "https://chatgpt-lab.com/n/n8907acea26c9",
    "date": "2026-05-15T10:47:36+09:00",
-   "summary": "2026年5月、OpenAIはCodexの ChatGPTモバイルアプリ対応 をプレビュー公開しました。 Codex自体は、これまでもChatGPTモバイルアプリの中で使えていました。今回のアップデートで新しくなったのは、 自分のMacやPCの上で動いているCodexに、ChatGPTモバイルアプリから接続できるようになった 部分です。 続きをみる",
+   "summary": "2026年5月、OpenAIはCodexの ChatGPTモバイルアプリ対応 をプレビュー公開しました。 Codex自体は、これまでもChatGPTモバイルアプリの中で使えていました。今回のアップデートで新しくなったのは、 自分のMacやPCの上で動いているCodexに、ChatGPTモバイルアプリから接続できるようになった 部分です。",
    "thumb": "https://assets.st-note.com/production/uploads/images/276211089/rectangle_large_type_2_bd00d1d161d1cb1c190c2570a6ec8233.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3695,13 +6436,30 @@ window.AIRADAR_DATA = {
    "title": "「AIと人間の境界はなくなっていく」製造業の現場社長・藍野雄一朗さんがAIに抱く期待",
    "url": "https://chatgpt-lab.com/n/nb572d626db36",
    "date": "2026-05-13T18:35:02+09:00",
-   "summary": "2026年3月、AGIラボの「AIエージェント スキル自作ハッカソン 2026」が、2週間の開発期間を経て、渋谷で Demo Day を迎えました。 受賞者インタビュー第2弾でお話を伺ったのは、株式会社ニコー代表取締役の藍野雄一朗さんです。 続きをみる",
+   "summary": "2026年3月、AGIラボの「AIエージェント スキル自作ハッカソン 2026」が、2週間の開発期間を経て、渋谷で Demo Day を迎えました。 受賞者インタビュー第2弾でお話を伺ったのは、株式会社ニコー代表取締役の藍野雄一朗さんです。",
    "thumb": "https://assets.st-note.com/production/uploads/images/275702916/rectangle_large_type_2_8d95cb0bf262595243141d8a6eb5fa66.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
+    "エージェント"
+   ]
+  },
+  {
+   "title": "Co-Scientist: A multi-agent AI partner to accelerate research",
+   "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
+   "date": "2026-05-12T23:40:07+09:00",
+   "summary": "Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs.",
+   "thumb": "https://lh3.googleusercontent.com/8kFWTjhROuwZK6kVFk-ol13YlKLABvppqzVl9LIhYyY3NP4Z8Y0i2ubSuVIfgmknluXTgYmTMAzRR21CxJPbgSK5m37ARzv26S8TPX5QhNWG6wq11Q=w528-h297-n-nu-rw-lo",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "モデル",
     "エージェント"
    ]
   },
@@ -3713,6 +6471,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/274852634/rectangle_large_type_2_053fbf309da031d8674452f1d1f1e826.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -3725,10 +6484,11 @@ window.AIRADAR_DATA = {
    "title": "AGIラボ 5月の講座 3本立て｜Git・Agent SKILLs・Codex App でAIエージェントを使いこなす",
    "url": "https://chatgpt-lab.com/n/n2c8376482a5b",
    "date": "2026-05-09T09:30:00+09:00",
-   "summary": "AIエージェントを使いこなすうえで欠かせない3つのテーマを、5月のAGIラボ講座でお届けします。 Git/Github : AIが書いたコードを安心して扱うための土台 SKILLs : AIエージェントを自分専用にカスタマイズする仕組み Codex App : 業務に組み込める新世代のAIエージェント 続きをみる",
+   "summary": "AIエージェントを使いこなすうえで欠かせない3つのテーマを、5月のAGIラボ講座でお届けします。 Git/Github : AIが書いたコードを安心して扱うための土台 SKILLs : AIエージェントを自分専用にカスタマイズする仕組み Codex App : 業務に組み込める新世代のAIエージェント",
    "thumb": "https://assets.st-note.com/production/uploads/images/274272674/rectangle_large_type_2_9b06388e714b57d506d30bd497b7c8bb.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3740,10 +6500,11 @@ window.AIRADAR_DATA = {
    "title": "「使うほど自分専用になる」Hermes Agentで何ができる？MemoryからCronまで実践解説",
    "url": "https://chatgpt-lab.com/n/n815f9b8741cc",
    "date": "2026-05-08T00:08:15+09:00",
-   "summary": "はじめに：リリース直後から話題沸騰の自律エージェント Hermes Agent Nous Research が 2026 年 2 月 26 日 に公開した Hermes Agent は、リリース直後から開発者コミュニティで急速に存在感を増しているプロダクトです。話題性を示すわかりやすい指標として、 続きをみる",
+   "summary": "はじめに：リリース直後から話題沸騰の自律エージェント Hermes Agent Nous Research が 2026 年 2 月 26 日 に公開した Hermes Agent は、リリース直後から開発者コミュニティで急速に存在感を増しているプロダクトです。話題性を示すわかりやすい指標として、",
    "thumb": "https://assets.st-note.com/production/uploads/images/273984069/rectangle_large_type_2_168b3caf56540e1b76c8c966018bee2e.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3752,13 +6513,30 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+   "url": "https://deepmind.google/blog/alphaevolve-impact/",
+   "date": "2026-05-06T19:43:49+09:00",
+   "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
+   "thumb": "https://lh3.googleusercontent.com/UNlyTVoqkmAoTzbbF4QRoPXr-X-QBkXeVpcHxIjte0y5mn_f6ZYHVsynQswOhGLJx-7hnbwt1NcTOQDQoCbum3-l8wPPP5dC6kw0tGmBQAw60nEHog=w528-h297-n-nu-rw-lo",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント"
+   ]
+  },
+  {
    "title": "実装より、思考のほうが長かった。— AGIラボハッカソンで優勝した現役医師のしまゆずさんが語る自己拡張論",
    "url": "https://chatgpt-lab.com/n/nbe2743c3a712",
    "date": "2026-05-04T15:39:37+09:00",
-   "summary": "2026年3月、AGIラボの「AIエージェント スキル自作ハッカソン 2026」が2週間の開発期間を経て、渋谷で Demo Day を迎えました。 続きをみる",
+   "summary": "2026年3月、AGIラボの「AIエージェント スキル自作ハッカソン 2026」が2週間の開発期間を経て、渋谷で Demo Day を迎えました。",
    "thumb": "https://assets.st-note.com/production/uploads/images/271712663/rectangle_large_type_2_8a508be6a296fb846da3c3631aeb5aa8.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3774,6 +6552,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/272727123/rectangle_large_type_2_a2ad8b6f122a66883d187897d921e5b0.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -3786,10 +6565,11 @@ window.AIRADAR_DATA = {
    "title": "【ご報告】AGIラボが、進化します。— 新プラットフォームagi-labo.com発表。学び・コミュニティ・ツールをひとつの場所に",
    "url": "https://chatgpt-lab.com/n/n843fc536058c",
    "date": "2026-05-01T17:55:07+09:00",
-   "summary": "いつもAGIラボを読み、育ててくださっているみなさんへ。 本日は、大事なお知らせをさせてください。 AGIラボは、これまでの note を中心にした運営から、新プラットフォーム https://agi-labo.com/ を発表し、本格的にお引越し を始めます。 続きをみる",
+   "summary": "いつもAGIラボを読み、育ててくださっているみなさんへ。 本日は、大事なお知らせをさせてください。 AGIラボは、これまでの note を中心にした運営から、新プラットフォーム https://agi-labo.com/ を発表し、本格的にお引越し を始めます。",
    "thumb": "https://assets.st-note.com/production/uploads/images/272014294/rectangle_large_type_2_ad38a04cccf5d0099459d52e806c259e.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3797,13 +6577,59 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "Google expands ‘Preferred Sources’ to everyone so you actually see your favorite sites",
+   "url": "https://9to5google.com/2026/04/30/google-preferred-sources-global-language-expansion/",
+   "date": "2026-05-01T00:50:00+09:00",
+   "summary": "Launched in the second half of 2025, Google is now expanding its “Preferred Sources” tool in Search to all users in all languages across the globe.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2025/08/Google-Search-Preferred-Sources-cover.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Enabling a new model for healthcare with AI co-clinician",
+   "url": "https://deepmind.google/blog/ai-co-clinician/",
+   "date": "2026-04-30T21:14:15+09:00",
+   "summary": "Researching the path to AI-augmented care and development of an AI co-clinician.",
+   "thumb": "https://lh3.googleusercontent.com/z2sN_eil5tgap-Ji1W_4l1xnbfLRghzxdXzyCMdnKFVW1xTfgm0o8bpg9pNwE4RcHTR2QGEGhGx7LFn7Q6bg-LEPBW20d4Djo3Erii8PBYYrWz36=w528-h297-n-nu-rw-lo",
+   "source": "deepmind",
+   "sourceName": "Google DeepMind",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Android’s ‘Search’ bar now lets you ‘Ask Google’ and AI Mode",
+   "url": "https://9to5google.com/2026/04/29/android-search-ask-google-bar/",
+   "date": "2026-04-30T01:15:00+09:00",
+   "summary": "Google’s expansion of AI Mode continues today with an integration into the Search bar on Android devices.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2025/10/Pixel-10-Google-Search-bar-on-homescreen.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5gs",
+   "sourceName": "9to5Google (検索)",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "AI検索体験"
+   ]
+  },
+  {
    "title": "CodexやClaude Codeをフル活用したい人へ｜「CLI」を知るだけで劇的に強くなる",
    "url": "https://chatgpt-lab.com/n/n81dbb747ca0c",
    "date": "2026-04-28T20:53:13+09:00",
-   "summary": "はじめに：なぜ今、CLIなのか Codex、Claude Code、OpenClawのようなAIエージェントを使っていると、ターミナルやCLIという言葉に何度も出会います。 続きをみる",
+   "summary": "はじめに：なぜ今、CLIなのか Codex、Claude Code、OpenClawのようなAIエージェントを使っていると、ターミナルやCLIという言葉に何度も出会います。",
    "thumb": "https://assets.st-note.com/production/uploads/images/271193970/rectangle_large_type_2_214584ed861d79687156760b85781455.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3819,6 +6645,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/270577192/rectangle_large_type_2_9f156e01a893e87569fe41fda86790d2.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": true,
    "topics": [
@@ -3830,10 +6657,11 @@ window.AIRADAR_DATA = {
    "title": "AIを作る会社の内側｜Anthropic・OpenAI・Google 社内AI活用2026年版",
    "url": "https://chatgpt-lab.com/n/n00b011d3640f",
    "date": "2026-04-25T23:54:40+09:00",
-   "summary": "AIを外に向けて売っている企業が、社内ではどの程度AIを使っているのでしょうか。 2026年4月現在、 主要3社（Anthropic・OpenAI・Google） の公式発表・ブログ・インタビューをもとに実態をまとめました。 続きをみる",
+   "summary": "AIを外に向けて売っている企業が、社内ではどの程度AIを使っているのでしょうか。 2026年4月現在、 主要3社（Anthropic・OpenAI・Google） の公式発表・ブログ・インタビューをもとに実態をまとめました。",
    "thumb": "https://assets.st-note.com/production/uploads/images/270390109/rectangle_large_type_2_cae36d72235f5d0b88301bbee92e3eaf.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3848,6 +6676,7 @@ window.AIRADAR_DATA = {
    "thumb": "https://assets.st-note.com/production/uploads/images/269902697/rectangle_large_type_2_29ac28a598bb902da89cbbe213f60a7b.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3860,10 +6689,11 @@ window.AIRADAR_DATA = {
    "title": "【速報】OpenAI「ChatGPT Images 2.0」登場。\"調べて描く\"画像生成と、5つの強化ポイントを整理する",
    "url": "https://chatgpt-lab.com/n/n0b7dd6677537",
    "date": "2026-04-22T08:26:51+09:00",
-   "summary": "いよいよ、正式発表されました！ 2026年4月21日（日本時間4月22日）、OpenAI が ChatGPT Images 2.0 を公開。Sam Altman 氏は「GPT-3 から GPT-5 への飛躍に相当する」と表現しています。 続きをみる",
+   "summary": "いよいよ、正式発表されました！ 2026年4月21日（日本時間4月22日）、OpenAI が ChatGPT Images 2.0 を公開。Sam Altman 氏は「GPT-3 から GPT-5 への飛躍に相当する」と表現しています。",
    "thumb": "https://assets.st-note.com/production/uploads/images/269337889/rectangle_large_type_2_6fcd8b1380c97ceb03c3f96b780ca83f.png?width=800",
    "source": "agilabo",
    "sourceName": "AGIラボ",
+   "axis": "ai",
    "kind": "main",
    "weekly": false,
    "topics": [
@@ -3882,6 +6712,7 @@ window.AIRADAR_DATA = {
     "ビジネス・資金"
    ],
    "source": "pickup",
+   "axis": "ai",
    "kind": "pickup",
    "thumb": "",
    "weekly": false
@@ -3896,6 +6727,7 @@ window.AIRADAR_DATA = {
     "エージェント"
    ],
    "source": "pickup",
+   "axis": "ai",
    "kind": "pickup",
    "thumb": "",
    "weekly": false,
