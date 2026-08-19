@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI Radar — 週刊AI + AIニュース集約</title>
+<style>
+:root{
+  --bg:#f6f7f9; --card:#fff; --fg:#16181d; --sub:#666e7a; --line:#e3e6ea;
+  --accent:#3b5bdb; --accent-soft:#eaeeff; --chip:#f0f2f5; --shadow:0 1px 2px rgba(16,20,30,.06);
+}
+:root[data-theme="dark"]{
+  --bg:#0f1115; --card:#171a20; --fg:#e8eaee; --sub:#98a0ad; --line:#262a33;
+  --accent:#8b9cf8; --accent-soft:#1c2338; --chip:#20242c; --shadow:none;
+}
+*{box-sizing:border-box}
+html,body{margin:0;overflow-x:hidden}
+body{
+  background:var(--bg); color:var(--fg);
+  font-family:"Yu Gothic UI","Yu Gothic",-apple-system,"Segoe UI",Meiryo,sans-serif;
+  font-size:15px; line-height:1.6; -webkit-text-size-adjust:100%;
+}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;cursor:pointer;border:none;background:none}
+
+/* ---- header ---- */
+.top{
+  position:sticky; top:0; z-index:20; background:var(--card);
+  border-bottom:1px solid var(--line); padding:10px 16px;
+}
+.top-row{display:flex;align-items:center;gap:10px;max-width:1080px;margin:0 auto}
+.brand{font-weight:700;font-size:17px;letter-spacing:.01em;white-space:nowrap}
+.brand span{color:var(--accent)}
+.updated{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.spacer{flex:1}
+.icon-btn{
+  width:34px;height:34px;border-radius:9px;display:grid;place-items:center;
+  font-size:15px;color:var(--sub)
+}
+.icon-btn:hover{background:var(--chip)}
+.search{
+  display:flex;align-items:center;gap:8px;max-width:1080px;margin:8px auto 0;
+  background:var(--chip); border-radius:10px; padding:0 12px;
+}
+.search input{
+  flex:1;border:none;background:none;outline:none;color:inherit;
+  font:inherit;padding:9px 0;min-width:0;
+}
+.search .hint{font-size:11px;color:var(--sub);white-space:nowrap}
+
+/* ---- tabs ---- */
+.tabs{
+  display:flex;gap:4px;max-width:1080px;margin:10px auto 0;padding:0 16px;
+}
+.tab{
+  padding:7px 14px;border-radius:999px;font-size:13.5px;font-weight:600;color:var(--sub);
+  white-space:nowrap;
+}
+.tab.on{background:var(--accent);color:#fff}
+.tab .n{font-weight:500;opacity:.7;margin-left:4px;font-size:12px}
+
+/* ---- filters ---- */
+.filters{max-width:1080px;margin:12px auto 0;padding:0 16px}
+.frow{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:6px}
+.flabel{font-size:11.5px;color:var(--sub);width:52px;flex-shrink:0}
+.chip{
+  padding:4px 11px;border-radius:999px;font-size:12.5px;
+  background:var(--chip);color:var(--sub);border:1px solid transparent;
+}
+.chip.on{background:var(--accent-soft);color:var(--accent);border-color:var(--accent)}
+.toggle{margin-left:auto;font-size:12.5px;color:var(--sub);display:flex;align-items:center;gap:6px}
+.toggle input{accent-color:var(--accent)}
+
+/* ---- list ---- */
+main{max-width:1080px;margin:0 auto;padding:14px 16px 60px}
+.count{font-size:12px;color:var(--sub);margin:4px 0 10px}
+.card{
+  display:flex;gap:12px;background:var(--card);border:1px solid var(--line);
+  border-radius:12px;padding:12px;margin-bottom:9px;box-shadow:var(--shadow);
+  position:relative;transition:border-color .12s;
+}
+.card:hover{border-color:var(--accent)}
+.card.read{opacity:.5}
+.card.weekly{border-left:3px solid var(--accent)}
+.thumb{
+  width:104px;height:70px;flex-shrink:0;border-radius:8px;object-fit:cover;
+  background:var(--chip);
+}
+.body{flex:1;min-width:0}
+.meta{display:flex;align-items:center;gap:7px;flex-wrap:wrap;font-size:11.5px;color:var(--sub);margin-bottom:3px}
+.src{font-weight:600;color:var(--accent)}
+.badge{
+  background:var(--accent);color:#fff;font-size:10.5px;font-weight:700;
+  padding:1px 7px;border-radius:999px;
+}
+.ttl{
+  font-weight:600;font-size:14.5px;line-height:1.45;margin:0 0 4px;
+  overflow-wrap:anywhere;
+}
+.sum{font-size:12.5px;color:var(--sub);margin:0;overflow-wrap:anywhere;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px}
+.tag{font-size:10.5px;color:var(--sub);background:var(--chip);padding:1px 8px;border-radius:999px}
+.save{
+  position:absolute;top:8px;right:8px;width:30px;height:30px;border-radius:8px;
+  display:grid;place-items:center;font-size:15px;color:var(--sub);line-height:1;
+}
+.save:hover{background:var(--chip)}
+.save.on{color:#f0a020}
+.empty{text-align:center;color:var(--sub);font-size:13px;padding:50px 0}
+
+/* ---- sources footer ---- */
+.srcbox{
+  max-width:1080px;margin:18px auto 0;padding:14px 16px;border-top:1px solid var(--line);
+  font-size:11.5px;color:var(--sub);
+}
+.srcbox b{color:var(--fg);font-size:12px}
+.srclist{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+.srclist span{background:var(--chip);padding:2px 9px;border-radius:999px}
+
+@media(max-width:560px){
+  .thumb{width:78px;height:56px}
+  .ttl{font-size:13.5px}
+  .sum{display:none}
+  .flabel{width:100%}
+  .brand{font-size:15px}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-row">
+    <div class="brand">AI <span>Radar</span></div>
+    <div class="updated" id="updated"></div>
+    <div class="spacer"></div>
+    <button class="icon-btn" id="themeBtn" title="表示テーマ切替">◑</button>
+  </div>
+  <div class="search">
+    <span style="color:var(--sub)">⌕</span>
+    <input id="q" type="search" placeholder="キーワードで絞り込む（例: エージェント, Gemini, 広告）">
+    <span class="hint">/</span>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button class="tab on" data-view="weekly">週刊AI<span class="n" id="n-weekly"></span></button>
+  <button class="tab" data-view="all">すべて<span class="n" id="n-all"></span></button>
+  <button class="tab" data-view="saved">保存済み<span class="n" id="n-saved"></span></button>
+</nav>
+
+<div class="filters">
+  <div class="frow"><span class="flabel">ソース</span><span id="kinds"></span></div>
+  <div class="frow"><span class="flabel">トピック</span><span id="topics"></span></div>
+  <div class="frow">
+    <span class="flabel">期間</span><span id="days"></span>
+    <label class="toggle"><input type="checkbox" id="unread">未読のみ</label>
+  </div>
+</div>
+
+<main>
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+</main>
+
+<div class="srcbox">
+  <b>収集元</b>（AGIラボ「週刊AI」を軸に、国内外のAIニュースを横断収集）
+  <div class="srclist" id="srclist"></div>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+'use strict';
+
+const DATA = window.AIRADAR_DATA || {items:[],sources:[],topics:[],updatedAt:''};
+const KEY = 'ai-radar-v1';
+const KIND_LABEL = {main:'週刊AI（AGIラボ）', jp:'国内メディア', global:'海外メディア',
+                    official:'開発元公式', pickup:'ピックアップ'};
+
+let store = {read:{}, saved:{}};
+try { Object.assign(store, JSON.parse(localStorage.getItem(KEY) || '{}')); } catch(e){}
+const persist = () => { try{ localStorage.setItem(KEY, JSON.stringify(store)); }catch(e){} };
+
+const state = {
+  view:'weekly', q:'', kinds:new Set(), topics:new Set(), days:0, unread:false
+};
+
+/* ---------- テーマ ---------- */
+const applyTheme = t => document.documentElement.setAttribute('data-theme', t);
+let theme = localStorage.getItem(KEY+'-theme')
+  || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+applyTheme(theme);
+document.getElementById('themeBtn').onclick = () => {
+  theme = theme === 'dark' ? 'light' : 'dark';
+  localStorage.setItem(KEY+'-theme', theme);
+  applyTheme(theme);
+};
+
+/* ---------- 表示補助 ---------- */
+function relDate(iso){
+  if(!iso) return '';
+  const d = new Date(iso), now = new Date();
+  const h = Math.floor((now - d) / 36e5);
+  if(h < 1) return 'たった今';
+  if(h < 24) return h + '時間前';
+  const days = Math.floor(h / 24);
+  if(days < 7) return days + '日前';
+  return (d.getMonth()+1) + '/' + d.getDate();
+}
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g,
+  c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+/* 週刊AIの号数（"| #79" 部分）を取り出す */
+function issueNo(title){
+  const m = String(title).match(/#\s*(\d+)/);
+  return m ? '#' + m[1] : '';
+}
+
+/* ---------- フィルタ ---------- */
+function matches(it){
+  if(state.view === 'weekly' && !it.weekly) return false;
+  if(state.view === 'saved' && !store.saved[it.url]) return false;
+  if(state.unread && store.read[it.url]) return false;
+  if(state.kinds.size && !state.kinds.has(it.kind)) return false;
+  if(state.topics.size && !it.topics.some(t => state.topics.has(t))) return false;
+  if(state.days && it.date){
+    if((Date.now() - new Date(it.date)) / 864e5 > state.days) return false;
+  }
+  if(state.q){
+    const hay = (it.title + ' ' + it.summary + ' ' + it.sourceName + ' ' +
+                 it.topics.join(' ')).toLowerCase();
+    if(!state.q.split(/\s+/).filter(Boolean).every(w => hay.includes(w))) return false;
+  }
+  return true;
+}
+
+/* ---------- 描画 ---------- */
+function render(){
+  const list = DATA.items.filter(matches);
+  const box = document.getElementById('list');
+
+  document.getElementById('count').textContent =
+    list.length ? list.length + '件' : '';
+
+  if(!list.length){
+    box.innerHTML = '<div class="empty">' +
+      (state.view === 'saved' ? '保存した記事はまだありません。★を押すとここに溜まります。'
+                              : '条件に合う記事がありません。') + '</div>';
+    return;
+  }
+
+  box.innerHTML = list.map(it => {
+    const read  = store.read[it.url] ? ' read' : '';
+    const wk    = it.weekly ? ' weekly' : '';
+    const saved = store.saved[it.url] ? ' on' : '';
+    const no    = it.weekly ? issueNo(it.title) : '';
+    return '<article class="card' + read + wk + '" data-url="' + esc(it.url) + '">'
+      + (it.thumb ? '<img class="thumb" loading="lazy" src="' + esc(it.thumb) + '" alt="">'
+                  : '<div class="thumb"></div>')
+      + '<div class="body">'
+        + '<div class="meta">'
+          + (no ? '<span class="badge">週刊AI ' + esc(no) + '</span>' : '')
+          + '<span class="src">' + esc(it.sourceName) + '</span>'
+          + '<span>' + esc(relDate(it.date)) + '</span>'
+        + '</div>'
+        + '<h3 class="ttl">' + esc(it.title) + '</h3>'
+        + (it.summary ? '<p class="sum">' + esc(it.summary) + '</p>' : '')
+        + '<div class="tags">'
+          + it.topics.map(t => '<span class="tag">' + esc(t) + '</span>').join('')
+        + '</div>'
+      + '</div>'
+      + '<button class="save' + saved + '" data-save="' + esc(it.url) + '" '
+        + 'title="あとで読む">★</button>'
+    + '</article>';
+  }).join('');
+}
+
+function renderCounts(){
+  const base = DATA.items;
+  document.getElementById('n-weekly').textContent = base.filter(i => i.weekly).length;
+  document.getElementById('n-all').textContent    = base.length;
+  document.getElementById('n-saved').textContent  =
+    base.filter(i => store.saved[i.url]).length;
+}
+
+/* ---------- チップ生成 ---------- */
+function chips(host, items, isOn, onPick){
+  host.innerHTML = items.map(o =>
+    '<button class="chip' + (isOn(o.v) ? ' on' : '') + '" data-v="' + esc(o.v) + '">'
+    + esc(o.label) + '</button>').join('');
+  host.onclick = e => {
+    const btn = e.target.closest('.chip');
+    if(!btn) return;
+    onPick(btn.dataset.v);
+    renderChips();
+    render();
+  };
+}
+
+function renderChips(){
+  const order = ['main','jp','global','official','pickup'];
+  const kinds = [...new Set(DATA.items.map(i => i.kind))]
+    .sort((a,b) => order.indexOf(a) - order.indexOf(b));
+  chips(document.getElementById('kinds'),
+    kinds.map(k => ({v:k, label:KIND_LABEL[k] || k})),
+    v => state.kinds.has(v),
+    v => state.kinds.has(v) ? state.kinds.delete(v) : state.kinds.add(v));
+
+  const used = new Set(DATA.items.flatMap(i => i.topics));
+  chips(document.getElementById('topics'),
+    (DATA.topics || []).filter(t => used.has(t)).map(t => ({v:t, label:t})),
+    v => state.topics.has(v),
+    v => state.topics.has(v) ? state.topics.delete(v) : state.topics.add(v));
+
+  chips(document.getElementById('days'),
+    [{v:'7',label:'1週間'},{v:'30',label:'1か月'},{v:'0',label:'すべて'}],
+    v => String(state.days) === v,
+    v => { state.days = Number(v); });
+}
+
+/* ---------- イベント ---------- */
+document.getElementById('tabs').onclick = e => {
+  const t = e.target.closest('.tab');
+  if(!t) return;
+  state.view = t.dataset.view;
+  document.querySelectorAll('.tab').forEach(x => x.classList.toggle('on', x === t));
+  render();
+};
+
+const qEl = document.getElementById('q');
+qEl.oninput = () => { state.q = qEl.value.trim().toLowerCase(); render(); };
+document.getElementById('unread').onchange = e => { state.unread = e.target.checked; render(); };
+
+document.getElementById('list').onclick = e => {
+  const sv = e.target.closest('[data-save]');
+  if(sv){
+    const url = sv.dataset.save;
+    if(store.saved[url]) delete store.saved[url]; else store.saved[url] = 1;
+    persist(); renderCounts(); render();
+    return;
+  }
+  const card = e.target.closest('.card');
+  if(!card) return;
+  store.read[card.dataset.url] = 1;
+  persist();
+  window.open(card.dataset.url, '_blank', 'noopener');
+  card.classList.add('read');
+};
+
+document.addEventListener('keydown', e => {
+  if(e.key === '/' && document.activeElement !== qEl){ e.preventDefault(); qEl.focus(); }
+  if(e.key === 'Escape' && document.activeElement === qEl){ qEl.value=''; state.q=''; render(); }
+});
+
+/* ---------- 初期化 ---------- */
+document.getElementById('updated').textContent =
+  DATA.updatedAt ? '更新 ' + DATA.updatedAt.slice(5,10).replace('-','/') + ' '
+                   + DATA.updatedAt.slice(11,16) : '';
+
+document.getElementById('srclist').innerHTML = (DATA.sources || [])
+  .filter(s => s.count > 0)
+  .map(s => '<span>' + esc(s.name) + ' ' + s.count + '</span>').join('');
+
+renderChips();
+renderCounts();
+render();
+})();
+</script>
+</body>
+</html>
