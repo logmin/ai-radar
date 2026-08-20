@@ -1,13 +1,13 @@
 // AI Radar データ - build.py が自動生成。手で編集しない。
 window.AIRADAR_DATA = {
- "updatedAt": "2026-08-19T14:34:15.784928+09:00",
+ "updatedAt": "2026-08-20T09:02:49.984033+09:00",
  "sources": [
   {
    "id": "agilabo",
    "name": "AGIラボ",
    "axis": "ai",
    "kind": "main",
-   "count": 48,
+   "count": 47,
    "ok": true
   },
   {
@@ -39,7 +39,7 @@ window.AIRADAR_DATA = {
    "name": "ITmedia NEWS",
    "axis": "ai",
    "kind": "jp",
-   "count": 11,
+   "count": 12,
    "ok": true
   },
   {
@@ -71,7 +71,7 @@ window.AIRADAR_DATA = {
    "name": "Publickey",
    "axis": "ai",
    "kind": "jp",
-   "count": 10,
+   "count": 8,
    "ok": true
   },
   {
@@ -87,7 +87,7 @@ window.AIRADAR_DATA = {
    "name": "ASCII.jp",
    "axis": "ai",
    "kind": "jp",
-   "count": 2,
+   "count": 4,
    "ok": true
   },
   {
@@ -95,7 +95,7 @@ window.AIRADAR_DATA = {
    "name": "PC Watch",
    "axis": "ai",
    "kind": "jp",
-   "count": 5,
+   "count": 6,
    "ok": true
   },
   {
@@ -103,7 +103,7 @@ window.AIRADAR_DATA = {
    "name": "日経xTECH",
    "axis": "ai",
    "kind": "jp",
-   "count": 10,
+   "count": 9,
    "ok": true
   },
   {
@@ -111,7 +111,7 @@ window.AIRADAR_DATA = {
    "name": "GIGAZINE",
    "axis": "ai",
    "kind": "jp",
-   "count": 14,
+   "count": 18,
    "ok": true
   },
   {
@@ -119,7 +119,7 @@ window.AIRADAR_DATA = {
    "name": "MITTR Japan",
    "axis": "ai",
    "kind": "jp",
-   "count": 5,
+   "count": 3,
    "ok": true
   },
   {
@@ -143,7 +143,7 @@ window.AIRADAR_DATA = {
    "name": "9to5Google (新製品)",
    "axis": "ai",
    "kind": "global",
-   "count": 11,
+   "count": 7,
    "ok": true
   },
   {
@@ -243,6 +243,2099 @@ window.AIRADAR_DATA = {
   }
  ],
  "items": [
+  {
+   "title": "医療・製造の「使いたいけど使えない」壁を壊す 社内に置ける生成AI「Sovereign GaiXer」",
+   "url": "https://ascii.jp/elem/000/004/427/4427348/?rss",
+   "date": "2026-08-20T09:00:00+09:00",
+   "summary": "生成AIが止まる理由は、技術が難しいからではありません。「安心して使える環境」と「具体的な業務活用シナリオ」が揃っていないからです。この2つの課題を同時に解決する製品が、Sovereign GaiXer（ソブリン ガイザー）です。",
+   "thumb": "https://ascii.jp/img/2026/08/18/4513851/s/1b62fb8a64ba9130.jpg",
+   "source": "ascii",
+   "sourceName": "ASCII.jp",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "安全な自動運転に必要な「AI」と「走る経験」 ウェイモ東京上陸へ自信",
+   "url": "https://www.watch.impress.co.jp/docs/news/2134035.html",
+   "date": "2026-08-20T09:00:00+09:00",
+   "summary": "自動運転ロボタクシーを展開する米Alphabet傘下の「Waymo(ウェイモ)」は19日、完全自動運転を実現するWaymoの技術紹介とともに日本展開について説明した。同社では、25年から日本交通とタクシーアプリの「GO」と協力し、東京で自動運転タクシーのテストを実施しているが、「検証が終わり、承認が得られ次第サービス開始したい」という。",
+   "thumb": "",
+   "source": "impress",
+   "sourceName": "PC Watch",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "音声録音＆AI分析で知識をため込んでタスク管理も可能な装着型デバイス「SwitchBot AIマインドクリップ」を使ってみたよレビュー",
+   "url": "https://gigazine.net/news/20260820-switchbot-ai-mindclip/",
+   "date": "2026-08-20T09:00:00+09:00",
+   "summary": "日常生活では「買いものリスト」や「仕事のタスク」などのメモとして記録しておきたい事柄が大量に発生しますが、スマートフォンアプリなどを使って手動で記録するのは手間がかかります。2026年8月19日に登場した「SwitchBot AIマインドクリップ」は音声を録音してAIで情報整理できるデバイスで、会話内容や音声メモを録音しておくだけでAIが自動的に内容をまとめ…",
+   "thumb": "",
+   "source": "gigazine",
+   "sourceName": "GIGAZINE",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "新製品・デバイス",
+    "画像・音声・動画"
+   ]
+  },
+  {
+   "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+   "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+   "date": "2026-08-20T08:32:00+09:00",
+   "summary": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real an…",
+   "thumb": "",
+   "source": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "【鈴木淳也のPay Attention】「AIネイティブ」の先を見据えるメルカリ 安心・安全強化と金融の未来",
+   "url": "https://www.watch.impress.co.jp/docs/series/suzukij/2133126.html",
+   "date": "2026-08-20T08:20:00+09:00",
+   "summary": "メルカリは8月5日に同社会計年度で2026年度第4四半期(4-6月期)決算を発表しているが、通年での売上は2,293億円で前年同期比19.0％の増加、特にコア営業利益は442億円で60.2％の増加となっている。いずれも過去最高となっているが、国内フリマ事業をはじめ越境取引が増加したこと、金融事業ではメルカードの外部取引増加などを踏まえ、業績が拡大したことが大…",
+   "thumb": "",
+   "source": "impress",
+   "sourceName": "PC Watch",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "ビジネス・資金"
+   ]
+  },
+  {
+   "title": "モデルの利用料金は安くなっているのに、AIの総コスト上昇 「パラドクス」の背景を解説",
+   "url": "https://www.itmedia.co.jp/enterprise/articles/2608/20/news022.html",
+   "date": "2026-08-20T08:00:00+09:00",
+   "summary": "AIモデルの利用料金の低下が、かえってAIの総コストを押し上げている。Gartnerはワークフロー1件当たりのAI推論コストが2028年までに5倍以上に上昇すると予測する。同社が「推論のパラドックス」と呼ぶ、この逆説の中身とは。また、AIコストが上昇する中でROIを確保するための方策は。",
+   "thumb": "",
+   "source": "itmedia",
+   "sourceName": "ITmedia AI+",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "高度なAIのサイバー攻撃、どう対策？ 企業が知るべき「スピード格差」の埋め方",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2608/20/2000000584/",
+   "date": "2026-08-20T08:00:00+09:00",
+   "summary": "米AnthropicのAIモデル「Claude Mythos 5」をはじめとした高度なAIの登場により、サイバーセキュリティの在り方に注目が集まっている。企業に求められる対応を解説する。",
+   "thumb": "",
+   "source": "itmedia",
+   "sourceName": "ITmedia AI+",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "規制・リスク"
+   ]
+  },
+  {
+   "title": "Google、大学生向けに「Google AI Plus」を1年間無料提供 「Gemini」アプリに学生向け新機能も",
+   "url": "https://www.itmedia.co.jp/news/article/2608/20/2000000634/",
+   "date": "2026-08-20T07:58:36+09:00",
+   "summary": "Googleは米国の新学期に合わせ、大学生向けに「Google AI Plus」などを12カ月無料で提供するキャンペーンを発表した。あわせてGeminiアプリに学生向けハブを新設し、授業資料から学習プランを生成する学習ノートブックや、3Dモデルの表示、Gemini LiveでのDeep Researchなどの新機能の提供を開始した。",
+   "thumb": "",
+   "source": "itmedia",
+   "sourceName": "ITmedia AI+",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "2026年08月20日 朝のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260820_00_morning/",
+   "date": "2026-08-20T07:34:40+09:00",
+   "summary": "OpenAI&#x306E;&#x5B66;&#x7FD2;&#x505C;&#x6B62;&#x306E;&#x80CC;&#x666F;&#x3068;Google&#x306E;AI&#x30C1;&#x30C3;&#x30D7;&#x5354;&#x696D;&#x62E1;&#x5927; OpenAI&#x306E;&#x30E2;&#x30C7…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+   "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+   "date": "2026-08-20T07:10:46+09:00",
+   "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
+   "thumb": "",
+   "source": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "日立製作所がAI駆動開発を加速 開発全工程で生産性3割向上へ",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8zcDA0ckRFM3VNYWNETngtRzBYcGEzVWx1emtrdWN5YVVpMnY4NU9TaDI0elUtcDVqOUNkMUwteGMza3Z6WGhEbGFmWVNjNDB6VmJ0OTBNTVE3VlItMGhQM3pCSFdXeGpfbUJIQ05VOGR6Zw?oc=5",
+   "date": "2026-08-20T07:04:00+09:00",
+   "summary": "日立製作所がAI駆動開発を加速 開発全工程で生産性3割向上へ 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "アンソロピックのAIも他社に侵入 設定ミスでネットアクセス可能に",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9JM2xCaG44ZXdoU0hBY0c2aENKS1N2bXF5UEFwLWtuYkF3Qm1jUGdzZTRBMWFpamFDdUdmM2lRVnRRZ09FTGktSTNhZmVlRFlUT2dOcVU1ejYyUm9PRWpJMWg0djNvNzBaZUozbENCWjhsdw?oc=5",
+   "date": "2026-08-20T07:03:00+09:00",
+   "summary": "アンソロピックのAIも他社に侵入 設定ミスでネットアクセス可能に 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "NECがTNFD対応のAIサービス 社内実践で調査の作業時間が9割減",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9pTS1mRFl2WDZSNVpJVll5dllrT0RQUnh5dEYxQlBUZWZQVXloeTdfT0xvVGpnOGQ4QU5FU3BIOFhZX19aWS1TS2lqQ1NZUUNLUmpIQXVEc1lIOVY5cEkxYi1RLW9kMlNob2FmWjZKR21UZw?oc=5",
+   "date": "2026-08-20T07:01:00+09:00",
+   "summary": "NECがTNFD対応のAIサービス 社内実践で調査の作業時間が9割減 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "みずほがAIエージェント3000体構想 銀行業務全体をAI前提で再設計へ",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLYl9RUDc3M0ZvN0NOSm5xM3p4N0s3a2ZYUmdlb0NadkJrZmdJS21ZSFpudXl1UjBIU2ZFcmdtUGFfXzVzNjBkX0Z6WnU4ZUVaTkk5SEY3eXduakxhMTg3ZkM3TzQ4bTFUanI4WkluRFZqdw?oc=5",
+   "date": "2026-08-20T07:00:00+09:00",
+   "summary": "みずほがAIエージェント3000体構想 銀行業務全体をAI前提で再設計へ 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "エージェント"
+   ]
+  },
+  {
+   "title": "中国AIは「フルスタック」で勝つ。アリババ会長が語るオープンソースとAI主権",
+   "url": "https://ascii.jp/elem/000/004/416/4416772/?rss",
+   "date": "2026-08-20T07:00:00+09:00",
+   "summary": "VivaTech 2026のセッション「Look East: China’s AI Ascent and the Full Stack Advantage」では、アリババ共同創業者兼会長のジョー・ツァイ（Joe Tsai）氏が登壇し、中国におけるAI投資、オープンソースLLM「Qwen（クウェン）」、そして欧州企業にとってのAI主権について語った。",
+   "thumb": "https://ascii.jp/img/2026/07/07/4496227/s/8ef059596ab9a5ec.jpg",
+   "source": "ascii",
+   "sourceName": "ASCII.jp",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "ビジネス・資金",
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "AIによるディープフェイクがミステリー小説にも影響を与えていると推理小説家が解説",
+   "url": "https://gigazine.net/news/20260820-ai-deepfakes-changing-rules-crime-fiction/",
+   "date": "2026-08-20T07:00:00+09:00",
+   "summary": "生成AIの発達によって、これまでより大幅に少ない労力と時間で、本物と見間違うほど精巧な動画や画像、音声を生成できるようになりました。こうしたAI生成のディープフェイクがミステリー小説にも影響を与えていると、『＃ニーナに何があったのか？』などのミステリー小説で知られるオーストラリア人作家のダーヴラ・マクティアナン氏が解説しました。 続きを読む...",
+   "thumb": "",
+   "source": "gigazine",
+   "sourceName": "GIGAZINE",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "画像・音声・動画"
+   ]
+  },
+  {
+   "title": "人々はAIと本当は何を話しているか？ 企業レポートが映さない実像",
+   "url": "https://ascii.jp/elem/000/004/427/4427953/?rss",
+   "date": "2026-08-20T06:55:12+09:00",
+   "summary": "アンソロピックやオープンAIは、自社製品の利用状況レポートを定期的に公開している。だが研究者によれば、示されるのは業務利用に偏った、自社に都合のよいデータだ。スタンフォード大学の研究チームの検証では、会話の約半数が分析から除外されていた。",
+   "thumb": "https://ascii.jp/img/2019/11/06/1510916/s/ed8de61ce6796246.png",
+   "source": "ascii",
+   "sourceName": "ASCII.jp",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+   "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+   "date": "2026-08-20T06:51:23+09:00",
+   "summary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
+   "thumb": "",
+   "source": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "エージェント",
+    "ビジネス・資金"
+   ]
+  },
+  {
+   "title": "Waymoが自動運転AI戦略を解説、「単一AIモデルのE2E方式には2つの問題がある」",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2608/20/news055.html",
+   "date": "2026-08-20T06:45:00+09:00",
+   "summary": "米国で自動運転車によるモビリティサービスを展開するWaymo（ウェイモ）が、2009年スタートの「Google Self-Driving Car Project」から開発を積み重ねてきた自動運転技術に基づく同社のAI戦略について説明した。",
+   "thumb": "",
+   "source": "itmedia",
+   "sourceName": "ITmedia AI+",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "AI計算資源の先物市場、創設に3陣営名乗り 当局もルール整備へ",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KU3BoSmpucFpMaHdLaWhIZVU4bnFfcnNVanBtQVNsSk1fOEVqVks2d2tGd2UwT2FZQlBNRDA1c01JbFR5Z1BPbUhQZkxGUFYycFJqd0JfUG41MzlGWXBZWUNZd1pVaS1BRU5yaA?oc=5",
+   "date": "2026-08-20T06:14:43+09:00",
+   "summary": "AI計算資源の先物市場、創設に3陣営名乗り 当局もルール整備へ 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "米マーベルがGoogleにAI半導体 1.9兆円の出資権利も付与",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1URUo0MlJMWjJEcEhWSzJPVVF5NEkxRkgxV2s3dHFSQ2pkSEh4UGxwVDBDeEg3WUh3emlqZno0dGV4RHA5X2lQaGg4RjliTWxJRHJ5RFd2dGExTXVWQldyNGdwaDhpcDM4OGlwcg?oc=5",
+   "date": "2026-08-20T05:49:27+09:00",
+   "summary": "米マーベルがGoogleにAI半導体 1.9兆円の出資権利も付与 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "ビジネス・資金",
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "Nissan puts a 14-foot Pathfinder in Nashville airport until October",
+   "url": "https://ppc.land/nissan-puts-a-14-foot-pathfinder-in-nashville-airport-until-october/",
+   "date": "2026-08-20T05:36:58+09:00",
+   "summary": "Rooftop Z display and Smyrna plant videos reach 2 million monthly BNA passengers through October, on inventory Clear Channel manages. What gets measured here?",
+   "thumb": "https://ppc.land/content/images/2026/08/nissan-dooh.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "アドテク・媒体"
+   ]
+  },
+  {
+   "title": "Taboola gains NBC News display ads in first deal beyond native",
+   "url": "https://ppc.land/taboola-gains-nbc-news-display-ads-in-first-deal-beyond-native/",
+   "date": "2026-08-20T05:31:48+09:00",
+   "summary": "Realize will power programmatic display on NBCNews.com and TODAY.com, two properties tied to Taboola by native ads since 2014. What changes for open web buyers?",
+   "thumb": "https://ppc.land/content/images/2026/08/nbc-taboola.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "アドテク・媒体"
+   ]
+  },
+  {
+   "title": "ChatGPT Ads gains view-through conversions with a fixed 1-day window",
+   "url": "https://ppc.land/chatgpt-ads-gains-view-through-conversions-with-a-fixed-1-day-window/",
+   "date": "2026-08-20T05:17:40+09:00",
+   "summary": "Ads Manager surfaces VTA (1d) as a standalone column, excluded from CPA, bidding and billing. Availability stays account-gated, and clicks still take credit.",
+   "thumb": "https://ppc.land/content/images/2026/08/openai.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "AI検索体験",
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "米ストライプ、AI利用仲介の米オープンルーター買収 コスパ問題で注目",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2Tjk1M3AtV3VrN3VIYVI5Sk4zS1YzYXBHZzhVZ1RyaFFHSmQtbUxjS25WcWNRZlJtWTczbTdFSHcyOXV3Z0UwRnBySURpdGlCX3ZDNFNaZW5OdjkxbmtrNkhYX1RyLTFjVFhubg?oc=5",
+   "date": "2026-08-20T05:12:27+09:00",
+   "summary": "米ストライプ、AI利用仲介の米オープンルーター買収 コスパ問題で注目 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "ビジネス・資金"
+   ]
+  },
+  {
+   "title": "米国株、ダウ反発 米長期金利の低下が支え 半導体・AI関連の下落は重荷",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YUmM3dEU2UE1WU0FVQV9hNmxrYnBlc2ZTVjMwRDBpU3pJcDVWNno0VGVDU2I1Qm1FWVhJWW8xLXloZS10OEdnX1lZbFVqeDJEcEVkY3JKRURrbTl4UHByZGpJSVNyZ0h2eWRpRg?oc=5",
+   "date": "2026-08-20T05:09:35+09:00",
+   "summary": "米国株、ダウ反発 米長期金利の低下が支え 半導体・AI関連の下落は重荷 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "Microsoft Clarity publishes five MCP query patterns for behavioral analytics",
+   "url": "https://ppc.land/microsoft-clarity-publishes-five-mcp-query-patterns-for-behavioral-analytics/",
+   "date": "2026-08-20T05:08:27+09:00",
+   "summary": "Five prompt patterns cover scroll depth, negative signals and trend shifts across sessions and regions, still bound by Clarity's daily export request limits.",
+   "thumb": "https://ppc.land/content/images/2026/08/Microsoft-MCP.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "計測・データ"
+   ]
+  },
+  {
+   "title": "Retailers face FTC enforcement over undisclosed personalized pricing",
+   "url": "https://ppc.land/retailers-face-ftc-enforcement-over-undisclosed-personalized-pricing/",
+   "date": "2026-08-20T05:04:42+09:00",
+   "summary": "Comment window runs 30 days from Federal Register publication after a 2-0 vote. Seven scenarios mark where retailer data crosses into unfair pricing claims.",
+   "thumb": "https://ppc.land/content/images/2026/08/pricing.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "エヌビディア、「特許総価値」でAMDを逆転 AI関連のGPU戦略を分析",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4yamhHR0xwc0dSTTI1SzI4bi1vOUttWkpXWUpiNTF4ZGt5THZMZzZQZTB6S2t1WW1KRlhWTGtza2RtSm1qY0EzbTVGR1hBUkctWWR6UFdSMHY0ZjlwdjJ6dHlTS0RuOWc?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "エヌビディア、「特許総価値」でAMDを逆転 AI関連のGPU戦略を分析 日経ビジネス電子版",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "テルモCIO「中国でアリババAIも活用」 情報管理は徹底",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVFZCYXZkVVQxbE5pOVV5UmQtazVWMkRJaDZXS05EUDlqQ2JRWUZyUDdpSXJjV0J3QU9aTExNb0lKSmhpM0p0QXBGUXdnM2Zkc1dla0RDejZfWUVMZFJtbGN0bmhVdVhYYm5FdzNXT2thWmtocjhaUWxFMXI0OUphdVpETHRYZWJhZkNTa3pKRmkxeExSVll2d0FwemtYMXE0cl9qWWIxQ05CUnVyaEE?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "テルモCIO「中国でアリババAIも活用」 情報管理は徹底 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "コーセー、カスタマーサポート接続100％ AIで進化するCRM",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hNy1rekU2RmJXYU9hVWdfMndJUWtRY05QS01wdU40dFJKWUVyazVPR0tQazd2MTBhT3YtSFE4dzVMaHVvOHVGSlRhLVF1NWRjaGtBSVF3dk51S2hIUklSY2E3VkZDdm8?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "コーセー、カスタマーサポート接続100％ AIで進化するCRM 日経ビジネス電子版",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "旭鉄工のAIファースト経営04 “ものさし”を学習した「AI部長」がムダを排除",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JR2xfN01fczVwOTJSaXZtRTNVOHJjY2xaVl9DMWlxRGdJWk0yTXhUQ1lKOWZVWjNwVmlpY2dDNVY5MTBlR2JJUW9HTFZCenk4YTAtVnJ2dk8zcTY1X1pNYWJOSG9tdTJyUDlPdw?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "旭鉄工のAIファースト経営04 “ものさし”を学習した「AI部長」がムダを排除 bookplus.nikkei.com",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "はじめに：『AI駆動英語学習』",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YdmxLaEVyZ1BuYUxzOS04OWtzTWJwRjVNQ05SQ2l6OG91NnJQY1REUDlMdmgtVW5hVkY5Y0Z5aW5OU2tXWDM0Vm5CZktfRVNnTVY1N21HX2NrT0VnbGozeXBXWHc0Ul9ueHNwZw?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "はじめに：『AI駆動英語学習』 bookplus.nikkei.com",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "NECはAI活用、ENEOSは30の業種別基準を精査 SSBJ開示を経営改革に",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTYmsyZjJHS3hOWkNlR0hWYjdEU3Z4dTR3Tm41UVFtaDVuYTQxU3BYYVQ0R3hPc0xlMFBUcDZjUlg2SWltaU5EelBrbVFWakNqY1pCUGNuMlZQczZYeUFBcXdSYUQ0T3M?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "NECはAI活用、ENEOSは30の業種別基準を精査 SSBJ開示を経営改革に 日経ビジネス電子版",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "ドメスティックなフィジカルAI、過剰な外資警戒は競争力喪失につながる",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Md1VSVW5VQlJWVkVubFpkSF9aUEpGVnIydE1fX2dfdTZTaDVQRXlEaEs1NS1LTmlXRl9fNEl2Ul84eWcwM1NORGRvcFNaSWdpdVJLMmZoWHhJSmlaQktFQWNLcXU3S1k?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "ドメスティックなフィジカルAI、過剰な外資警戒は競争力喪失につながる 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "人間ドック結果をAI分析、休肝日も提案 AI Dockが2.6億円調達",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2bFg1cUtmZmdPcTdnZzhHMHUzZUJZOGdVbGtxdXhLbjlWa1FpNXpzTFZmMmxYLUZDejczY3RncXZZREVwUHBZYzdjQjFZVlMweU1TWHBxbnpTLTlqV2VMSjh2YXRrQXVLWWlQSA?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "人間ドック結果をAI分析、休肝日も提案 AI Dockが2.6億円調達 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "韓国・現代自動車が「フィジカルAI都市」 1兆円投じロボ事業軸に",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qdVgtcS1jTm1EU2VqaktvMnhzZEtOT05KVU0yMFNGYjctbE9Lclh1X21LX01WdDlTYVpXdml4V3lEUmJtSFM0bUpoY09mTjJQYkJlNEU1dF9WeWlBN0RuM3ZWSGkwRkI3TTdJVQ?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "韓国・現代自動車が「フィジカルAI都市」 1兆円投じロボ事業軸に 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "ビジネス・資金"
+   ]
+  },
+  {
+   "title": "AIが部門間すり合わせを主導、NECの製造業変革コンセプト「MX」",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BYzdUN21Rd0dhZlhqSVpNemViajVITk5PVnFrT2otRWtPdkthT01lbXJlWHEyMkxIbDZFbmc5ckpFLWkxWFVnSkVjUm1Pb2dBa2pqcDQzWlNwVnN6ZTFzT0ZCRzZEaEk?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "AIが部門間すり合わせを主導、NECの製造業変革コンセプト「MX」 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AI新興ジールス、準国産ヒューマノイド量産へ 「転ばない」設計を採用",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16Ym1ad3R1Z2pRTkNmdzRVdlNsVWVMMEZJZUlCTFFDRF9xSmxFSUJ0OUZEelNod3I4eG15MWtwcVJDY2xJelo5TmY0MzZZUms3SDVwbW04cU1kVHRSeG5PZHgxcC13VG1wNzJMQw?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "AI新興ジールス、準国産ヒューマノイド量産へ 「転ばない」設計を採用 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "ARグラスがついに離陸、AIが「翼」",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYmg5YTJXZmhIUTNFTEZVMWsxcXVaMXZDTUpaaE5naGkwenpRQV9lY0V0VDdhN1FReDZSVkJqYXBHT0pUT0V5VTF3MEgwQTlleGVOQWV0WWdlT2pjWGZQcGM0NlRWcmZZTTFrQU81czZDdnhEb2hDam0ybEhLaTAyVkthSV9mRzVP?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "ARグラスがついに離陸、AIが「翼」 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AIに使われないマーケターの条件 「統計」の基礎力が武器になる",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96ajBfWVZ2bnRSUUdOdE5aNjY2MVo2WHJCT0t4U2Z4YzJ5d3dGcXNncmh2NHZlRUdvU2g5d3d4dkZwMWpNcXNKTXhERHN4b3d1YzNCV1lWRHVYZVJHYW96NUFPMnRwMW93M05vMw?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "AIに使われないマーケターの条件 「統計」の基礎力が武器になる bookplus.nikkei.com",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AI自動運転newmo、CTOはメルカリ出身 「PayPayと競った経験」が生きる",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15UVEyY0tXQ1JiUnQyUGV4OFJqbG9QZDZZVS1BckRYN2MyVFZuVjh1N1d0TERrT2lDMncxb3RsREU5WGZVZGZzZmhLbHZnZnM0NGozc291bG5qYXpvN2l3VmxvRldtYzRNQ2JBNw?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "AI自動運転newmo、CTOはメルカリ出身 「PayPayと競った経験」が生きる 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "｢Qwen、世界に生態系 半年で30億ダウンロード｣を解説",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORFBadlhodE5vakZJanQ1UGMwMVVDMjRraUN3T2taV1VNLVV0Qkw5MmdQV3RmYl94Q245RlpZOHVJVktzQkE2QzhSOXAzcnh2NVd1T093NXlTeVRzR3gwTlg3OUFKZDVUeDgyVFczMVp5MUgyc21KQ1lGdFZyRE9SeW11M3Z4R2VEUHhlY25PejA0RDlQNWVfVy1NVUlRQ012TGdhVXYwZ3o2dVJjc05WS0dB?oc=5",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "｢Qwen、世界に生態系 半年で30億ダウンロード｣を解説 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "面接は前日の情報確認で差、役員や応募部門の発信から志望動機を磨く",
+   "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01775/081300281/",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "転職が身近になり、書類も生成AI（人工知能）で作成できる様になった今、見落とされがちなポイントがあります。それは面接前日の準備です。前日までに何を確認し、どこまで自分の言葉として、話をできるかが大きく影響します。",
+   "thumb": "",
+   "source": "xtech",
+   "sourceName": "日経xTECH",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "企業が支える米国「クリーンエネルギー料金」の新潮流",
+   "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02443/080400170/",
+   "date": "2026-08-20T05:00:00+09:00",
+   "summary": "米国の電力システムは、重大な転換点を迎えている。人工知能（AI）の急速な普及によるデータセンターの増設、製造拠点の拡張や電化の進展によって米国の電力需要が急増するなか、大規模な商工業（C&I）需要家と電力会社は、他の需要家に費用を転嫁することなく、クリーン電源や安定供給型クリーン電源を導入するため、新たな料金制度での連携を組み出した。",
+   "thumb": "",
+   "source": "xtech",
+   "sourceName": "日経xTECH",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "Comscore cuts Spain staff weeks after winning AIMC measurement contest",
+   "url": "https://ppc.land/comscore-cuts-spain-staff-weeks-after-winning-aimc-measurement-contest/",
+   "date": "2026-08-20T04:45:50+09:00",
+   "summary": "Spain awaits word on a 2027 measurement system as Comscore's parent pursues 20 to 25 million dollars in global cost cuts, leaving the AIMC deal unresolved.",
+   "thumb": "https://ppc.land/content/images/2026/08/comscore.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "計測・データ"
+   ]
+  },
+  {
+   "title": "Students who use AI for homework lose 20% of their exam scores",
+   "url": "https://ppc.land/students-who-use-ai-for-homework-lose-20-of-their-exam-scores/",
+   "date": "2026-08-20T04:40:39+09:00",
+   "summary": "Homework scores rose 18% and completion time fell from 64 to 45 minutes across 26,811 Chinese pupils. What happens when output stops signalling capability?",
+   "thumb": "https://ppc.land/content/images/2026/08/AI.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "FOX gains 0.9 points to 7.4% of US TV on 84 billion World Cup minutes",
+   "url": "https://ppc.land/fox-gains-0-9-points-to-7-4-of-us-tv-on-84-billion-world-cup-minutes/",
+   "date": "2026-08-20T04:38:25+09:00",
+   "summary": "Broadcast hit 19.8% of US TV, its first June gain since 2021, while cable fell to 19.5%. Streaming slipped to 48.5% just as Nielsen rewrites its methodology.",
+   "thumb": "https://ppc.land/content/images/2026/08/World-Cup.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Netflix drops to 1.7% in Poland as YouTube gains to 2.5%",
+   "url": "https://ppc.land/netflix-drops-to-1-7-in-poland-as-youtube-gains-to-2-5/",
+   "date": "2026-08-20T04:35:43+09:00",
+   "summary": "Daily viewing fell to 3 hours 33 minutes, three below June, while streaming held flat at 10.7% for a third consecutive month. Where does the next point go?",
+   "thumb": "https://ppc.land/content/images/2026/08/YouTube-Netflix.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Microsoft Advertising gains AI Max across all accounts globally",
+   "url": "https://ppc.land/microsoft-advertising-gains-ai-max-across-all-accounts-globally/",
+   "date": "2026-08-20T04:18:32+09:00",
+   "summary": "Search advertisers get term matching, text customization and URL expansion, plus a 20 brand list cap per campaign. Will Bing follow Google's forced migration?",
+   "thumb": "https://ppc.land/content/images/2026/08/Microsoft-AI.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
+   ]
+  },
+  {
+   "title": "Explaining Invite Media",
+   "url": "https://ppc.land/invite-media/",
+   "date": "2026-08-20T04:13:07+09:00",
+   "summary": "Invite Media was the demand-side platform Google bought for $81 million in 2010 and rebuilt into DoubleClick Bid Manager, now DV360. How it worked, and why.",
+   "thumb": "https://ppc.land/content/images/2026/08/invite-media.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AI was supposed to win people over by now — it hasn’t",
+   "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+   "date": "2026-08-20T04:11:40+09:00",
+   "summary": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance…",
+   "thumb": "",
+   "source": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Explaining Wildfire",
+   "url": "https://ppc.land/wildfire/",
+   "date": "2026-08-20T04:10:31+09:00",
+   "summary": "Wildfire Interactive was a social marketing software company Google acquired in 2012 and closed by 2015, ad tech's clearest case study in platform dependency.",
+   "thumb": "https://ppc.land/content/images/2026/08/Wildfire.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Explaining Adometry",
+   "url": "https://ppc.land/adometry/",
+   "date": "2026-08-20T04:08:07+09:00",
+   "summary": "Adometry was a cross-channel attribution vendor Google bought in 2014 and rebuilt as Attribution 360, the ancestor of the data-driven attribution used today.",
+   "thumb": "https://ppc.land/content/images/2026/08/Adometry.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "計測・データ"
+   ]
+  },
+  {
+   "title": "Announcing v25.1 of the Google Ads API",
+   "url": "http://www.blogger.com/feeds/7815614485808579332/posts/default/2951646457172167571",
+   "date": "2026-08-20T04:06:12.971000+09:00",
+   "summary": "Today we are announcing the release of v25.1 of the Google Ads API . To use the new capabilities, you must upgrade your client libraries and client code. All the updated client lib…",
+   "thumb": "https://lh3.googleusercontent.com/a-/AD_cMMRmfdsXvZhyLvWsLuqqcScxtYI0ih7DPGCk8lTee140NzXH=s300",
+   "source": "adsdev",
+   "sourceName": "Google Ads Developer",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "API・開発"
+   ]
+  },
+  {
+   "title": "Explaining Sovrn",
+   "url": "https://ppc.land/sovrn/",
+   "date": "2026-08-20T04:06:06+09:00",
+   "summary": "Sovrn is a Boulder publisher technology company running an ad exchange, header bidding software and an affiliate commerce network for independent websites.",
+   "thumb": "https://ppc.land/content/images/2026/08/sovrn.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "アドテク・媒体"
+   ]
+  },
+  {
+   "title": "Explaining word of mouth",
+   "url": "https://ppc.land/word-of-mouth/",
+   "date": "2026-08-20T04:03:48+09:00",
+   "summary": "Word of mouth is unpaid consumer-to-consumer recommendation, the channel that buyers trust most and marketers measure least, now reshaped by AI answer engines.",
+   "thumb": "https://ppc.land/content/images/2026/08/word-of-mouth.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Explaining Admeld",
+   "url": "https://ppc.land/admeld/",
+   "date": "2026-08-20T04:01:24+09:00",
+   "summary": "Admeld was a supply-side platform that optimised publisher ad network revenue. Google bought it for $400 million in 2011 and retired the product in late 2013.",
+   "thumb": "https://ppc.land/content/images/2026/08/Admeld.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "アドテク・媒体"
+   ]
+  },
+  {
+   "title": "Google packs Search and Gemini with new AI study tools",
+   "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+   "date": "2026-08-20T04:00:00+09:00",
+   "summary": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with…",
+   "thumb": "",
+   "source": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Gemini Live adds Deep Research as Notebooks come to AI Mode",
+   "url": "https://9to5google.com/2026/08/19/gemini-app-ai-mode-study-tools/",
+   "date": "2026-08-20T04:00:00+09:00",
+   "summary": "With the back-to-school season underway, Google is introducing new study tools across the Gemini app and Search.",
+   "thumb": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/Gemini-Live-Deep-Research.jpg?quality=82&#038;strip=all&#038;w=1600",
+   "source": "9to5g",
+   "sourceName": "9to5Google (新製品)",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Offering Zero Data Retention for frontier models",
+   "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+   "date": "2026-08-20T04:00:00+09:00",
+   "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "規制・リスク",
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "5 new ways to level up your learning with Search",
+   "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+   "date": "2026-08-20T04:00:00+09:00",
+   "summary": "Here’s how you can use Google Search tools to study for classes and standardized tests.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp",
+   "source": "googleai",
+   "sourceName": "Google AI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Explaining PubMatic",
+   "url": "https://ppc.land/pubmatic/",
+   "date": "2026-08-20T03:58:53+09:00",
+   "summary": "PubMatic is an independent sell-side platform that auctions publisher ad space to automated buyers. Listed on Nasdaq as PUBM, the company has run since 2006.",
+   "thumb": "https://ppc.land/content/images/2026/08/pubmatic.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "アドテク・媒体"
+   ]
+  },
+  {
+   "title": "Explaining OpenX",
+   "url": "https://ppc.land/explaining-openx/",
+   "date": "2026-08-20T03:56:16+09:00",
+   "summary": "OpenX is an independent supply-side platform auctioning publisher ad inventory to programmatic buyers. Its origins, mechanics, scale claims and open disputes.",
+   "thumb": "https://ppc.land/content/images/2026/08/openx.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "アドテク・媒体"
+   ]
+  },
+  {
+   "title": "Explaining TripleLift",
+   "url": "https://ppc.land/triplelift/",
+   "date": "2026-08-20T03:53:53+09:00",
+   "summary": "TripleLift is a supply-side platform that rebuilds ad creative to fit each publisher's page, selling native, display, video and CTV formats programmatically.",
+   "thumb": "https://ppc.land/content/images/2026/08/triplelift.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト",
+    "アドテク・媒体"
+   ]
+  },
+  {
+   "title": "Researchers say OpenAI revoked their access to limited cyber program",
+   "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
+   "date": "2026-08-20T03:46:14+09:00",
+   "summary": "The idea behind OpenAI's Trusted Access for Cyber program is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getti…",
+   "thumb": "",
+   "source": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AIエージェントのIT部門活用8選！情シス必見の導入手順と費用相場",
+   "url": "https://ainow.ai/2026/08/20/278316/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25aeit%25e9%2583%25a8%25e9%2596%2580%25e6%25b4%25bb%25e7%2594%25a88%25e9%2581%25b8%25ef%25bc%2581%25e6%2583%2585%25e3%2582%25b7%25e3%2582%25b9%25e5%25bf%2585%25e8%25a6%258b%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5",
+   "date": "2026-08-20T02:34:54+09:00",
+   "summary": "パスワードリセットやPCの不調といった問い合わせに追われ、インフラ更新やセキュリティ強化に手が回らないIT部門は少なくありません。 AIエージェントとは、社内のナレッジや運用ツールを参照しながら、問い合わせ対応から起票・実行までを自律的に進めるAIです。情報システム部門を対象にした調査では、 ヘルプデスク業務の負荷が3年前より増えたと答えた担当者は73.0%…",
+   "thumb": "https://ainow.ai/wp-content/uploads/2026/08/thumbnail-7.jpg",
+   "source": "ainow",
+   "sourceName": "AINOW",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "エージェント",
+    "規制・リスク"
+   ]
+  },
+  {
+   "title": "Meet the startup helping Wall Street put a price on AI compute",
+   "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+   "date": "2026-08-20T02:26:48+09:00",
+   "summary": "The AI buildout shows no signs of slowing. And&#160;with&#160;hundreds of&#160;billions of dollars a year going into data centers and GPUs,&#160;compute has&#160;become the single…",
+   "thumb": "",
+   "source": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "PROLICA LIGHT",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GNGJMSWJzTnBneFFJTVhvWVJPb1F3YjJfUlJKN0FhcWdPX1lDZTlOYjN0YUI2Z3ZGd1NlYnRJV1ZQYnhwQ3RLOWI5aWVPYXE3bi10cjdiUGdqNTl0Wi1VTE42UmhWY2xsRzBuekhR?oc=5",
+   "date": "2026-08-20T02:02:00+09:00",
+   "summary": "PROLICA LIGHT 日経クロステック",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AI時代の労働分配率（4）資本による代替が進む背景",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02dGg3aGFNMGhaMDRqUGhRdGlFaHFUT3didVkwZTFZcHlpUzY2eW1XUThUWG5lN0NSVXNtRVozUHRNTVpzeC1ETVhRNGw4dFJKX3d1c1JQYzA4dHNQdEFoMTcxc3VUb0ZYbjM2YQ?oc=5",
+   "date": "2026-08-20T02:00:00+09:00",
+   "summary": "AI時代の労働分配率（4）資本による代替が進む背景 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AI輸出管理のジレンマ 米国、安全重視が利用制約招く 検証、中国勢に頼る",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DbjFqNVBmVkNsMHF1WTNwRjlxNkNEZkV5X1lVNGZjcTFRZElrT0JYMmhRaGRaNjVnSmlGd3dVSWctMmxQYkNkcHVYRnlrcGQ4WFBFUUJxeUgtaGZlY1k3LXBZeDNUeHc3WG4teg?oc=5",
+   "date": "2026-08-20T02:00:00+09:00",
+   "summary": "AI輸出管理のジレンマ 米国、安全重視が利用制約招く 検証、中国勢に頼る 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AI時代の労働分配率(4) 資本による代替が進む背景 明治学院大学教授 室和伸",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZN3E4REdnRmhaMjJSMzJjRTZ4VlZuTUR3aFY1Qll1aEtGN0p2R2Uwbm84YzcxTHBUa0s5OHpMNW1za3lYTXYzYm1HR2lLSlQ0S1g5WDlVOUJ2MEpnZ21vS19jTzJEMVRwQXJSXw?oc=5",
+   "date": "2026-08-20T02:00:00+09:00",
+   "summary": "AI時代の労働分配率(4) 資本による代替が進む背景 明治学院大学教授 室和伸 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AI回答、超高速を競う 米セレブラスが「30倍速」サーバー 大型チップ、GPU使わず 1強エヌビディアに対抗",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50Q0lwLXduSFE0aU5zY1VFYXhIZWg0dGo5bjduQjlIS0lmOXlEeHREcDh5M3l0dzRGclJkT1ljTzRwdlQ5emExcWNXRlZZSHM4T2wwVWFSRHhwRVhRblpVRHFVVTJuQjRoSE0xZQ?oc=5",
+   "date": "2026-08-20T02:00:00+09:00",
+   "summary": "AI回答、超高速を競う 米セレブラスが「30倍速」サーバー 大型チップ、GPU使わず 1強エヌビディアに対抗 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "越境犯罪、アジアに拠点続々 国際詐欺巡りカンボジアなどに AI悪用、言語の壁越え",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mZjZnVXRRVkVCYUtXNUd6ZUJ0NWhXTzRNTVpOb0hfUmlORE03TWNEd21CY3VUSjd0Y3o5MFlrVWxXTkExdUdJUEtvN1I0a2FwSWNiYXhGU2lJMl9va3BFaFU2cUlPMHlvbjF5QQ?oc=5",
+   "date": "2026-08-20T02:00:00+09:00",
+   "summary": "越境犯罪、アジアに拠点続々 国際詐欺巡りカンボジアなどに AI悪用、言語の壁越え 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "秋田AI拠点、電源が成否 洋上風力中心に増強 再エネ発電量、35年度末に2.5倍めざす",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kZkwzOVN2Ml80TjhHYzVQUWo1R2dCZi01a25WaTNMVWhGaTFfVEJzdWFua2F3Rkx5Rk5uSHZBZngzcHNYOWhpVUZNNEljbmFuYUVBWlJ2dFBLT0hrazV5bE9UeEVPcHgzaTJxNA?oc=5",
+   "date": "2026-08-20T02:00:00+09:00",
+   "summary": "秋田AI拠点、電源が成否 洋上風力中心に増強 再エネ発電量、35年度末に2.5倍めざす 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "顧客対話時間 AIが創る ちゅうぎんFG、効率業務へ活用加速 金利ある世界 競争力を確保",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3VUIxck9NeFlsQ2dUN2N5ZUkxM1UwUXB1d1lpekxzWnNDckxxOF96OGVBdXIxUGVJODVVazJHMzBHMVFfOHAwX1pPZVZNaDBHbTE5TGw1YW1Kd1RkM2tTbWE0bUlVOENFVkZtSg?oc=5",
+   "date": "2026-08-20T01:49:00+09:00",
+   "summary": "顧客対話時間 AIが創る ちゅうぎんFG、効率業務へ活用加速 金利ある世界 競争力を確保 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "牛管理 AIで完全自動化 ファームノート、30年メドに実現 牧場自社運営しノウハウ 担い手不足に対応",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KYzdidkpiWi1qU1lKUlJUV1BGUEtXZC1zM2ZvODBWdVlMNW14SjRIQ2ZKaUQ1ako4MWRZN2hRcXdFblZjX3ZoZnVweFRMa09JSjFhR18xVkh6bU0tbHdTazFmemNtRUJpMmtWcg?oc=5",
+   "date": "2026-08-20T01:49:00+09:00",
+   "summary": "牛管理 AIで完全自動化 ファームノート、30年メドに実現 牧場自社運営しノウハウ 担い手不足に対応 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "UAE大使とAI拠点など巡り会談 鈴木・秋田知事「大きな一歩」 官民で協力 分野幅広く",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zY3ltWWJTeWd3QnZvWmJGYUhUUGoxVTJ5elhldjRPRWZtanpzQlJ1VG1GRGd2MXZqYUNEZkdQWnNta005aVlNc2RZWDdDOElGbUxWTVNRSGZZdUdKVndnOUhEdnJFN2FTb0NuZA?oc=5",
+   "date": "2026-08-20T01:49:00+09:00",
+   "summary": "UAE大使とAI拠点など巡り会談 鈴木・秋田知事「大きな一歩」 官民で協力 分野幅広く 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
+   "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
+   "date": "2026-08-20T00:44:53+09:00",
+   "summary": "TerraPower's nuclear power plant possesses a strategic advantage over competitors, especially when chasing after data center deals.",
+   "thumb": "",
+   "source": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "生成AIに参照される企業サイトとは noteが掲げる「本拠地」戦略",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JcGFEdTZvcmlIVzkzSFpGWXhYNDYwZHd1V0QyTkRXdTRkVldqRGFabDhVOGRYR2EtR2R1VHZiZjhFdHlDNUJ1VEh4V0ZHVTV6M2wyRVIzNV9hbEtLamg5Yjk2d2p6QQ?oc=5",
+   "date": "2026-08-20T00:00:00+09:00",
+   "summary": "生成AIに参照される企業サイトとは noteが掲げる「本拠地」戦略 日経クロストレンド",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "戦略が止まる\"壁\"を先読みせよ",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0yRHAzNkE3RmI4QWR6bEh2Y1Izc2VIalQ5Y1Awb0JKWUJ3X1NuMXFvOWRaUXkzRUo5WkxXSUttWVJPMzBEZmtja3NMRl9vVnVGZnV0MVJxYVRZYkhsbjdpM2Q1S1lnQQ?oc=5",
+   "date": "2026-08-20T00:00:00+09:00",
+   "summary": "戦略が止まる\"壁\"を先読みせよ 日経クロストレンド",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AIスキル競争に捕らわれるな マーケターが磨くべき「問い」の力",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2Qm41ei0yQ2MzYWRqZENaU1Q2NmRUaFp4WTNOSDRTWGRNUEgyZVZpYVNqQno5c1J0VXlTMS1aQ3M0cjhjZW5tcGFmd1VkWmUxU05oZzdYMmV5b3plajU1aklmc2Jldw?oc=5",
+   "date": "2026-08-20T00:00:00+09:00",
+   "summary": "AIスキル競争に捕らわれるな マーケターが磨くべき「問い」の力 日経クロストレンド",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "資産運用会社、次の「IPO長者」囲い込み オープンAI社員など狙い",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1PdFo4ZnhTNHBrbDR5NWZTdDVaOWZ4MFB0Mk4xUTdDWlRjYVRXdVdKeHRyOUJLOHdFRmE1cllXZEJXdnhfeHphd2lCY0VrbkRNbHIwYVN2NUhZdHM5MlBpdnBYSHlkNi1PYkhlNmNiMEZ3c0phcE1n?oc=5",
+   "date": "2026-08-20T00:00:00+09:00",
+   "summary": "資産運用会社、次の「IPO長者」囲い込み オープンAI社員など狙い 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "ビジネス・資金"
+   ]
+  },
+  {
+   "title": "国際標準化の現場で進むAI活用 先行する米中、出遅れは競争力低下に直結",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YNzRFUmY1VnZ5YVN0SWt3dDR1UkFFTmoxcFVuOXFSTVFFX0JXTWNkeFkxcVNONnJJUzBFZkNOZ0kzakQwM2tUd0ozTXJ0YlJEZlVoTUVmekNpUFp1YXhCcmVn?oc=5",
+   "date": "2026-08-20T00:00:00+09:00",
+   "summary": "国際標準化の現場で進むAI活用 先行する米中、出遅れは競争力低下に直結 日経ビジネス電子版",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
+   "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
+   "date": "2026-08-20T00:00:00+09:00",
+   "summary": "Amazon is making its AI-powered Alexa+ assistant free on all compatible Fire TV devices in the U.S., automatically upgrading users whether or not they subscribe to Prime.",
+   "thumb": "",
+   "source": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Claudeエージェント同士が「縄張り争い」で互いを妨害したり価格について共謀したりする事例がAnthropicの実験で発生",
+   "url": "https://gigazine.net/news/20260819-anthropic-claude-multiagent-turf-war/",
+   "date": "2026-08-19T23:30:00+09:00",
+   "summary": "AIエージェントとは与えられた目標に沿ってツールを使い、複数の手順からなる作業を自律的に進めるAIです。Anthropicは2026年8月13日、それぞれ異なる目標を与えられた複数のAIエージェントが明確な上下関係なしに同じコードベースを編集したり同じ市場で商品を販売したりする状況を再現し、協調や対立のパターンを調べた研究結果を公開しました。 続きを読む..…",
+   "thumb": "",
+   "source": "gigazine",
+   "sourceName": "GIGAZINE",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント",
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "AIにより飛行機雲発生の少ない空路を選んで地球温暖化緩和を目指す「Operation Blue Skies」をGoogleが始動",
+   "url": "https://gigazine.net/news/20260819-operation-blue-skies/",
+   "date": "2026-08-19T23:10:00+09:00",
+   "summary": "飛行機雲(コントレイル)は、航空機が搭載しているジェットエンジンの排気ガスに含まれる煤粒子に水蒸気が凝結して形成されるもので、地球温暖化の原因の1つであり、航空業界による気候への影響のおよそ3分の1を占めています。このため、GoogleはAIを活用して北大西洋上の空路を飛行機雲が発生しにくいものにする試みに、イギリス政府や航空業界の協力を得て取り組んでいます…",
+   "thumb": "",
+   "source": "gigazine",
+   "sourceName": "GIGAZINE",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Calendly throws its hat into meeting note-taker circus",
+   "url": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
+   "date": "2026-08-19T23:09:39+09:00",
+   "summary": "Calendly is also releasing a meeting scheduling assistant called Callie.",
+   "thumb": "",
+   "source": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Daily Search Forum Recap: August 19, 2026",
+   "url": "https://www.seroundtable.com/recap-08-19-2026-41900.html",
+   "date": "2026-08-19T23:00:00+09:00",
+   "summary": "Here is a recap of what happened in the search forums today...",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "What 3 creatives built with unlimited access to Google Flow",
+   "url": "https://blog.google/products/ads-commerce/the-small-brief/",
+   "date": "2026-08-19T23:00:00+09:00",
+   "summary": "We asked three creatives to design campaigns for local businesses in Google Flow, an AI creative studio. Here’s what they made.",
+   "thumb": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_Hero_Image_NJd7pGd.max-600x600.format-webp.webp",
+   "source": "blogads",
+   "sourceName": "Google Ads & Commerce",
+   "axis": "product",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "使い込むほど成長するAIエージェント「Hermes Agent」をWindowsで実際に使ってみた、インストールからウェブ検索・ブラウザ操作まで",
+   "url": "https://gigazine.net/news/20260819-hermes-agent-first-use/",
+   "date": "2026-08-19T22:50:00+09:00",
+   "summary": "Nous Researchが開発する「Hermes Agent」は、実際にAIモデルを作成する中で具体的にどういう機能がAIエージェントに求められているのか？という視点から、単なるチャットではなく「ターミナルでの操作」を前提に開発されており、ウェブ検索・ブラウザ操作・ファイル操作など複数のツールを組み合わせながらタスクを進められるオープンソースのAIエージェ…",
+   "thumb": "",
+   "source": "gigazine",
+   "sourceName": "GIGAZINE",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント",
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+   "url": "https://huggingface.co/blog/LiquidAI/qad",
+   "date": "2026-08-19T22:48:49+09:00",
+   "summary": "",
+   "thumb": "",
+   "source": "hf",
+   "sourceName": "Hugging Face",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "経産省の概算要求、AI・半導体軸に7.7兆円 「補正脱却」で膨張",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuQ2ZMdllZMks0N1JjUEFqbEtlMURFVmhGSzRlbmRHaHpNQVIwZ3MyQkZZQW9Ca3lxYXhqOVF6cVBDYjNsdXYxX1hQbVRtbU5KYUphM0F0dEhJLWt6MlhibXpTQ2tEQThadEFCZg?oc=5",
+   "date": "2026-08-19T22:06:45+09:00",
+   "summary": "経産省の概算要求、AI・半導体軸に7.7兆円 「補正脱却」で膨張 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "ビジネス・資金",
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "\"やったのは AI だけど、バグがあったら俺の責任\" — Code w/ Claude in Tokyo 2026 に行ってきた",
+   "url": "https://zenn.dev/rb_engineering/articles/f5e5fa60ae0d96",
+   "date": "2026-08-19T21:22:52+09:00",
+   "summary": "Rebase の髙畠裕二 @_ug_ です。 Code w/ Claude in Tokyo 2026 に参加してきました！✌️✌️ 最初から最後まで Anthropic 社員の講演を聞き通したので、中の人がどう Claude Code を使っているのか、いま何が most concern なのかを、資料ではなく肌で感じることができました。以下、印象に残った…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--hN8vtuEr--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%2522%25E3%2582%2584%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25AF%2520AI%2520%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A9%25E3%2580%2581%25E3%2583%2590%25E3%2582%25B0%25E3%2581%258C%25E3%2581%2582%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%25E4%25BF%25BA%25E3%2581%25AE%25E8%25B2%25AC%25E4%25BB%25BB%2522%2520%25E2%2580%2594%2520Code%2520w%252F%2520Claude%2520in%2520Tokyo%25202026...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Yuji%2520T.%2520%2540Rebase%252C%2520Inc.%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzAwODY1NDg4OTEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Rebase%2520%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS3RlN1ZPcUk3Z2U3bE1ydV8zSUIyemxHelluLVd0a3d3VV80bDgtZnR5Y1l3Q2ctTGw9czk2LWM=%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント"
+   ]
+  },
+  {
+   "title": "ループエンジニアリングじゃない。デイリーノート1枚で回すAIエージェント運用",
+   "url": "https://zenn.dev/motimotinotch/articles/f24c65c8f38885",
+   "date": "2026-08-19T21:03:23+09:00",
+   "summary": "「ハーネスエンジニアリング」「ループエンジニアリング」というAIエージェント運用の設計論が、2026年に入って急増している。権限をどこまで絞るか、自律ループをどう安全に閉じるか——読んでいると、複数のAIエージェントを併用するには相応に大掛かりな仕組みを組まないといけない気にさせられる。 だが半年以上、Claude CodeとAntigravity CLI（…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--CB7wrMBn--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%2597%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%2598%25E3%2582%2583%25E3%2581%25AA%25E3%2581%2584%25E3%2580%2582%25E3%2583%2587%25E3%2582%25A4%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%258E%25E3%2583%25BC%25E3%2583%25881%25E6%259E%259A%25E3%2581%25A7%25E5%259B%259E%25E3%2581%2599AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E9%2581%258B%25E7%2594%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:MotimotiNotch%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVmZTQyYTc5MWUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント"
+   ]
+  },
+  {
+   "title": "GPUと比較して最大30倍高速にAIを動かすCerebrasの「CS-4」ラックスケールソリューションが登場",
+   "url": "https://gigazine.net/news/20260819-cerebras-cs-4/",
+   "date": "2026-08-19T21:00:00+09:00",
+   "summary": "AIの推論を高速化するシステムを開発しているCerebrasが、ラックスケールソリューションの「CS-4」を公開しました。単純なGPUシステムと比較して最大30倍高速な推論処理が可能とうたわれています。 続きを読む...",
+   "thumb": "",
+   "source": "gigazine",
+   "sourceName": "GIGAZINE",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "インフラ・半導体"
+   ]
+  },
+  {
+   "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
+   "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
+   "date": "2026-08-19T21:00:00+09:00",
+   "summary": "It's the data, stupid.",
+   "thumb": "",
+   "source": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "ChatGPT Ads Expanding To 31 European Countries",
+   "url": "https://www.seroundtable.com/chatgpt-ads-europe-41902.html",
+   "date": "2026-08-19T20:51:00+09:00",
+   "summary": "OpenAI announced it is expanding its ChatGPT Ads service and product to 31 European countries. These countries include Germany, France, Spain, Italy, Sweden, Norway, Denmark, the N…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "AI検索体験",
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "GLM 5.3 ついに登場：智譜AIが2026年8月に投下した次世代フラッグシップLLMを徹底解説",
+   "url": "https://zenn.dev/erhg/articles/6f6afb57a04e0d",
+   "date": "2026-08-19T20:42:55+09:00",
+   "summary": "「またモデルが出たの？」と思ったあなた、正しいです。でも今回はちょっと事情が違います。 中国の智譜AI（Zhipu AI / Z.ai）が次世代フラッグシップ大規模言語モデル GLM 5.3 を2026年8月にリリースしました。前世代の GLM-5.2（2026年6月）からわずか約2か月。半年で3世代という、中国系モデルのリリースサイクルの速さを象徴するニュ…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--Pku4Evsl--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GLM%25205.3%2520%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25AB%25E7%2599%25BB%25E5%25A0%25B4%25EF%25BC%259A%25E6%2599%25BA%25E8%25AD%259CAI%25E3%2581%258C2026%25E5%25B9%25B48%25E6%259C%2588%25E3%2581%25AB%25E6%258A%2595%25E4%25B8%258B%25E3%2581%2597%25E3%2581%259F%25E6%25AC%25A1%25E4%25B8%2596%25E4%25BB%25A3%25E3%2583%2595%25E3%2583%25A9%25E3%2583%2583%25E3%2582%25B0%25E3%2582%25B7%25E3%2583%2583%25E3%2583%2597LLM%25E3%2582%2592%25E5%25BE%25B9%25E5%25BA%2595%25E8%25A7%25A3%25E8%25AA%25AC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:aerg%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGUtQlV3MV9NR0FSaG5vZkZ4R3NZREtGUXBySmlkemVFckFoS0xHLTZaUl9VM1hRPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Google: We Do Not Roll Out Updates Prior To The Announcement",
+   "url": "https://www.seroundtable.com/google-rollout-search-updates-announcement-41901.html",
+   "date": "2026-08-19T20:41:00+09:00",
+   "summary": "Google's John Mueller reiterated what Google has said numerous times already, that Google does not wait to announce the update. When Google begins rolling out the search update, wh…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "[WIP] Hermes Agent セットアップメモ",
+   "url": "https://zenn.dev/konto/articles/cd05407cd5b7fc",
+   "date": "2026-08-19T20:38:10+09:00",
+   "summary": "Hermes Agent セットアップメモ 環境 マシン: M1 Mac mini（クリーンインストール直後） macOSバージョン: 未確認（確認前に作業開始） Hermes Agent: v0.18.2 (2026.7.7.2) ターミナル: Ghostty 1.3.1 プロバイダー: Nous Portal（Freeプラン） モデル: stepfun/…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--hILcIv1S--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%255BWIP%255D%2520Hermes%2520Agent%2520%25E3%2582%25BB%25E3%2583%2583%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:konto%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS2xUMjhBVUxwclpIZkp2Mzc2RzlDVnZGTGV2SUJoU3VGS3QzaGQ1MVV5YkRLTUl4SHU9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント"
+   ]
+  },
+  {
+   "title": "Google Search Video Carousel Showing Less Often",
+   "url": "https://www.seroundtable.com/google-video-carousel-drops-41894.html",
+   "date": "2026-08-19T20:31:00+09:00",
+   "summary": "Google seems to be showing the video carousel within Google Search a lot less often. Semrush had the video carousel showing up in Google Search at just over 30% of queries but now…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "生成AI画像で“架空の女性”に成り済まして政治投稿か 立憲栃木県連の男性党員 一部報道",
+   "url": "https://www.itmedia.co.jp/news/article/2608/19/2000000632/",
+   "date": "2026-08-19T20:21:49+09:00",
+   "summary": "立憲民主党栃木県連に党員登録している男性が、架空の女性に成り済ましてXで選挙や政治活動について投稿していたことが8月19日までに分かった。女性の画像は生成AIで作成したとみられ、アカウントは既に凍結されている。",
+   "thumb": "",
+   "source": "itmnews",
+   "sourceName": "ITmedia NEWS",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Google Ads Bidding Option For Customer Retention Loyalty Program Members",
+   "url": "https://www.seroundtable.com/google-ads-bidding-loyalty-program-members-41897.html",
+   "date": "2026-08-19T20:21:00+09:00",
+   "summary": "Google Ads is now letting you bid more using the customer retention option named \"Loyalty program members.\" This gives you the option to (a) Bid higher for loyalty program members…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "広告プロダクト"
+   ]
+  },
+  {
+   "title": "「Claude Codeはやりすぎでは？」に答える——Notion AIとの構造差7軸と、使い分けの4シグナル",
+   "url": "https://zenn.dev/imu_imu/articles/notion-ai-vs-claude-code",
+   "date": "2026-08-19T20:15:04+09:00",
+   "summary": "「Claude Codeって、非エンジニアにはやりすぎじゃない？ うちは Notion AI があるし」 社内で Claude Code の話をすると、だいたいこれを言われます。そして、この反応は半分正しい。 半分正しいからこそ、雑に反論すると負けます。「Claude Code のほうが賢いから」は来月には嘘になるかもしれないし、「Notion AI は読む…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--pe493W9s--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258CClaude%2520Code%25E3%2581%25AF%25E3%2582%2584%25E3%2582%258A%25E3%2581%2599%25E3%2581%258E%25E3%2581%25A7%25E3%2581%25AF%25EF%25BC%259F%25E3%2580%258D%25E3%2581%25AB%25E7%25AD%2594%25E3%2581%2588%25E3%2582%258B%25E2%2580%2594%25E2%2580%2594Notion%2520AI%25E3%2581%25A8%25E3%2581%25AE%25E6%25A7%258B%25E9%2580%25A0%25E5%25B7%25AE7%25E8%25BB%25B8%25E3%2581%25A8%25E3%2580%2581%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2586%25E3%2581%2591%25E3%2581%25AE4%25E3%2582%25B7%25E3%2582%25B0%25E3%2583%258A%25E3%2583%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2584%25E3%2582%2580%25E3%2581%259F%25E3%2582%258D%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzcwOGUxYzA1ZGIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント"
+   ]
+  },
+  {
+   "title": "GLM-5.3、後学習だけで最前線へ――AIモデル競争は規模から費用対効果の時代へ",
+   "url": "https://zenn.dev/moonwalker/articles/glm-5-3-post-training-value",
+   "date": "2026-08-19T20:14:08+09:00",
+   "summary": "中国のAI企業Z.ai（智譜AI）は8月14日、最新の基盤モデル「GLM-5.3」を発表しました。2026年8月19日時点でAPIとGLM Coding Planから利用でき、複雑なソフトウェア開発、長時間にわたるエージェント処理、サイバーセキュリティ領域を主な対象としています。 今回の発表で注目すべきなのは、単にベンチマークの順位が上がったことではありませ…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--F9DisVGh--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GLM-5.3%25E3%2580%2581%25E5%25BE%258C%25E5%25AD%25A6%25E7%25BF%2592%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A7%25E6%259C%2580%25E5%2589%258D%25E7%25B7%259A%25E3%2581%25B8%25E2%2580%2595%25E2%2580%2595AI%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%25E7%25AB%25B6%25E4%25BA%2589%25E3%2581%25AF%25E8%25A6%258F%25E6%25A8%25A1%25E3%2581%258B%25E3%2582%2589%25E8%25B2%25BB%25E7%2594%25A8%25E5%25AF%25BE%25E5%258A%25B9%25E6%259E%259C%25E3%2581%25AE%25E6%2599%2582%25E4%25BB%25A3%25E3%2581%25B8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:moonwalker%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzViZDIzZTYyNjcuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント",
+    "規制・リスク"
+   ]
+  },
+  {
+   "title": "Google Business Profiles Testing Revamped Q&A Feature",
+   "url": "https://www.seroundtable.com/google-business-profiles-revamped-qa-41896.html",
+   "date": "2026-08-19T20:11:00+09:00",
+   "summary": "Google seems to be testing a revamped and updated Q&A feature for Google Business Profiles (GBP). There is an added Q&A button in the GBP dashboard in Google Search and a flow that…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "ローカルAIエージェントアプリ「Bionic」がSkillsに対応しCodexやClaude Codeの使い勝手に近づく",
+   "url": "https://gigazine.net/news/20260819-lm-studio-bionic-skills/",
+   "date": "2026-08-19T20:00:00+09:00",
+   "summary": "BionicはクラウドAIサービスだけでなくローカルで実行するAIモデルにも対応したAIエージェントアプリです。新たにBionicがSkillsに対応し、CodexやClaude Codeなどで培われた大量のSkillsを活用できるようになりました。 続きを読む...",
+   "thumb": "",
+   "source": "gigazine",
+   "sourceName": "GIGAZINE",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント"
+   ]
+  },
+  {
+   "title": "AI承認駆動開発 #4｜チェック観点を「型」にする——Validation TypeからApproval Engineeringへ",
+   "url": "https://zenn.dev/frb_tamasub/articles/ai-approval-driven-development-04-approval-eng",
+   "date": "2026-08-19T19:43:16+09:00",
+   "summary": "! 判断軸・制約は「大きな意味」。 Validation Typeは「小さな見る型」。 ! AI協働で大切なのは、すべてのチェックをAIへ任せることではない。 人間が何を見て判断しているのかを、再利用可能な「型」として外へ出すこと。 前回は「同じ判断を、二度させるな」だった 前回の AI承認駆動開発 #3 では、 同じ判断を、二度させるな。 という考え方につ…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--PAX71ccb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E6%2589%25BF%25E8%25AA%258D%25E9%25A7%2586%25E5%258B%2595%25E9%2596%258B%25E7%2599%25BA%2520%25234%25EF%25BD%259C%25E3%2583%2581%25E3%2582%25A7%25E3%2583%2583%25E3%2582%25AF%25E8%25A6%25B3%25E7%2582%25B9%25E3%2582%2592%25E3%2580%258C%25E5%259E%258B%25E3%2580%258D%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E2%2580%2594%25E2%2580%2594Validation%2520Type%25E3%2581%258B%25E3%2582%2589Approval%2520Engi...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Fishing%2520Rod%2520Benchm...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS2R0U29uVm51ekRNcGZEWGExMDMwSzl1eHV5WTFsRllUU2lGYmp1a1c0M3pIa3REWTNfdz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "2026年08月19日 夜のAIニュースまとめ",
+   "url": "https://www.ml-bear-times.com/20260819_01_evening/",
+   "date": "2026-08-19T19:35:01+09:00",
+   "summary": "Anthropic&#x306E;&#x9ED2;&#x5B57;&#x5316;&#x9054;&#x6210;&#x3068;&#x30CF;&#x30FC;&#x30C9;&#x30A6;&#x30A7;&#x30A2;&#x5E02;&#x5834;&#x306E;&#x65B0;&#x305F;&#x306A;&#x52D5;&#x304D; An…",
+   "thumb": "",
+   "source": "mlbeartimes",
+   "sourceName": "ML_Bear Times",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AIで生産性が3倍になった私たちが、チームを置き去りにした話",
+   "url": "https://zenn.dev/factory_dx_eng/articles/ai-productivity-team-divide",
+   "date": "2026-08-19T19:27:37+09:00",
+   "summary": "「すぐには理解できないが、正しいことを言っているのだと思う」 週次の報告会で、上司がそう言った。 私はAIで作ったスライドとHTMLレポートを画面に映していた。上司は内容を否定しなかった。むしろ、正しいと言ってくれた。理解はできないけれど、正しいのだと思う、と。 そのときの私は、それを好意的な反応として受け取っていた。今になって思えば、あれはレビューが壊れた…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--0teqf71V--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25A7%25E7%2594%259F%25E7%2594%25A3%25E6%2580%25A7%25E3%2581%258C3%25E5%2580%258D%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E7%25A7%2581%25E3%2581%259F%25E3%2581%25A1%25E3%2581%258C%25E3%2580%2581%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%25E3%2582%2592%25E7%25BD%25AE%25E3%2581%258D%25E5%258E%25BB%25E3%2582%258A%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%258F%25BE%25E5%25A0%25B4%25E3%2581%25A8%25E4%25B8%2580%25E7%25B7%2592%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%258BDX%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZlYzMwYzVmZDguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "創刊のワケ、あるいは「なんでオレはナルトの話からAIマガジンを始めるのか」",
+   "url": "https://zenn.dev/saikoseiko/articles/b817ef335a3c49",
+   "date": "2026-08-19T19:26:05+09:00",
+   "summary": "こんにちは。はじめましての方も、どこかで会ったことある気がする方も、とりあえず座ってください。お茶でも入れます。今日はちょっと長い話になりますが、最後まで読んだ人にはちゃんとご褒美があります。約束します。 きっかけは、深夜のファミレスだった 半年前くらいの話です。カナダから日本に戻ってきて、久しぶりに昔の友人とファミレスで飲んでいました。エンジニア仲間じゃな…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--djVKzKSp--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2589%25B5%25E5%2588%258A%25E3%2581%25AE%25E3%2583%25AF%25E3%2582%25B1%25E3%2580%2581%25E3%2581%2582%25E3%2582%258B%25E3%2581%2584%25E3%2581%25AF%25E3%2580%258C%25E3%2581%25AA%25E3%2582%2593%25E3%2581%25A7%25E3%2582%25AA%25E3%2583%25AC%25E3%2581%25AF%25E3%2583%258A%25E3%2583%25AB%25E3%2583%2588%25E3%2581%25AE%25E8%25A9%25B1%25E3%2581%258B%25E3%2582%2589AI%25E3%2583%259E%25E3%2582%25AC%25E3%2582%25B8%25E3%2583%25B3%25E3%2582%2592%25E5%25A7%258B%25E3%2582%2581%25E3%2582%258B%25E3%2581%25AE%25E3%2581%258B%25E3%2580%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Saiko-Seiko%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2I0ZWEzZWM3YjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "YouTube動画を映像ごとAIに読ませるCLIを作った（Gemini API、Python標準ライブラリのみ）",
+   "url": "https://zenn.dev/metamol/articles/5cdf6a649ed1bc",
+   "date": "2026-08-19T19:25:46+09:00",
+   "summary": "YouTubeの解説動画をAIに渡して「これを踏まえて実装して」とやりたい。字幕を取れば済むと思っていました。ところが取り出した字幕には、話者が「この図のここが問題で」と言った「ここ」の中身が、1文字も残っていません。 画面にスライドが映り、話者は指すだけ。コードのデモは「こう書き換えます」で済まされる。発話を文字にする道具では、画面の情報は残らない。 この…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--zKN32ER8--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:YouTube%25E5%258B%2595%25E7%2594%25BB%25E3%2582%2592%25E6%2598%25A0%25E5%2583%258F%25E3%2581%2594%25E3%2581%25A8AI%25E3%2581%25AB%25E8%25AA%25AD%25E3%2581%25BE%25E3%2581%259B%25E3%2582%258BCLI%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25EF%25BC%2588Gemini%2520API%25E3%2580%2581Python%25E6%25A8%2599%25E6%25BA%2596%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AA%25E3%2581%25AE%25E3%2581%25BF%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:MetamoL%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQ1OGFkYWM0NDguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "印インフォシスと浜松市、中小製造業向け相談窓口 AI活用など支援",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tSHFrSXFpQTJGbmVSeW4tdEJld2VYcnNaemR2Y3BwTFFtQldiLTM3UDRFbkZxWmRfQWhaSWgzWE4zYk0zN0JXOU1wVmdySTlSWTFGMG5IQ1ltOXZUaTB1YUVSZ0FzdnBtMy03OQ?oc=5",
+   "date": "2026-08-19T19:15:50+09:00",
+   "summary": "印インフォシスと浜松市、中小製造業向け相談窓口 AI活用など支援 日本経済新聞",
+   "thumb": "",
+   "source": "nikkei",
+   "sourceName": "日経（Google News経由）",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "【無料・動画連動】AIと開発する技術 — エージェント時代の「任せ方」入門",
+   "url": "https://zenn.dev/acropapa330/books/ai-agentic-dev",
+   "date": "2026-08-19T19:15:10+09:00",
+   "summary": "「AIにコードを書いてもらう」が当たり前になった今、差がつくのは書く力ではなく任せ方。 プロンプトの型、コンテキストエンジニアリング、ハーネスとループ、レビューゲート—— YouTube番組「アクロパパのAI教室」第3シリーズと連動して、AIエージェントと開発する 技術を全10章で体系的に学びます。各章に対応する動画へのリンク付き。",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--Qiqw8vUZ--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci80NTMyZTk2ZDAyLnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "エージェント",
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "Even G2でMicrosoft Foundry上のエージェントと会話する ― Even G2 × Voice Live API",
+   "url": "https://zenn.dev/miyaura/articles/eveng2-voicelive-d6c78abe98f354",
+   "date": "2026-08-19T19:07:05+09:00",
+   "summary": "スマートグラスに Foundry のエージェントを載せてみる Microsoft Foundry の Voice Live API は、Foundry上の生成AIモデルや、エージェントに対して、リアルタイム音声対話を実現するFoundry Toolsの1つです。これを Even Realities G2 に載せて、Foundry Agent Service…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--Xq51N0nj--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Even%2520G2%25E3%2581%25A7Microsoft%2520Foundry%25E4%25B8%258A%25E3%2581%25AE%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25A8%25E4%25BC%259A%25E8%25A9%25B1%25E3%2581%2599%25E3%2582%258B%2520%25E2%2580%2595%2520Even%2520G2%2520%25C3%2597%2520Voice%2520...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:miyaura%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU0Y2UwMmIzMjUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント",
+    "画像・音声・動画"
+   ]
+  },
+  {
+   "title": "AIの利用拡大を懸念しているアメリカの若者が過半数を突破、AIにより仕事が奪われると考える人も増加している",
+   "url": "https://gigazine.net/news/20260819-young-americans-increasingly-wary-ai/",
+   "date": "2026-08-19T19:00:00+09:00",
+   "summary": "近年はChatGPTやGeminiといったチャットAIの利用が一般的になり、仕事や勉強などにAIを活用する人々も増えています。ところがアメリカのピュー研究所が2026年6月に行った調査では、18～29歳の若者の過半数がAIについて期待よりもむしろ懸念を抱いていることが浮き彫りになりました。 続きを読む...",
+   "thumb": "",
+   "source": "gigazine",
+   "sourceName": "GIGAZINE",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
+   "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
+   "date": "2026-08-19T19:00:00+09:00",
+   "summary": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.",
+   "thumb": "",
+   "source": "techcrunch",
+   "sourceName": "TechCrunch AI",
+   "axis": "ai",
+   "kind": "global",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Google Trends Gains Explore Maps & Regional Breakdown",
+   "url": "https://www.seroundtable.com/google-trends-explore-maps-and-regional-breakdown-41899.html",
+   "date": "2026-08-19T18:54:00+09:00",
+   "summary": "Google Trends has added two new features this morning, explore maps and regional breakdown. Google said it \"designed new interactive maps for clearer data storytelling...",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Google Analytics Real Time Outage Seems To Be Resolving",
+   "url": "https://www.seroundtable.com/google-analytics-real-time-outage-41898.html",
+   "date": "2026-08-19T18:44:00+09:00",
+   "summary": "Google Analytics seems to have had an outage starting at about 4 am ET this morning. The real-time analytics report within Google Analytics was not showing users all of the data. T…",
+   "thumb": "",
+   "source": "ser",
+   "sourceName": "Search Engine Roundtable",
+   "axis": "product",
+   "kind": "main",
+   "weekly": false,
+   "topics": [
+    "計測・データ"
+   ]
+  },
+  {
+   "title": "Google、AIで飛行機雲の発生を防ぐ「オペレーション・ブルースカイ」",
+   "url": "https://www.watch.impress.co.jp/docs/news/2133977.html",
+   "date": "2026-08-19T18:36:01+09:00",
+   "summary": "Googleは、英国政府、航空業界と連携し、AIを活用することで飛行機雲の発生を回避するルートを作成し、航空機による気候変動への影響を軽減する取り組み「オペレーション・ブルースカイ」を開始する。",
+   "thumb": "",
+   "source": "impress",
+   "sourceName": "PC Watch",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "日テレAI-HRが「AIビルダー」の育成をテーマにした無料ウェビナーを開催",
+   "url": "https://ascii.jp/elem/000/004/427/4427934/?rss",
+   "date": "2026-08-19T18:30:00+09:00",
+   "summary": "日テレAI-HRが「AIビルダー」の育成をテーマにした無料ウェビナーを開催",
+   "thumb": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+   "source": "ascii",
+   "sourceName": "ASCII.jp",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "AIとアート創作とメンタルヘルス",
+   "url": "https://zenn.dev/hirotoshiuchida/articles/20260819_aamh",
+   "date": "2026-08-19T17:49:17+09:00",
+   "summary": "趣味としてクリエイティブコーディングや作曲、映像制作などがある。 でも、ひょんな事から創作する気力が続かなくなった。 昔は、プログラミングだったら、インターネットで調べたり、自分で本を買ったり（そもそも読書が苦手で本を読まない）していた。 アイデアは突然思い浮かぶのだ。 リサージュ図形の映像、プリペアド・ピアノの音色など・・・。 （※詳しくは以下。） htt…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--8Q9bR7zC--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25A8%25E3%2582%25A2%25E3%2583%25BC%25E3%2583%2588%25E5%2589%25B5%25E4%25BD%259C%25E3%2581%25A8%25E3%2583%25A1%25E3%2583%25B3%25E3%2582%25BF%25E3%2583%25AB%25E3%2583%2598%25E3%2583%25AB%25E3%2582%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Hirotoshi%2520Uchida%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI0YjlhYjdlYjMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "ジャック・ドーシー率いるBlockがAIエージェントアプリ「Berd」をリリース、AIエージェントにキャラクターを割り当てて共同作業可能",
+   "url": "https://gigazine.net/news/20260819-berd-ai-agent/",
+   "date": "2026-08-19T17:32:00+09:00",
+   "summary": "Twitter創業者のジャック・ドーシー氏が率いるBlockが、AIエージェントアプリ「Berd」をリリースしました。Berdでは複数のAIエージェントをキャラクターとして管理して作業を遂行できます。 続きを読む...",
+   "thumb": "",
+   "source": "gigazine",
+   "sourceName": "GIGAZINE",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "エージェント"
+   ]
+  },
+  {
+   "title": "10万社から「本当に合う相手」を見つける——M&AマッチングKEPLの設計で考えたこと",
+   "url": "https://zenn.dev/fundbook_tech/articles/8767a61d3ebd0d",
+   "date": "2026-08-19T17:22:34+09:00",
+   "summary": "はじめまして fundbookでAIエンジニアをしているueventです。 2026年1月に AIマッチングシステム KEPL(ケプル) をリリースしました！少し時間が経ちましたが、夏の思い出として技術記事を認めたいと思います。fundbook の開発者には Claude を配布してもらっており、この記事も Claudeの力を借りてまとめました。 KEPLは…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--elcEVCwk--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:10%25E4%25B8%2587%25E7%25A4%25BE%25E3%2581%258B%25E3%2582%2589%25E3%2580%258C%25E6%259C%25AC%25E5%25BD%2593%25E3%2581%25AB%25E5%2590%2588%25E3%2581%2586%25E7%259B%25B8%25E6%2589%258B%25E3%2580%258D%25E3%2582%2592%25E8%25A6%258B%25E3%2581%25A4%25E3%2581%2591%25E3%2582%258B%25E2%2580%2594%25E2%2580%2594M%2526A%25E3%2583%259E%25E3%2583%2583%25E3%2583%2581%25E3%2583%25B3%25E3%2582%25B0KEPL%25E3%2581%25AE%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%25A7%25E8%2580%2583%25E3%2581%2588%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:uevent%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzgyNjZlZjgwZjQuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25EF%25BD%2586%25EF%25BD%2595%25EF%25BD%258E%25EF%25BD%2584%25EF%25BD%2582%25EF%25BD%258F%25EF%25BD%258F%25EF%25BD%258B%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzM3NTBjNzRkYjMuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "CLAUDE.md書き方：AIエージェントに「効くルール」を書く6原則",
+   "url": "https://zenn.dev/kujira_ai/articles/175921712ec48b",
+   "date": "2026-08-19T17:21:08+09:00",
+   "summary": "この記事で書くこと Claude Codeを毎日の仕事で使うようになって1年以上になります。CLAUDE.md（プロジェクトのルールファイル）に「これは守ってほしい」と書いても、実際には守られなかったり、私自身が後から見返して「これじゃ伝わらないな」と気づいたりすることが何度もありました。 この記事では、そうやって書き直しを繰り返す中で見えてきた「書いたのに…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--M4Z0pVER--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:CLAUDE.md%25E6%259B%25B8%25E3%2581%258D%25E6%2596%25B9%25EF%25BC%259AAI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E3%2580%258C%25E5%258A%25B9%25E3%2581%258F%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E3%2580%258D%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258F6%25E5%258E%259F%25E5%2589%2587%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AF%25E3%2582%25B8%25E3%2583%25A9%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTDVlUk11ZVQzOHk2S1NIM1N3ZjNSYnphVEhHRjFRMHRBT256bDdCcHkzYzBpUnJtUT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "エージェント"
+   ]
+  },
+  {
+   "title": "MCPの「人気サーバー」一覧が順位づけているのはホスト製品だ",
+   "url": "https://zenn.dev/skillselion/articles/323c7f8c7b60c6",
+   "date": "2026-08-19T17:04:46+09:00",
+   "summary": "一覧の上のほうにいたから、MCPサーバーを入れる。スターは証拠に見える。GitHubを開く。READMEは分析、ドキュメント、デスクトップアプリ、BIツールだ。MCPはフォルダ一つ。スター数は製品のものだ。一覧はそれをサーバーの点数に使っている。 ベンダーがこうするのはつまらない理由だ。人が知っているアプリの横にMCPファイルを置く。変なのは順位の付け方だ。…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--D578rb7B--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:MCP%25E3%2581%25AE%25E3%2580%258C%25E4%25BA%25BA%25E6%25B0%2597%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2580%258D%25E4%25B8%2580%25E8%25A6%25A7%25E3%2581%258C%25E9%25A0%2586%25E4%25BD%258D%25E3%2581%25A5%25E3%2581%2591%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2581%25AE%25E3%2581%25AF%25E3%2583%259B%25E3%2582%25B9%25E3%2583%2588%25E8%25A3%25BD%25E5%2593%2581%25E3%2581%25A0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Skillselion%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "エージェント",
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "ChatGPTの反論で「道徳的判断」の3割超が覆る 高齢者が説得されやすい傾向 神戸大",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2608/19/2000000627/",
+   "date": "2026-08-19T17:00:48+09:00",
+   "summary": "生成AIの反論によって道徳的な判断の3割超が覆る――神戸大学がこのような研究結果を発表した。米OpenAIのチャットAI「ChatGPT」を利用し、AIの反論が正解のない道徳問題への回答に与える影響を調べた。",
+   "thumb": "",
+   "source": "itmedia",
+   "sourceName": "ITmedia AI+",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Firebase AI LogicでAIとの双方向のやり取りをAndroidアプリに実装する",
+   "url": "https://zenn.dev/404lab/articles/a65a63688a5405",
+   "date": "2026-08-19T16:16:34+09:00",
+   "summary": "はじめに 本記事ではFirebase AI Logicを利用して音声と動画のマルチモーダルの双方向のやりとりができるGemini Live APIをAndroidアプリに実装する方法を記載していきます。 従来、音声や動画を用いた双方向のやり取りを行う場合、音声認識や音声合成、動画解析の技術が必要でした。このような技術を個別に実装する必要なくアプリに取り込むこ…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--tLNO2Cb5--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Firebase%2520AI%2520Logic%25E3%2581%25A7AI%25E3%2581%25A8%25E3%2581%25AE%25E5%258F%258C%25E6%2596%25B9%25E5%2590%2591%25E3%2581%25AE%25E3%2582%2584%25E3%2582%258A%25E5%258F%2596%25E3%2582%258A%25E3%2582%2592Android%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AB%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:leopard_lab%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE3NjEyMTUyMmMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:404%2520Lab%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MxYzMwYjQ0MWQuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル",
+    "画像・音声・動画",
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "AIエージェントに「安全なコマンド」を許可しただけで任意コード実行、Dockerが解説するコマンド承認の落とし穴",
+   "url": "https://gigazine.net/news/20260819-ai-agent-command/",
+   "date": "2026-08-19T16:15:00+09:00",
+   "summary": "AIを使ってプログラミングを支援する「AIコーディングエージェント」では、危険なコマンドを実行する前にユーザーへ確認を求める仕組みが使われています。しかしDockerは2026年8月18日に、安全に見えるコマンドをユーザーが承認しても攻撃者のコードが実行される可能性がある事例を紹介しました。 続きを読む...",
+   "thumb": "",
+   "source": "gigazine",
+   "sourceName": "GIGAZINE",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "エージェント",
+    "開発・技術"
+   ]
+  },
+  {
+   "title": "Claudeがタンパク質を設計した。LLMは「科学を説明するAI」からどこまで進んだのか",
+   "url": "https://zenn.dev/kiri_kunn/articles/a74e1d32e2a74d",
+   "date": "2026-08-19T16:12:41+09:00",
+   "summary": "2026年8月19日、Anthropicが興味深い研究結果を公開しました。 Claudeを使って、新しいタンパク質結合体（protein binder）をゼロから設計し、その候補を実際の実験で検証したというものです。 Anthropicによると、Claude Mythos PreviewとClaude Opus 4.8を使った実験では、15種類の標的に対して…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--MFV6CrKu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%25E3%2581%258C%25E3%2582%25BF%25E3%2583%25B3%25E3%2583%2591%25E3%2582%25AF%25E8%25B3%25AA%25E3%2582%2592%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%2597%25E3%2581%259F%25E3%2580%2582LLM%25E3%2581%25AF%25E3%2580%258C%25E7%25A7%2591%25E5%25AD%25A6%25E3%2582%2592%25E8%25AA%25AC%25E6%2598%258E%25E3%2581%2599%25E3%2582%258BAI%25E3%2580%258D%25E3%2581%258B%25E3%2582%2589%25E3%2581%25A9%25E3%2581%2593%25E3%2581%25BE%25E3%2581%25A7%25E9%2580%25B2%25E3%2582%2593%25E3%2581%25A0%25E3%2581%25AE%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E9%259C%25A7%25EF%25BC%2588Kiri%25EF%25BC%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzUwYjI3Y2E5ZmUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "axiom-mas-go v2.7 Deterministic Latent Engine Edition",
+   "url": "https://zenn.dev/void09/articles/cc8b7020fe4e66",
+   "date": "2026-08-19T16:09:38+09:00",
+   "summary": "package main import ( \"bytes\" \"context\" \"crypto/sha256\" \"encoding/binary\" \"encoding/hex\" \"encoding/json\" \"fmt\" \"io\" \"log/slog\" \"math\" \"os\" \"reflect\" \"sort\" \"sync\" \"sync/atomic\" \"ti…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--qLKRx0zu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:axiom-mas-go%2520v2.7%2520Deterministic%2520Latent%2520Engine%2520Edition%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kishimoto-void%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGYyeVk3UlJPelNzWGs2SUFKY01oX2w1R3pMS1dWeWRpeFhSZkpZQXBTWFpZTmRRPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "YANS2026 参加報告",
+   "url": "https://zenn.dev/aishift/articles/78612006a494ca",
+   "date": "2026-08-19T16:08:31+09:00",
+   "summary": "こんにちは。AIチームの林崎 (@u_hyszk) です。 2026年8月16日(日)〜18日(火)に仙台国際センターで開催された、NLP若手の会 第21回シンポジウム(YANS2026)に参加しました。8月16日(日)には分野交流ハッカソンも開催され、3日間にわたるプログラムとなりました。 本記事では、YANS2026の概要と、筆者が特に面白いと感じた発表…",
+   "thumb": "https://res.cloudinary.com/zenn/image/upload/s--tK32ugwe--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_66:YANS2026%2520%25E5%258F%2582%25E5%258A%25A0%25E5%25A0%25B1%25E5%2591%258A%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:u-hyszk%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzhhNDQwNmNlMGUuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:AI%2520Shift%2520Tech%2520Blog%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzYyYjFjZTJjZGEuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "source": "zenn",
+   "sourceName": "Zenn (AI)",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
+   "title": "Replit expands access to software creation with GPT-5.6 Luna",
+   "url": "https://openai.com/index/replit",
+   "date": "2026-08-19T16:00:00+09:00",
+   "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "「オープンな国産モデル」に33Bパラメータの新バージョン 国立情報学研究所",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2608/19/2000000626/",
+   "date": "2026-08-19T15:55:19+09:00",
+   "summary": "国立情報学研究所（NII）が、オープンな国産LLMの新バージョン「LLM-jp-4 33B」を公開。約332億パラメータのDense型モデルで、4種類のベンチマーク全てで従来モデルを上回るスコアを記録したという。",
+   "thumb": "",
+   "source": "itmedia",
+   "sourceName": "ITmedia AI+",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "モデル"
+   ]
+  },
+  {
+   "title": "Copilotが騙されて自分自身のハッキング方法を教えてしまう",
+   "url": "https://gigazine.net/news/20260819-copilot-leak-own-vulnerability/",
+   "date": "2026-08-19T15:00:00+09:00",
+   "summary": "情報公開を強要するのではなく、協力する姿勢を見せることで、AIの「Copilot」から脆弱(ぜいじゃく)性を聞き出すことに成功したとAI研究者が報告しました。 続きを読む...",
+   "thumb": "",
+   "source": "gigazine",
+   "sourceName": "GIGAZINE",
+   "axis": "ai",
+   "kind": "jp",
+   "weekly": false,
+   "topics": [
+    "エージェント"
+   ]
+  },
+  {
+   "title": "AI ad labels cut click-through 31.5%, IAB framework cites NYU study",
+   "url": "https://ppc.land/ai-ad-labels-cut-click-through-31-5-iab-framework-cites-nyu-study/",
+   "date": "2026-08-19T14:50:14+09:00",
+   "summary": "Advertisers get 60 days to name a disclosure lead under IAB voluntary rules issued August 18. Which AI uses trigger a consumer label, and which stay exempt?",
+   "thumb": "https://ppc.land/content/images/2026/08/IAB-Label.webp",
+   "source": "ppcland",
+   "sourceName": "PPC Land",
+   "axis": "product",
+   "kind": "media",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
   {
    "title": "AIエージェントは「記憶」が多いほど賢くなるわけではない、IBM Researchが8モデルで検証",
    "url": "https://gigazine.net/news/20260819-ai-agent-memory/",
@@ -382,7 +2475,7 @@ window.AIRADAR_DATA = {
    ]
   },
   {
-   "title": "OpenAI、ティーン向けChatGPT導入 “解答だけ出さない”学習機能",
+   "title": "ティーン向けChatGPT開始 “解答だけ出さない”学習機能",
    "url": "https://www.watch.impress.co.jp/docs/news/2133797.html",
    "date": "2026-08-19T13:02:57+09:00",
    "summary": "OpenAIは、13〜17歳のユーザーを対象とした「ティーン向けChatGPT(ChatGPT for Teens)」を導入する。学習支援機能や年齢に応じた安全対策を標準で備え、システムがユーザーを18歳未満と推定した場合、または13〜17歳だと申告した場合に自動的に適用する。",
@@ -1379,10 +3472,25 @@ window.AIRADAR_DATA = {
    ]
   },
   {
+   "title": "ChatGPT Ads expands across Europe",
+   "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+   "date": "2026-08-19T07:00:00+09:00",
+   "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+   "thumb": "",
+   "source": "openai",
+   "sourceName": "OpenAI",
+   "axis": "ai",
+   "kind": "official",
+   "weekly": false,
+   "topics": [
+    "その他"
+   ]
+  },
+  {
    "title": "AIは自らを改善できるのか？ 新研究が示した「創造性の壁」",
    "url": "https://www.technologyreview.jp/s/387981/ais-recursive-self-improvement-might-not-come-so-quickly-after-all/",
    "date": "2026-08-19T06:59:05+09:00",
-   "summary": "AI業界は、AIがまもなく人間の監督なしに自らを改善できるようになると約束している。だが新たな研究は、それに冷や水を浴びせた。トップクラスの機械学習カンファレンス水準の研究をAIにさせたところ、独創的な仮説は立てられても、それを粘り強く検証し発展させることができなかった。AIには、研究に必要な創造性がまだ欠けている。",
+   "summary": "AI業界は、人工知能（AI）がまもなく人間の監督なしに自らを改善できるようになると約束している。だが新たな研究は、それに冷や水を浴びせた。トップクラスの機械学習カンファレンス水準の研究をAIにさせたところ、独創的な仮説は立てられても、それを粘り強く検証し発展させることができなかった。AIには、研究に必要な創造性がまだ欠けている。",
    "thumb": "",
    "source": "mittr",
    "sourceName": "MITTR Japan",
@@ -2349,10 +4457,10 @@ window.AIRADAR_DATA = {
    ]
   },
   {
-   "title": "Google Related Searches For With Underline Hyperlink",
+   "title": "Bing Related Searches For With Underline Hyperlink",
    "url": "https://www.seroundtable.com/google-related-search-for-underline-41846.html",
    "date": "2026-08-18T20:41:00+09:00",
-   "summary": "Google is testing underlining and maybe hyperlinking the word in the related searches for section of the search results. Normally, that section is not underlined, but for some reas…",
+   "summary": "Bing is testing underlining and maybe hyperlinking the word in the related searches for section of the search results. Normally, that section is not underlined, but for some reason…",
    "thumb": "",
    "source": "ser",
    "sourceName": "Search Engine Roundtable",
